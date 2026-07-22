@@ -1,16 +1,97 @@
 {
   "timezone": "America/Toronto",
   "posts_per_day": 1,
-  "note": "AEO Loop daily Instagram — carousels/cards, 18:00 ET.",
+  "note": "Daily Instagram carousels at 19:00 ET. Rebuild with tools/build_manifest.py after adding to carousels.json.",
   "posts": [
     {
-      "slug": "3-signs-ai-skips-you",
+      "slug": "why-patients-ask-ai",
       "type": "carousel",
       "slides": 5,
       "status": "ready",
-      "caption": "3 signs AI is quietly skipping your practice 👇\n\nWhen a patient asks ChatGPT or Gemini who the best surgeon in their city is, it hands them a short list. If you're not on it, you're invisible — and most practices have no idea.\n\nComment \"SCAN\" for a free check across 4 AI engines.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #medicalmarketing #theaeoloop",
-      "firstComment": "There's no page two in an AI answer — you're named or you're invisible. The good news: it's fixable, and it's not about your skill.",
-      "publish_at": "2026-07-22T12:00"
+      "caption": "Your next patient asks AI before they ever call you.\n\nThey type “best surgeon near me” into ChatGPT or Gemini, and it hands them a shortlist — before they visit a single website. If you're not on it, you're out before the race starts.\n\nSee if you're on the list: free scan across 4 AI engines. Link in bio.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
+      "firstComment": "The decision starts inside an AI answer now — not on Google's results page. Most practices never check what that answer says about them.",
+      "publish_at": "2026-07-23T19:00"
+    },
+    {
+      "slug": "what-ai-reads",
+      "type": "carousel",
+      "slides": 5,
+      "status": "ready",
+      "caption": "What does AI actually read before it recommends a surgeon?\n\nThree things do most of the work: your Google Business Profile + reviews, the trusted third-party sites (RealSelf, “best of” lists, press), and how clearly your own pages are written.\n\nNotice what's missing from that list: how expensive your website looks. Substance beats polish here.\n\nCurious where you stand? Free scan, link in bio.\n\n#plasticsurgeon #medicalmarketing #aisearch #chatgpt #reviews #medspa #cosmeticsurgery #theaeoloop",
+      "firstComment": "If you're strong on reviews but thin on structured pages (or vice versa), that imbalance is usually why AI skips you.",
+      "publish_at": "2026-07-24T19:00"
+    },
+    {
+      "slug": "seo-vs-aeo",
+      "type": "carousel",
+      "slides": 5,
+      "status": "ready",
+      "caption": "SEO gets you found. AEO gets you chosen.\n\nSEO is about ranking in a list of ten blue links and letting the patient choose. AEO is about whether ChatGPT, Gemini and Perplexity actually name and recommend you when someone asks who to hire.\n\nDifferent signals, different work. You can sit at #3 on Google and be completely absent from every AI answer — I see it weekly.\n\n#plasticsurgeon #seo #aisearch #chatgpt #medicalmarketing #medspa #cosmeticsurgery #theaeoloop",
+      "firstComment": "The practices treating these as one job are the ones getting left out of the conversation that now happens before anyone visits a website.",
+      "publish_at": "2026-07-25T19:00"
+    },
+    {
+      "slug": "competitor-named",
+      "type": "carousel",
+      "slides": 5,
+      "status": "ready",
+      "caption": "When AI hands a patient a name and it isn't yours, it's rarely about skill.\n\nUsually the competitor just has three things you can build: fresher and more visible reviews, a presence on the sites AI trusts, and pages clear enough for AI to quote.\n\nNone of that is a verdict on your work — it's a visibility gap, and it closes.\n\nWant to see who AI names in your city? Link in bio.\n\n#plasticsurgeon #medspa #aisearch #chatgpt #cosmeticsurgery #medicalmarketing #theaeoloop",
+      "firstComment": "The competitor being recommended is basically showing you the checklist — it's what “good” looks like to the AI right now.",
+      "publish_at": "2026-07-26T19:00"
+    },
+    {
+      "slug": "reviews-signal",
+      "type": "carousel",
+      "slides": 5,
+      "status": "ready",
+      "caption": "Reviews stopped being just a trust badge — they're now a signal AI uses to decide who to recommend.\n\nAnd it's not only your star rating. Volume and recency matter: a wall of glowing reviews from three years ago can still lose to a competitor collecting a few fresh ones every month.\n\nKeeping reviews flowing is one of the highest-leverage things you can do for AI visibility.\n\n#plasticsurgeon #reviews #aisearch #medicalmarketing #medspa #cosmeticsurgery #chatgpt #theaeoloop",
+      "firstComment": "If your reviews went quiet after a busy stretch, that lull is often exactly when a competitor overtakes you in the AI answer.",
+      "publish_at": "2026-07-27T19:00"
+    },
+    {
+      "slug": "four-places-ai-looks",
+      "type": "carousel",
+      "slides": 6,
+      "status": "ready",
+      "caption": "Before AI recommends a surgeon, it checks four places:\n\n1. Your website — is it clear and structured, or a wall of text?\n2. Your Google Business Profile and reviews.\n3. The trusted directories and “best of” lists.\n4. Press and third-party mentions.\n\nA blank or weak spot in any one of these is usually why the AI reaches for a competitor instead.\n\n#plasticsurgeon #medicalmarketing #aisearch #chatgpt #medspa #cosmeticsurgery #theaeoloop",
+      "firstComment": "You don't need all four perfect — but a total blank in one (say, no RealSelf presence) is often the single thing holding you back.",
+      "publish_at": "2026-07-28T19:00"
+    },
+    {
+      "slug": "structured-pages",
+      "type": "carousel",
+      "slides": 5,
+      "status": "ready",
+      "caption": "If AI never quotes your site, it's often because your pages are hard to lift from.\n\nA single wall of text is tough for an engine to pull a clean answer out of. What it grabs easily: clear headings that match how people ask, short paragraphs, and FAQ blocks — pre-packaged answers it can reuse word for word.\n\nSame expertise, packaged so AI can actually use it.\n\n#plasticsurgeon #medicalmarketing #aisearch #chatgpt #medspa #cosmeticsurgery #theaeoloop",
+      "firstComment": "An FAQ block answering the real questions patients ask is one of the fastest ways to start getting cited.",
+      "publish_at": "2026-07-29T19:00"
+    },
+    {
+      "slug": "cost-of-invisible",
+      "type": "carousel",
+      "slides": 5,
+      "status": "ready",
+      "caption": "The hardest part of being invisible to AI is that it's silent.\n\nEvery “best surgeon near me” query is a patient making a decision — and there's no page two in an AI answer. You're either named or you're invisible. When you're left out, no lead form goes unfilled that you'd notice; the patient simply never knew you existed.\n\nYou can't fix a leak you can't see. First step is looking.\n\n#plasticsurgeon #aisearch #chatgpt #medicalmarketing #medspa #cosmeticsurgery #theaeoloop",
+      "firstComment": "This is what makes it dangerous — there's no bounce rate, no failed form, no signal. Just patients quietly routed elsewhere.",
+      "publish_at": "2026-07-30T19:00"
+    },
+    {
+      "slug": "no-guarantees-honest",
+      "type": "carousel",
+      "slides": 5,
+      "status": "ready",
+      "caption": "We don't guarantee you'll rank #1 in AI answers. Anyone who does is guessing.\n\nAI engines are non-deterministic and change constantly — no vendor controls them. What we promise instead: a structured operating model that improves how AI reads, trusts and recommends you, measured directionally against real buying-intent prompts and tracked month over month.\n\nNo magic. No autopilot. Just the loop.\n\n#plasticsurgeon #aisearch #marketing #medicalmarketing #medspa #cosmeticsurgery #theaeoloop",
+      "firstComment": "If a vendor promises guaranteed AI rankings, that's the moment to keep your wallet closed.",
+      "publish_at": "2026-07-31T19:00"
+    },
+    {
+      "slug": "how-to-check-free",
+      "type": "carousel",
+      "slides": 5,
+      "status": "ready",
+      "caption": "Want to know if AI recommends you? Two ways, both free.\n\nQuick version: open ChatGPT and ask the exact question a patient would — “who's the best surgeon in [your city]?” — and see if your name comes up.\n\nThorough version: run the full scan across ChatGPT, Gemini, Perplexity and Claude, and get a founder-reviewed breakdown of why. Link in bio.\n\n#plasticsurgeon #aisearch #chatgpt #medicalmarketing #medspa #cosmeticsurgery #theaeoloop",
+      "firstComment": "Try the quick version right now — it takes 30 seconds and it's usually the moment practices realize they have a gap.",
+      "publish_at": "2026-08-01T19:00"
     }
   ]
 }
