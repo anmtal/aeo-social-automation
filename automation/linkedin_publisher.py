@@ -11,7 +11,7 @@ Usage:
     python automation/linkedin_publisher.py --check      # verify token/org (read-only)
     python automation/linkedin_publisher.py --due --dry-run  # show what's due, post nothing
 
-Env: LINKEDIN_ACCESS_TOKEN, LINKEDIN_ORG_URN (urn:li:organization:142881365),
+Env: LINKEDIN_ACCESS_TOKEN, LINKEDIN_AUTHOR_URN (urn:li:organization:142881365),
      LINKEDIN_VERSION (optional, default 202405).
 Logs: content/linkedin-posted.json (authoritative — slugs already published).
 """
@@ -92,11 +92,11 @@ def build_body(org_urn, text):
         "isReshareDisabledByAuthor": False,
     }
 
-def check(org_urn, token, version):
-    # read-only sanity: the org URN is well-formed and the token is present
-    if not org_urn.startswith("urn:li:organization:"):
-        sys.exit(f"LINKEDIN_ORG_URN must look like urn:li:organization:1234567 (got: {org_urn})")
-    print(f"OK — token present, org={org_urn}, version={version}. (No post made.)")
+def check(author_urn, token, version):
+    # read-only sanity: the author URN is well-formed and the token is present
+    if not (author_urn.startswith("urn:li:person:") or author_urn.startswith("urn:li:organization:")):
+        sys.exit(f"LINKEDIN_AUTHOR_URN must be urn:li:person:XXXX (your profile) or urn:li:organization:XXXX (got: {author_urn})")
+    print(f"OK — token present, author={author_urn}, version={version}. (No post made.)")
 
 def publish(m, post, dry, org_urn, token, version):
     text = post["text"]
@@ -134,8 +134,8 @@ def main():
     m = load_manifest()
     version = os.environ.get("LINKEDIN_VERSION", "202405")
     if a.check:
-        check(env("LINKEDIN_ORG_URN"), env("LINKEDIN_ACCESS_TOKEN", required=not a.dry_run, default="(dry)"), version); return
-    org_urn = env("LINKEDIN_ORG_URN", required=not a.dry_run, default="urn:li:organization:142881365")
+        check(env("LINKEDIN_AUTHOR_URN"), env("LINKEDIN_ACCESS_TOKEN", required=not a.dry_run, default="(dry)"), version); return
+    org_urn = env("LINKEDIN_AUTHOR_URN", required=not a.dry_run, default="urn:li:person:REPLACE")
     token = env("LINKEDIN_ACCESS_TOKEN", required=not a.dry_run, default="(dry)")
     if a.slug:
         post = next((p for p in m["posts"] if p["slug"] == a.slug), None)
