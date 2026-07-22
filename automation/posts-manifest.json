@@ -1,0 +1,16 @@
+{
+  "timezone": "America/Toronto",
+  "posts_per_day": 1,
+  "note": "AEO Loop daily Instagram — carousels/cards, 18:00 ET.",
+  "posts": [
+    {
+      "slug": "3-signs-ai-skips-you",
+      "type": "carousel",
+      "slides": 5,
+      "status": "ready",
+      "caption": "3 signs AI is quietly skipping your practice 👇\n\nWhen a patient asks ChatGPT or Gemini who the best surgeon in their city is, it hands them a short list. If you're not on it, you're invisible — and most practices have no idea.\n\nComment \"SCAN\" for a free check across 4 AI engines.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #medicalmarketing #theaeoloop",
+      "firstComment": "There's no page two in an AI answer — you're named or you're invisible. The good news: it's fixable, and it's not about your skill.",
+      "publish_at": "2026-07-22T12:00"
+    }
+  ]
+}

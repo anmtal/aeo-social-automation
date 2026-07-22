@@ -1,0 +1,13 @@
+# NEVER commit a real token — it belongs only in GitHub Secrets
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,50 @@
+name: Content buffer alert
+
+# Twice a week (Mon + Thu), checks how much unposted content is left. If under ~9
+# days, opens a GitHub issue (which emails you) so you have comfortable lead time
+# to refill. No PC needed.
+on:
+  schedule:
+    - cron: "0 13 * * 1"     # Mondays 13:00 UTC
+    - cron: "0 13 * * 4"     # Thursdays 13:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - id: buf
+        run: python automation/check_buffer.py
+      - name: Open or update the low-buffer issue
+        if: ${{ fromJSON(steps.buf.outputs.days_left) < 9 }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DAYS: ${{ steps.buf.outputs.days_left }}
+          LEFT: ${{ steps.buf.outputs.unposted }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          TITLE="The AEO Loop content is low"
+          BODY="The posting queue has **$LEFT posts left (~$DAYS days)**. Open Claude and say \"refill\" to generate the next verified batch."
+          if awk -v d="$DAYS" 'BEGIN{exit !(d < 2.5)}'; then
+            BODY="**The queue is about to run dry — ~$DAYS days ($LEFT posts) left.** Refill now or the page goes quiet."
+          fi
+          NUM=$(gh issue list --repo "$REPO" --state open --search "$TITLE in:title" \
+                  --json number -q '.[0].number // empty')
+          if [ -n "$NUM" ]; then
+            # Comment instead of skipping. The old version bailed out whenever an
+            # alert issue was already open, which meant one un-closed issue silently
+            # suppressed every future alert — including the queue hitting zero.
+            gh issue comment "$NUM" --repo "$REPO" --body "$BODY"
+            gh issue edit "$NUM" --repo "$REPO" --title "$TITLE (~$DAYS days left)"
+          else
+            gh issue create --repo "$REPO" --title "$TITLE (~$DAYS days left)" --body "$BODY"
+          fi

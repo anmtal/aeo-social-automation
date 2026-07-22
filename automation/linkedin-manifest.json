@@ -1,0 +1,25 @@
+{
+  "timezone": "America/Toronto",
+  "cadence": "Mon/Wed/Fri at 09:00 ET",
+  "org": "urn:li:organization:142881365",
+  "posts": [
+    {
+      "slug": "li-no-page-two",
+      "status": "ready",
+      "publish_at": "2026-07-22T09:00",
+      "text": "There's no page two in an AI answer.\n\nWhen a prospective client asks ChatGPT, Gemini, or Perplexity who to hire, they get a short list of names — and they act on it.\n\nGoogle gave you ten blue links and let the buyer choose. AI chooses for them. So you're either on the list, or you're invisible. There's no scrolling to find you.\n\nMost practices have never once checked what AI says about them. When they do, the reaction is always the same: \"Why them and not us?\"\n\nUsually, it's fixable — and it's not about the quality of your work.\n\n#AIsearch #ChatGPT #MedicalMarketing"
+    },
+    {
+      "slug": "li-myth-seo",
+      "status": "ready",
+      "publish_at": "2026-07-24T09:00",
+      "text": "\"AI search is just SEO.\" It isn't — and the difference is quietly costing practices new clients.\n\nSEO competes for a rank in a list of links. AI visibility is about whether ChatGPT, Gemini and Perplexity actually name and recommend you when someone asks who to hire. Different signals, different work.\n\nYou can sit at #3 on Google and be completely absent from every AI answer. I see it weekly.\n\nThe businesses treating these as one job are the ones getting left out of the conversation that now happens before a prospect ever visits a website.\n\n#ArtificialIntelligence #AIsearch #SEO"
+    },
+    {
+      "slug": "li-no-guarantees",
+      "status": "ready",
+      "publish_at": "2026-07-27T09:00",
+      "text": "We don't guarantee you'll rank #1 in AI answers. Anyone who does is guessing.\n\nAI answer engines are non-deterministic and change constantly. What we promise instead: a structured operating model that improves how AI reads, trusts, and recommends you — measured directionally against real buying-intent prompts, and tracked month over month.\n\nNo magic. No \"autopilot.\" Just the observe, diagnose, optimize loop a good consultant runs, aimed at the place your clients now start their search.\n\nIf a vendor promises guaranteed AI rankings, keep your wallet closed.\n\n#AIsearch #Marketing #Trust"
+    }
+  ]
+}
