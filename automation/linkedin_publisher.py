@@ -124,6 +124,20 @@ def pick_due(m):
     due.sort(key=lambda p: p["publish_at"])
     return now, due
 
+def resolve_person_urn(token):
+    """Derive urn:li:person:<id> from the token via OpenID userinfo, so the user
+    only has to set the access token (not hunt down their member id)."""
+    if requests is None: return None
+    try:
+        r = requests.get("https://api.linkedin.com/v2/userinfo",
+                         headers={"Authorization": f"Bearer {token}"}, timeout=20)
+        if r.status_code == 200:
+            sub = r.json().get("sub")
+            return f"urn:li:person:{sub}" if sub else None
+    except Exception:
+        return None
+    return None
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--due", action="store_true")
@@ -133,10 +147,16 @@ def main():
     a = ap.parse_args()
     m = load_manifest()
     version = os.environ.get("LINKEDIN_VERSION", "202405")
-    if a.check:
-        check(env("LINKEDIN_AUTHOR_URN"), env("LINKEDIN_ACCESS_TOKEN", required=not a.dry_run, default="(dry)"), version); return
-    org_urn = env("LINKEDIN_AUTHOR_URN", required=not a.dry_run, default="urn:li:person:REPLACE")
     token = env("LINKEDIN_ACCESS_TOKEN", required=not a.dry_run, default="(dry)")
+    org_urn = os.environ.get("LINKEDIN_AUTHOR_URN", "").strip()
+    if (not org_urn or org_urn.endswith("REPLACE")) and not a.dry_run:
+        org_urn = resolve_person_urn(token)
+        if not org_urn:
+            sys.exit("Could not resolve your LinkedIn person URN from the token. Generate the "
+                     "token with 'openid' + 'profile' + 'w_member_social' scopes, or set the "
+                     "LINKEDIN_AUTHOR_URN secret manually (urn:li:person:XXXX).")
+    if a.check:
+        check(org_urn or "urn:li:person:(dry-run)", token, version); return
     if a.slug:
         post = next((p for p in m["posts"] if p["slug"] == a.slug), None)
         if not post: sys.exit(f"No post with slug {a.slug}")
