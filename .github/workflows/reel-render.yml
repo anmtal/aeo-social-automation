@@ -50,7 +50,10 @@ jobs:
           cj = {c["slug"]: c for c in json.load(open("content/carousels.json", encoding="utf-8"))}
           open("_reel_caption.txt", "w", encoding="utf-8").write(cj.get(slug, {}).get("caption", ""))
           PY
-      - name: Render the reel (ffmpeg is preinstalled on ubuntu)
+      - name: Install ffmpeg
+        if: ${{ steps.pick.outputs.slug != '' }}
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Render the reel
         if: ${{ steps.pick.outputs.slug != '' }}
         run: python tools/reel_maker.py "${{ steps.pick.outputs.slug }}"
       - name: Commit the MP4 + mark rendered

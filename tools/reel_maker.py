@@ -48,19 +48,21 @@ def build(slug, frames_only=False):
     inputs = []
     for f in frames:
         inputs += ["-loop", "1", "-t", str(DUR), "-i", f]
+    # normalize every input (fps/format/SAR) so xfade never rejects a mismatch
+    pre = [f"[{i}:v]fps=30,format=yuv420p,setsar=1[s{i}]" for i in range(n)]
     if n == 1:
-        fc = "[0:v]scale=1080:1920,format=yuv420p[v]"
+        fc = "[0:v]fps=30,format=yuv420p,setsar=1[v]"
     else:
-        parts, last = [], "[0:v]"
+        chain, last = [], "[s0]"
         for j in range(1, n):
             off = round(j * (DUR - XF), 3)
             out = f"[vx{j}]" if j < n - 1 else "[v]"
-            parts.append(f"{last}[{j}:v]xfade=transition=fade:duration={XF}:offset={off}{out}")
+            chain.append(f"{last}[s{j}]xfade=transition=fade:duration={XF}:offset={off}{out}")
             last = f"[vx{j}]"
-        fc = ";".join(parts) + ",format=yuv420p" if False else ";".join(parts)
+        fc = ";".join(pre + chain)
     outdir = os.path.join(HERE, "content", "reels"); os.makedirs(outdir, exist_ok=True)
     out = os.path.join(outdir, f"{slug}.mp4")
-    cmd = ["ffmpeg", "-y", *inputs, "-filter_complex", fc, "-map", "[v]",
+    cmd = ["ffmpeg", "-y", *inputs, "-filter_complex", fc, "-map", "[v]", "-an",
            "-c:v", "libx264", "-pix_fmt", "yuv420p", "-r", "30", "-movflags", "+faststart", out]
     print("running ffmpeg...")
     subprocess.run(cmd, check=True)
