@@ -57,6 +57,18 @@ def pad(src):
     if im.width!=W: im=im.resize((W,int(im.height*W/im.width)),Image.LANCZOS)
     c.paste(im,(0,(H-im.height)//2));return c
 
+def ease(t): return t*t*(3-2*t)
+
+def reveal(img, p):
+    """Reveal a padded 9:16 slide top-to-bottom with a mint scan line — makes the
+    chart build itself (bars/names/boxes appear in sequence)."""
+    p=ease(max(0.0,min(1.0,p)))
+    c=Image.new("RGB",(W,H),BG)
+    ctop=(H-1350)//2; line=int(ctop+p*1350)
+    c.paste(img.crop((0,0,W,line)),(0,0))
+    if p<0.99: ImageDraw.Draw(c).rectangle([0,line-4,W,line], fill=MINT)
+    return c
+
 def build(slug):
     posts=os.path.join(HERE,"content","posts",slug)
     slides=sorted(glob.glob(os.path.join(posts,"slide-*.jpg")))
@@ -89,12 +101,14 @@ def build(slug):
         k=nchars if fr>=ntype else int(fr/ntype*nchars)
         img=base.copy(); draw_hook(img,k, fr%(FPS//2)<(FPS//4)); save(img)
     full=base.copy(); draw_hook(full,nchars,False)
-    # SLIDES — crossfade + hold
-    prev=full
+    # SLIDES — fade prev out, then reveal the chart top-to-bottom (scan line), then hold
+    prev=full; bgimg=Image.new("RGB",(W,H),BG)
+    nfade=max(1,int(0.22*FPS)); nrev=max(1,int(0.7*FPS)); nhold2=int(SLIDE_HOLD*FPS)
     for s in slides[1:]:
         im=pad(s)
-        for fr in range(int(XF*FPS)): save(Image.blend(prev,im,fr/int(XF*FPS)))
-        for fr in range(int(SLIDE_HOLD*FPS)): save(im)
+        for fr in range(nfade): save(Image.blend(prev,bgimg,fr/nfade))
+        for fr in range(nrev): save(reveal(im, fr/nrev))
+        for fr in range(nhold2): save(im)
         prev=im
     out=os.path.join(HERE,"content","reels",f"{slug}.mp4")
     ff=shutil.which("ffmpeg") or __import__("imageio_ffmpeg").get_ffmpeg_exe()
