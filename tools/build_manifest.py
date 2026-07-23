@@ -18,7 +18,7 @@ for i, c in enumerate(carousels):
         "status": "ready",
         "caption": c["caption"],
         "firstComment": c.get("firstComment", ""),
-        "publish_at": f"{day.isoformat()}T19:00",   # 7:00 PM, interpreted in manifest timezone (ET)
+        "publish_at": f"{day.isoformat()}T12:00",   # 12:00 noon, interpreted in manifest timezone (ET)
     })
 
 manifest = {

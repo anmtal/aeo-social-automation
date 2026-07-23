@@ -1,0 +1,89 @@
+name: The AEO Loop reel render + alert
+
+# Evening (~7 PM ET): render the next due reel from its branded slides and open a
+# GitHub issue (emails you) with the download link + caption. SEMI-MANUAL — you
+# post it in-app and add a trending sound (the API can't attach trending audio).
+on:
+  schedule:
+    - cron: "5,35 23,0 * * *"     # 23:00 UTC (7 PM EDT) + 00:00 UTC (7 PM EST)
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "specific slug to render now, or blank for next due"
+        required: false
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: aeo-reel-render
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow
+      - name: Pick the due reel
+        id: pick
+        run: |
+          if [ -n "${{ github.event.inputs.slug }}" ]; then
+            SLUG="${{ github.event.inputs.slug }}"
+          else
+            SLUG=$(python automation/reel_due.py)
+          fi
+          echo "slug=$SLUG" >> "$GITHUB_OUTPUT"
+          echo "picked: '$SLUG'"
+      - name: Write caption for the alert
+        if: ${{ steps.pick.outputs.slug != '' }}
+        run: |
+          python - "${{ steps.pick.outputs.slug }}" <<'PY'
+          import json, sys
+          slug = sys.argv[1]
+          cj = {c["slug"]: c for c in json.load(open("content/carousels.json", encoding="utf-8"))}
+          open("_reel_caption.txt", "w", encoding="utf-8").write(cj.get(slug, {}).get("caption", ""))
+          PY
+      - name: Render the reel (ffmpeg is preinstalled on ubuntu)
+        if: ${{ steps.pick.outputs.slug != '' }}
+        run: python tools/reel_maker.py "${{ steps.pick.outputs.slug }}"
+      - name: Commit the MP4 + mark rendered
+        if: ${{ steps.pick.outputs.slug != '' }}
+        run: |
+          python - "${{ steps.pick.outputs.slug }}" <<'PY'
+          import json, os, sys
+          slug = sys.argv[1]; p = "content/reels-done.json"
+          d = set(json.load(open(p))) if os.path.exists(p) else set()
+          d.add(slug); json.dump(sorted(d), open(p, "w"), indent=2)
+          PY
+          git config user.name "aeo-bot"
+          git config user.email "aeo-bot@users.noreply.github.com"
+          rm -rf content/reels/_frames
+          git add content/reels/${{ steps.pick.outputs.slug }}.mp4 content/reels-done.json
+          git commit -m "reel: render ${{ steps.pick.outputs.slug }}" || echo "nothing to commit"
+          git push || (git pull --rebase --autostash && git push)
+      - name: Alert the founder (issue -> email)
+        if: ${{ steps.pick.outputs.slug != '' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          SLUG: ${{ steps.pick.outputs.slug }}
+        run: |
+          RAW="https://github.com/$REPO/raw/main/content/reels/$SLUG.mp4"
+          CAP=$(cat _reel_caption.txt)
+          BODY="**Tonight's reel is ready.** Post it as an Instagram Reel and **add a trending sound** in-app for max reach.
+
+          **Download the video:** $RAW
+
+          **Caption:**
+
+          $CAP
+
+          _Semi-manual by design: the API can't attach trending audio, so you add it when posting._"
+          gh issue create --repo "$REPO" --title "Reel ready to post: $SLUG" --body "$BODY"

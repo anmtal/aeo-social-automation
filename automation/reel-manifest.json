@@ -1,0 +1,16 @@
+{
+  "timezone": "America/Toronto",
+  "note": "Semi-manual reels at 19:00 ET. The render workflow makes the MP4 + alerts the founder, who posts it in-app WITH TRENDING AUDIO. Topics offset from the noon carousel so evening != noon same day. Captions come from content/carousels.json (same slug).",
+  "reels": [
+    {"slug": "four-places-ai-looks", "publish_at": "2026-07-23T19:00"},
+    {"slug": "structured-pages",     "publish_at": "2026-07-24T19:00"},
+    {"slug": "cost-of-invisible",    "publish_at": "2026-07-25T19:00"},
+    {"slug": "no-guarantees-honest", "publish_at": "2026-07-26T19:00"},
+    {"slug": "how-to-check-free",    "publish_at": "2026-07-27T19:00"},
+    {"slug": "why-patients-ask-ai",  "publish_at": "2026-07-28T19:00"},
+    {"slug": "what-ai-reads",        "publish_at": "2026-07-29T19:00"},
+    {"slug": "seo-vs-aeo",           "publish_at": "2026-07-30T19:00"},
+    {"slug": "competitor-named",     "publish_at": "2026-07-31T19:00"},
+    {"slug": "reviews-signal",       "publish_at": "2026-08-01T19:00"}
+  ]
+}
