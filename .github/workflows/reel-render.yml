@@ -53,9 +53,9 @@ jobs:
       - name: Install ffmpeg
         if: ${{ steps.pick.outputs.slug != '' }}
         run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
-      - name: Render the reel
+      - name: Render the reel (animated typewriter)
         if: ${{ steps.pick.outputs.slug != '' }}
-        run: python tools/reel_maker.py "${{ steps.pick.outputs.slug }}"
+        run: python tools/reel_anim.py "${{ steps.pick.outputs.slug }}"
       - name: Commit the MP4 + mark rendered
         if: ${{ steps.pick.outputs.slug != '' }}
         run: |

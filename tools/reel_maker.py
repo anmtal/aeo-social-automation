@@ -41,8 +41,12 @@ def build(slug, frames_only=False):
     print(f"padded {len(frames)} frames -> {tmp}")
     if frames_only:
         return
-    if not shutil.which("ffmpeg"):
-        sys.exit("ffmpeg not found (expected in CI). Use --frames-only locally.")
+    ff = shutil.which("ffmpeg")
+    if not ff:
+        try:
+            import imageio_ffmpeg; ff = imageio_ffmpeg.get_ffmpeg_exe()
+        except Exception:
+            sys.exit("ffmpeg not found. `pip install imageio-ffmpeg`, or use --frames-only.")
     # build the xfade chain: offset_j = j*(DUR-XF)
     n = len(frames)
     inputs = []
@@ -62,7 +66,7 @@ def build(slug, frames_only=False):
         fc = ";".join(pre + chain)
     outdir = os.path.join(HERE, "content", "reels"); os.makedirs(outdir, exist_ok=True)
     out = os.path.join(outdir, f"{slug}.mp4")
-    cmd = ["ffmpeg", "-y", *inputs, "-filter_complex", fc, "-map", "[v]", "-an",
+    cmd = [ff, "-y", *inputs, "-filter_complex", fc, "-map", "[v]", "-an",
            "-c:v", "libx264", "-pix_fmt", "yuv420p", "-r", "30", "-movflags", "+faststart", out]
     print("running ffmpeg...")
     subprocess.run(cmd, check=True)

@@ -70,11 +70,12 @@ def eyebrow_top(d, text):
 # ---------- text slides ----------
 def slide_cover(spec, idx, total):
     img,d=base(); glyph(d, W//2, 250*SS, 11*SS)
-    d.text((W/2, 375*SS), "  ".join(list(spec["eyebrow"].upper())), font=font(FB,30*SS), fill=MINT, anchor="mm")
-    lines,hf,lh=fit(d, spec["hook"], W-2*MARGIN, FB, 100*SS, 56*SS)
-    y=(H-lh*len(lines))//2+20*SS
+    d.text((W/2, 430*SS), "  ".join(list(spec["eyebrow"].upper())), font=font(FB,30*SS), fill=MINT, anchor="mm")
+    top, bot = 560*SS, H-300*SS          # hook zone: below the eyebrow, above the footer
+    lines,hf,lh=fit(d, spec["hook"], W-2*MARGIN, FB, 94*SS, 50*SS)
+    y = top + (bot-top-lh*len(lines))//2 + lh//2
     for l in lines: d.text((W/2,y),l,font=hf,fill=WHITE,anchor="mm"); y+=lh
-    d.text((W/2, H-215*SS), "swipe →", font=font(FR,30*SS), fill=MUTE, anchor="mm")
+    d.text((W/2, H-205*SS), "swipe →", font=font(FR,30*SS), fill=MUTE, anchor="mm")
     footer(d, idx, total); return img
 
 def slide_point(num, text, idx, total):
