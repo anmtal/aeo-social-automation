@@ -14,7 +14,7 @@ for i, c in enumerate(carousels):
     posts.append({
         "slug": c["slug"],
         "type": "carousel",
-        "slides": 2 + len(c.get("points", [])),
+        "slides": len([f for f in os.listdir(os.path.join(HERE, "content", "posts", c["slug"])) if f.startswith("slide-")]),
         "status": "ready",
         "caption": c["caption"],
         "firstComment": c.get("firstComment", ""),
