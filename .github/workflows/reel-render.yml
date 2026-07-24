@@ -1,11 +1,9 @@
 name: The AEO Loop reel render + alert
 
-# Evening (~7 PM ET): render the next due reel from its branded slides and open a
-# GitHub issue (emails you) with the download link + caption. SEMI-MANUAL — you
-# post it in-app and add a trending sound (the API can't attach trending audio).
+# MANUAL ONLY. Reels are rendered locally and self-posted from the founder's
+# Downloads folder, so the nightly auto-render was disabled (it was redundant and
+# noisy). Run it on demand from the Actions tab if you ever want a cloud render.
 on:
-  schedule:
-    - cron: "5,35 23,0 * * *"     # 23:00 UTC (7 PM EDT) + 00:00 UTC (7 PM EST)
   workflow_dispatch:
     inputs:
       slug:
