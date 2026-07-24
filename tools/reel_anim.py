@@ -10,7 +10,17 @@ from PIL import Image, ImageDraw, ImageFont
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 W, H = 1080, 1920
 BG=(10,14,21); MINT=(26,214,160); WHITE=(238,241,238); MUTE=(120,134,128)
-FB="C:/Windows/Fonts/segoeuib.ttf"; FR="C:/Windows/Fonts/segoeui.ttf"
+def _pick(cands):
+    for p in cands:
+        if os.path.exists(p): return p
+    return cands[-1]  # let PIL raise a clear error if none exist
+# Segoe on Windows (local dev); DejaVu/Liberation on the Linux CI runner.
+FB=_pick(["C:/Windows/Fonts/segoeuib.ttf",
+          "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+          "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf"])
+FR=_pick(["C:/Windows/Fonts/segoeui.ttf",
+          "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+          "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf"])
 FPS=30; TYPE_T=2.0; COVER_HOLD=1.3; SLIDE_HOLD=2.2; XF=0.4
 def font(p,s): return ImageFont.truetype(p,int(s))
 
