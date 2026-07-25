@@ -57,8 +57,10 @@ def fit(d,text,maxw,start,mins):
 
 def cover_base(eyebrow):
     img=Image.new("RGB",(W,H),BG);d=ImageDraw.Draw(img)
-    glyph(d,W//2,360,15)
-    d.text((W/2,540),"  ".join(list(eyebrow.upper())),font=font(FB,34),fill=MINT,anchor="mm")
+    # Logo at center-425 / scale 11 == the 4:5 carousel cover, so IG's grid
+    # center-crop lands the reel logo on the SAME row & size as the carousels.
+    glyph(d,W//2,535,11)
+    d.text((W/2,715),"  ".join(list(eyebrow.upper())),font=font(FB,34),fill=MINT,anchor="mm")
     d.text((W/2,H-150),"theaeoloop.com",font=font(FB,34),fill=MINT,anchor="mm")
     return img
 
@@ -84,7 +86,7 @@ def build(slug):
     slides=sorted(glob.glob(os.path.join(posts,"slide-*.jpg")))
     spec={c["slug"]:c for c in json.load(open(os.path.join(HERE,"content","carousels.json"),encoding="utf-8"))}[slug]
     base=cover_base(spec["eyebrow"])
-    d0=ImageDraw.Draw(base); X=90; YTOP=760
+    d0=ImageDraw.Draw(base); X=90; YTOP=935
     lines,hf,lh=fit(d0,spec["hook"],W-180,84,46)
     nchars=sum(len(l) for l in lines)
     tmp=os.path.join(HERE,"content","reels","_af",slug)
