@@ -6,7 +6,8 @@
     "scene": { "type": "chat", "prompt": "Who's the best plastic surgeon near me?", "answers": ["A Midtown practice", "A nearby competitor"], "note": "— AI answers before they ever reach your site." },
     "points": ["They act on the shortlist AI gives — before they ever reach your site."],
     "cta": "Ask AI. See who it names.",
-    "caption": "More patients are starting with AI, not Google. The shortlist forms before they ever land on your website. Curious who AI names in your area?"
+    "caption": "More patients are starting with AI, not Google. The shortlist forms before they ever land on your website. Curious who AI names in your area?",
+    "hashtags": ["#plasticsurgeon", "#plasticsurgery", "#ChatGPT", "#medicalmarketing", "#AIsearch"]
   },
   {
     "slug": "edu-shortlist", "kind": "edu",
@@ -24,7 +25,8 @@
     "scene": { "type": "versus", "left": { "title": "SEO", "sub": "Found on Google", "tone": "mute" }, "right": { "title": "AEO", "sub": "Chosen by AI", "tone": "mint" } },
     "points": ["You can rank #3 on Google and still be absent from every AI answer.", "Different game, different signals."],
     "cta": "Winning on Google, missing from AI?",
-    "caption": "Ranking on Google and being recommended by AI are two different games. Plenty of great practices win one and lose the other."
+    "caption": "Ranking on Google and being recommended by AI are two different games. Plenty of great practices win one and lose the other.",
+    "hashtags": ["#plasticsurgeon", "#plasticsurgery", "#ChatGPT", "#medicalmarketing", "#AEO"]
   },
   {
     "slug": "edu-reviews", "kind": "edu",
@@ -59,7 +61,8 @@
     "scene": { "type": "chat", "prompt": "Best plastic surgeon near me?", "answers": ["A Midtown practice", "A nearby competitor", "Another surgeon"], "note": "— is your name on this list?" },
     "points": ["We ask the questions patients actually ask AI.", "You get a clear answer, per engine."],
     "cta": "See if AI recommends you.",
-    "caption": "Want to know if ChatGPT, Gemini or Perplexity recommend your practice? Find out free in about a minute. Link in bio."
+    "caption": "Want to know if ChatGPT, Gemini or Perplexity recommend your practice? Find out free in about a minute. Link in bio.",
+    "hashtags": ["#plasticsurgeon", "#plasticsurgery", "#ChatGPT", "#medicalmarketing", "#AIsearch"]
   },
   {
     "slug": "ad-competitor-stakes", "kind": "ad",
@@ -77,7 +80,8 @@
     "scene": { "type": "versus", "left": { "title": "Google", "sub": "You rank", "tone": "mint", "mark": "check" }, "right": { "title": "AI", "sub": "You're invisible", "tone": "coral", "mark": "cross" } },
     "points": ["More patients start with ChatGPT every month.", "We make sure AI knows you exist."],
     "cta": "Get found where patients now search.",
-    "caption": "Google isn't the only front door anymore. If AI can't find you, you're missing the patients who start their search there."
+    "caption": "Google isn't the only front door anymore. If AI can't find you, you're missing the patients who start their search there.",
+    "hashtags": ["#plasticsurgeon", "#plasticsurgery", "#ChatGPT", "#medicalmarketing", "#AEO"]
   },
   {
     "slug": "ad-cost-invisible", "kind": "ad",

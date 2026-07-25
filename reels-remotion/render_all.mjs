@@ -14,8 +14,9 @@ const CONTENT = path.join(REPO, "content", "reels-content.json");
 const DL = "C:/Users/anmta/Downloads/aeo-reels";
 const SRC = path.join(DL, "_source"); // master reels (1 per topic); post from by-date/ instead
 const OUT = path.join(HERE, "out");
-const TAGS =
-  "#plasticsurgeon #plasticsurgery #cosmeticsurgery #medspa #AIsearch #ChatGPT #medicalmarketing #practicegrowth #AEO #AIvisibility";
+// 5 hashtags: the 5 primary by default; a reel may set its own `hashtags` (5) for a content swap.
+const DEFAULT_TAGS = "#plasticsurgeon #plasticsurgery #ChatGPT #medicalmarketing #practicegrowth";
+const tagsFor = (r) => (Array.isArray(r.hashtags) && r.hashtags.length ? r.hashtags.join(" ") : DEFAULT_TAGS);
 
 fs.mkdirSync(OUT, { recursive: true });
 fs.mkdirSync(DL, { recursive: true });
@@ -36,7 +37,7 @@ for (const reel of reels) {
   const tag = reel.kind === "edu" ? "EDU" : "AD";
   const fname = `${tag}_${reel.slug}`;
   fs.copyFileSync(outfile, path.join(SRC, fname + ".mp4"));
-  fs.writeFileSync(path.join(SRC, fname + ".txt"), ((reel.caption || "") + "\n\n" + TAGS).trim());
+  fs.writeFileSync(path.join(SRC, fname + ".txt"), ((reel.caption || "") + "\n\n" + tagsFor(reel)).trim());
   built[reel.slug] = fname;
   console.log(`  built ${fname}  (${comp.durationInFrames} frames)`);
 }
@@ -73,7 +74,7 @@ if (!only.length) {
     const fn = built[reel.slug] || `${reel.kind === "edu" ? "EDU" : "AD"}_${reel.slug}`;
     const base = `${iso(d)} ${DOW[wd]} ${reel.kind === "edu" ? "EDU" : "AD"} - ${reel.slug}`;
     fs.copyFileSync(path.join(SRC, fn + ".mp4"), path.join(BD, base + ".mp4"));
-    fs.writeFileSync(path.join(BD, base + ".txt"), ((reel.caption || "") + "\n\n" + TAGS).trim());
+    fs.writeFileSync(path.join(BD, base + ".txt"), ((reel.caption || "") + "\n\n" + tagsFor(reel)).trim());
     lines.push(`${iso(d)} ${DOW[wd]}  ${kind}  ->  by-date/${base}.mp4`);
     lines.push(`                              hook: ${reel.hook}`);
   }
