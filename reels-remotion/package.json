@@ -1,0 +1,19 @@
+{
+  "name": "aeo-reels-remotion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The AEO Loop — data-driven 9:16 reel renderer (reads content/reels-content.json, outputs to Downloads).",
+  "scripts": {
+    "render": "node render_all.mjs",
+    "studio": "remotion studio src/index.ts"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.290",
+    "@remotion/cli": "4.0.290",
+    "@remotion/google-fonts": "4.0.290",
+    "@remotion/renderer": "4.0.290",
+    "remotion": "4.0.290",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}
