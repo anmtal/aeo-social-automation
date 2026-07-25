@@ -2,7 +2,9 @@
 
 Data-driven 9:16 Instagram reels for @the_aeo_loop. Reads `../content/reels-content.json`,
 renders each reel to an animated MP4, and copies them (with captions + a posting
-calendar) to `C:\Users\anmta\Downloads\aeo-reels\` for manual posting.
+calendar) to `C:\Users\anmta\Downloads\aeo-reels\` for manual posting. It also writes
+a `by-date/` subfolder where each file is named by its post date (e.g.
+`2026-07-30 Thu EDU - edu-shortlist.mp4`) — just grab the one dated today.
 
 ## Render
 

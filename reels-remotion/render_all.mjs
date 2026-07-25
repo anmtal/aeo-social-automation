@@ -46,6 +46,10 @@ if (!only.length) {
   const DOW = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
   const today = new Date();
   const iso = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+  // by-date/: one file per calendar day, named by its post date (easy manual posting)
+  const BD = path.join(DL, "by-date");
+  fs.rmSync(BD, { recursive: true, force: true });
+  fs.mkdirSync(BD, { recursive: true });
   const lines = [
     "THE AEO LOOP — REEL POSTING CALENDAR (Remotion, animated)",
     `(rebuilt ${iso(today)})`,
@@ -67,6 +71,9 @@ if (!only.length) {
     const fn = built[reel.slug] || `${reel.kind === "edu" ? "EDU" : "AD"}_${reel.slug}`;
     lines.push(`${iso(d)} ${DOW[wd]}  ${kind}  ->  ${fn}.mp4`);
     lines.push(`                              hook: ${reel.hook}`);
+    const base = `${iso(d)} ${DOW[wd]} ${reel.kind === "edu" ? "EDU" : "AD"} - ${reel.slug}`;
+    fs.copyFileSync(path.join(DL, fn + ".mp4"), path.join(BD, base + ".mp4"));
+    fs.writeFileSync(path.join(BD, base + ".txt"), ((reel.caption || "") + "\n\n" + TAGS).trim());
   }
   lines.push("", "FILES: EDU_*.mp4 (6, rotate Tue/Thu) · AD_*.mp4 (6, rotate other days). Each has a matching .txt caption.");
   fs.writeFileSync(path.join(DL, "_SCHEDULE.txt"), lines.join("\n"));
