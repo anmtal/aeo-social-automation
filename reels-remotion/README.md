@@ -6,6 +6,9 @@ calendar) to `C:\Users\anmta\Downloads\aeo-reels\` for manual posting. It also w
 a `by-date/` subfolder where each file is named by its post date (e.g.
 `2026-07-30 Thu EDU - edu-shortlist.mp4`) — just grab the one dated today.
 
+Downloads layout: `by-date/` (post from here) · `_SCHEDULE.txt` (calendar) ·
+`_source/` (one master per topic, for reference). Renders are regenerated each run.
+
 ## Render
 
 ```bash

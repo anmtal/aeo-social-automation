@@ -12,12 +12,14 @@ const HERE = path.dirname(fileURLToPath(import.meta.url));
 const REPO = path.resolve(HERE, "..");
 const CONTENT = path.join(REPO, "content", "reels-content.json");
 const DL = "C:/Users/anmta/Downloads/aeo-reels";
+const SRC = path.join(DL, "_source"); // master reels (1 per topic); post from by-date/ instead
 const OUT = path.join(HERE, "out");
 const TAGS =
   "#plasticsurgeon #plasticsurgery #cosmeticsurgery #medspa #AIsearch #ChatGPT #medicalmarketing #practicegrowth #AEO #AIvisibility";
 
 fs.mkdirSync(OUT, { recursive: true });
 fs.mkdirSync(DL, { recursive: true });
+fs.mkdirSync(SRC, { recursive: true });
 
 const all = JSON.parse(fs.readFileSync(CONTENT, "utf-8"));
 const only = process.argv.slice(2);
@@ -33,8 +35,8 @@ for (const reel of reels) {
   await renderMedia({ serveUrl, composition: comp, codec: "h264", outputLocation: outfile, inputProps: reel });
   const tag = reel.kind === "edu" ? "EDU" : "AD";
   const fname = `${tag}_${reel.slug}`;
-  fs.copyFileSync(outfile, path.join(DL, fname + ".mp4"));
-  fs.writeFileSync(path.join(DL, fname + ".txt"), ((reel.caption || "") + "\n\n" + TAGS).trim());
+  fs.copyFileSync(outfile, path.join(SRC, fname + ".mp4"));
+  fs.writeFileSync(path.join(SRC, fname + ".txt"), ((reel.caption || "") + "\n\n" + TAGS).trim());
   built[reel.slug] = fname;
   console.log(`  built ${fname}  (${comp.durationInFrames} frames)`);
 }
@@ -69,13 +71,13 @@ if (!only.length) {
     if (wd === 2 || wd === 4) { reel = edu[ei % edu.length]; ei++; kind = "EDUCATIONAL"; }
     else { reel = ads[ai % ads.length]; ai++; kind = "ADVERTISING "; }
     const fn = built[reel.slug] || `${reel.kind === "edu" ? "EDU" : "AD"}_${reel.slug}`;
-    lines.push(`${iso(d)} ${DOW[wd]}  ${kind}  ->  ${fn}.mp4`);
-    lines.push(`                              hook: ${reel.hook}`);
     const base = `${iso(d)} ${DOW[wd]} ${reel.kind === "edu" ? "EDU" : "AD"} - ${reel.slug}`;
-    fs.copyFileSync(path.join(DL, fn + ".mp4"), path.join(BD, base + ".mp4"));
+    fs.copyFileSync(path.join(SRC, fn + ".mp4"), path.join(BD, base + ".mp4"));
     fs.writeFileSync(path.join(BD, base + ".txt"), ((reel.caption || "") + "\n\n" + TAGS).trim());
+    lines.push(`${iso(d)} ${DOW[wd]}  ${kind}  ->  by-date/${base}.mp4`);
+    lines.push(`                              hook: ${reel.hook}`);
   }
-  lines.push("", "FILES: EDU_*.mp4 (6, rotate Tue/Thu) · AD_*.mp4 (6, rotate other days). Each has a matching .txt caption.");
+  lines.push("", "POST FROM by-date/ (one file per day, named by date). Master reels live in _source/. Each .mp4 has a matching .txt caption.");
   fs.writeFileSync(path.join(DL, "_SCHEDULE.txt"), lines.join("\n"));
   console.log("SCHEDULE written -> " + path.join(DL, "_SCHEDULE.txt"));
 }
