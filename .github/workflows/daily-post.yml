@@ -1,15 +1,17 @@
 name: The AEO Loop scheduler
 
-# Posts whatever is due (2/day at 12:00 and 20:00 Eastern per the manifest).
-# The precise trigger is cron-job.org calling workflow_dispatch on the minute;
-# this cron is only a self-healing backup, since GitHub's scheduler runs late.
+# Posts whatever is due per the manifest. The noon carousel must LAND at 12:00 ET.
+# GitHub's scheduler only ever starts runs LATE (often 1-2h — that's why it was
+# landing ~1:45pm), so we FIRE EARLY and then sleep to exactly noon inside the job
+# (automation/noon_gate.py). The post lands on the hour no matter when GitHub starts.
 #
-# The backup cron is deliberately OFF the hour. America/Toronto is a whole-hour
-# offset, so 12:00/20:00 local land exactly on :00 UTC — a "*/30" cron would fire
-# the same minute as the external trigger, every single time, at both post times.
+# Cron fires :10/:40 across 14-17 UTC — that spans ~2h before to ~2h after noon ET
+# in BOTH DST offsets (EDT noon = 16:00 UTC, EST noon = 17:00 UTC). Each fire either
+# sleeps-to-noon, skips (too early), or posts-now (already past noon). A
+# workflow_dispatch (e.g. a minute-accurate external trigger) bypasses the gate.
 on:
   schedule:
-    - cron: "5,20,35,50 16,17 * * *"
+    - cron: "10,40 14,15,16,17 * * *"
   workflow_dispatch:
     inputs:
       mode:
@@ -29,6 +31,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
+    timeout-minutes: 150            # a scheduled run may sleep up to ~2h to hit noon
     steps:
       # ref: pins to the BRANCH HEAD, not the trigger SHA. A run queued behind the
       # concurrency guard was triggered before the run ahead of it recorded its post,
@@ -40,13 +43,27 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install requests
+      - run: pip install requests tzdata
+      # Land scheduled runs at exactly 12:00 ET: sleep to noon, skip if too early,
+      # or post now if already past noon. Manual/external dispatch bypasses this.
+      - name: Gate to noon (scheduled runs only)
+        id: gate
+        if: ${{ github.event_name == 'schedule' }}
+        run: |
+          if python automation/noon_gate.py; then
+            echo "post=true" >> "$GITHUB_OUTPUT"
+          else
+            rc=$?
+            if [ "$rc" = "2" ]; then echo "post=false" >> "$GITHUB_OUTPUT";
+            else echo "post=true" >> "$GITHUB_OUTPUT"; fi
+          fi
       - name: Re-read the posted log at the last possible moment
         run: |
           git fetch origin ${{ github.event.repository.default_branch }} --quiet
           git checkout FETCH_HEAD -- content/posted.json content/failed.json 2>/dev/null || true
           echo "posted:"; cat content/posted.json
       - name: Publish due / run mode
+        if: ${{ github.event_name != 'schedule' || steps.gate.outputs.post == 'true' }}
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
