@@ -44,8 +44,8 @@ const Cover: React.FC<ReelProps> = ({ eyebrow, hook }) => {
   const caretOn = frame > 30 && Math.floor(frame / 8) % 2 === 0;
   return (
     <Scene>
-      <div style={{ position: "absolute", top: LOGO_Y - 65, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
-        <InfinityGlyph size={130} progress={glyphP} />
+      <div style={{ position: "absolute", top: LOGO_Y - 179, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
+        <InfinityGlyph size={358} progress={glyphP} />
       </div>
       <div style={{ position: "absolute", top: 700, left: 0, right: 0, textAlign: "center", color: MINT, fontWeight: 800, fontSize: 30, letterSpacing: eyeSpread, opacity: eyeO }}>
         {eyebrow.toUpperCase()}
