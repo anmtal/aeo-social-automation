@@ -21,7 +21,7 @@ const InfinityGlyph: React.FC<{ size: number; progress: number }> = ({ size, pro
   const len = 74;
   return (
     <svg width={size} height={size} viewBox="0 0 32 32">
-      <path d={d} fill="none" stroke={MINT} strokeWidth={2.6} strokeLinecap="round"
+      <path d={d} fill="none" stroke={MINT} strokeWidth={2.84} strokeLinecap="round"
         strokeDasharray={len} strokeDashoffset={len * (1 - Math.min(1, Math.max(0, progress)))} />
     </svg>
   );
