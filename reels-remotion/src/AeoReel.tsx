@@ -19,9 +19,11 @@ const LOGO_Y = 535; // center(960) - 425, matches the 4:5 carousel logo for grid
 const InfinityGlyph: React.FC<{ size: number; progress: number }> = ({ size, progress }) => {
   const d = "M16 16 C12 8 5 8 5 16 C5 24 12 24 16 16 C20 8 27 8 27 16 C27 24 20 24 16 16Z";
   const len = 74;
+  // strokeWidth 2.9 matches the carousel infinity-glyph stroke exactly
+  // (carousel_generator.py glyph(): r = 2.9*scale/2, same 32-unit path). Keep the two in sync.
   return (
     <svg width={size} height={size} viewBox="0 0 32 32">
-      <path d={d} fill="none" stroke={MINT} strokeWidth={2.84} strokeLinecap="round"
+      <path d={d} fill="none" stroke={MINT} strokeWidth={2.9} strokeLinecap="round" strokeLinejoin="round"
         strokeDasharray={len} strokeDashoffset={len * (1 - Math.min(1, Math.max(0, progress)))} />
     </svg>
   );
