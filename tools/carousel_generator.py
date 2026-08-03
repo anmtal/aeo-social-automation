@@ -88,9 +88,10 @@ def slide_point(num, text, idx, total):
     footer(d, idx, total); return img
 
 def slide_cta(text, idx, total):
-    img,d=base(); glyph(d, W//2, 320*SS, 11*SS)
-    lines,tf,lh=fit(d, text, W-2*MARGIN, FB, 74*SS, 44*SS)
-    y=(H-lh*len(lines))//2+30*SS
+    img,d=base(); glyph(d, W//2, 300*SS, 10*SS)
+    lines,tf,lh=fit(d, text, W-2*MARGIN, FB, 72*SS, 44*SS)
+    top, bot = 470*SS, H-200*SS          # text zone strictly BELOW the glyph, above the footer (no overlap)
+    y = top + (bot-top-lh*len(lines))//2 + lh//2
     for l in lines: d.text((W/2,y),l,font=tf,fill=WHITE,anchor="mm"); y+=lh
     footer(d, idx, total); return img
 
