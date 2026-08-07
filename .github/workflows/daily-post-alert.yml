@@ -1,0 +1,37 @@
+name: Daily-post failure alert
+
+# Fires whenever "The AEO Loop scheduler" run COMPLETES with a failure — including
+# the "job was not acquired by Runner" case, because workflow_run reports that run
+# as completed/failure. Opens (or comments on) a GitHub issue, which emails you, so
+# a missed carousel is caught the SAME DAY instead of the next morning. No PC needed.
+on:
+  workflow_run:
+    workflows: ["The AEO Loop scheduler"]
+    types: [completed]
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  alert:
+    if: ${{ github.event.workflow_run.conclusion == 'failure' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Open or append the failure issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          RUN_URL: ${{ github.event.workflow_run.html_url }}
+          TRIGGER: ${{ github.event.workflow_run.event }}
+          WHEN: ${{ github.event.workflow_run.updated_at }}
+        run: |
+          set -euo pipefail
+          TITLE="IG carousel run FAILED"
+          BODY="The daily Instagram carousel job failed ($TRIGGER at $WHEN). Today's post may not have gone out. Failed run: $RUN_URL — Fix: open Claude and say 'the IG post failed, re-run it', or run: gh workflow run daily-post.yml -R $REPO --ref main -f mode=due (once GitHub runners are back). The publisher auto-reschedules anything over 6h late, so nothing is lost. If the error is 'job was not acquired by Runner', it is a transient GitHub outage — just re-run in a few minutes."
+          NUM=$(gh issue list --repo "$REPO" --state open --search "$TITLE in:title" --json number -q '.[0].number // empty')
+          if [ -n "$NUM" ]; then
+            gh issue comment "$NUM" --repo "$REPO" --body "$BODY"
+          else
+            gh issue create --repo "$REPO" --title "$TITLE" --body "$BODY"
+          fi
