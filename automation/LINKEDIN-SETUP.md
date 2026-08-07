@@ -59,3 +59,22 @@ The content is already written in `automation/linkedin-manifest.json`. Drop it i
 **scheduler** (Metricool / Publer / Buffer) that has LinkedIn partner access — connect the
 Company Page, schedule the MWF posts. No API approval needed; you lose only the fully-hands-off
 part (you paste them in weekly). Switch to the API machine once approved.
+
+## Refilling the queue (generate as needed)
+Posts are drawn from a topic backlog in `content/linkedin-topics.json` (36 topics,
+`priority: 1` = draft first, buyer-intent). When the manifest runs low on future posts:
+
+1. `python tools/linkedin_next.py` — shows how many posts are still scheduled, the next
+   topics to draft (priority order), each mapped to a live page to link, and the next
+   Mon/Wed/Fri 09:00 ET slots.
+2. `python tools/linkedin_next.py --scaffold` — appends empty `draft` slots to
+   `linkedin-manifest.json` for the next topics and marks them `drafted` in the backlog.
+   (The publisher only ever posts `status: "ready"`, so `draft` slots are inert.)
+3. Write each post's `text` in brand voice — short first-person paragraphs, one pointed
+   close, 2-3 hashtags, no fabricated stats, never a guaranteed-ranking claim — then change
+   that entry's `status` from `"draft"` to `"ready"`.
+4. Commit. The MWF scheduler posts the earliest due `ready` one.
+
+`status: "hold"` topics need a real client or consent before they can be written honestly
+(e.g. case studies). Leave them until the data is real; use the "our own site" dogfood angle
+for proof in the meantime.

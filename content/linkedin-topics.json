@@ -1,0 +1,473 @@
+{
+  "_readme": "Backlog of LinkedIn post topics for the The AEO Loop company page. When linkedin-manifest.json runs low on future 'ready' posts, run tools/linkedin_next.py to see the next topics to draft (and optionally --scaffold draft slots into the manifest). Draft in brand voice, then flip the manifest entry status to 'ready'. priority 1 = draft first (buyer intent). status hold = needs real data or consent before writing. VOICE: short first-person paragraphs, one pointed close, 2-3 hashtags, no fabricated stats, never guarantee AI rankings.",
+  "cadence": "Mon/Wed/Fri 09:00 ET (matches linkedin-manifest.json)",
+  "already_posted_topics": [
+    "no-page-two (there is no page two in an AI answer)",
+    "myth-seo (AI search is not just SEO)",
+    "no-guarantees (we do not guarantee AI rankings)"
+  ],
+  "topics": [
+    {
+      "slug": "li-how-to-choose-an-aeo-agency",
+      "title": "How to Choose an AEO Agency",
+      "angle": "Buyer is actively shopping. Frame the criteria that separate a real AEO partner from an SEO shop bolting on a buzzword.",
+      "internal_url": "/pricing",
+      "priority": 1,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#AIsearch",
+        "#Marketing"
+      ]
+    },
+    {
+      "slug": "li-is-aeo-worth-the-investment",
+      "title": "Is AEO Worth the Investment",
+      "angle": "Handle the ROI objection before the sales call. What it costs to be invisible in AI answers vs the work to fix it.",
+      "internal_url": "/pricing",
+      "priority": 1,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#AIsearch",
+        "#SmallBusiness"
+      ]
+    },
+    {
+      "slug": "li-how-to-measure-aeo-performance",
+      "title": "How to Measure AEO Performance",
+      "angle": "Our differentiator. You cannot manage what you do not measure. Show the Recommended/Mentioned/Excluded model and the live scan.",
+      "internal_url": "/scanner",
+      "priority": 1,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#AIsearch",
+        "#Analytics"
+      ]
+    },
+    {
+      "slug": "li-how-long-until-aeo-results",
+      "title": "How Long Until AEO Results",
+      "angle": "Set honest expectations. Non-deterministic engines, directional gains, month over month, not overnight.",
+      "internal_url": "/method",
+      "priority": 1,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#AIsearch",
+        "#Marketing"
+      ]
+    },
+    {
+      "slug": "li-common-aeo-mistakes-that-cost-you-answers",
+      "title": "Common AEO Mistakes That Cost You Answers",
+      "angle": "Authority piece. The handful of avoidable errors that keep a good business out of AI answers.",
+      "internal_url": "/what-is-aeo",
+      "priority": 1,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#AIsearch",
+        "#SEO"
+      ]
+    },
+    {
+      "slug": "li-how-backlinks-and-citations-impact-ai-answers",
+      "title": "How Backlinks and Citations Impact AI Answers",
+      "angle": "Ties to the real lever: engines cite consensus and third-party mentions, not your own marketing.",
+      "internal_url": "/what-is-aeo",
+      "priority": 1,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#AIsearch",
+        "#SEO"
+      ]
+    },
+    {
+      "slug": "li-we-ran-our-own-aeo-method-on-our-own-site",
+      "title": "We Ran Our Own AEO Method on Our Own Site",
+      "angle": "The HONEST version of a case study: our real baseline and what we changed. Uses dogfood data, no invented client.",
+      "internal_url": "/method",
+      "priority": 1,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#AIsearch",
+        "#BuildInPublic"
+      ]
+    },
+    {
+      "slug": "li-will-aeo-replace-seo",
+      "title": "Will AEO Replace SEO",
+      "angle": "Common fear. Answer: no. AEO sits on top of good SEO. Do not trash SEO (goodwill stance).",
+      "internal_url": "/learn/aeo-vs-seo",
+      "priority": 2,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#SEO",
+        "#AIsearch"
+      ]
+    },
+    {
+      "slug": "li-how-to-get-your-content-into-ai-answers",
+      "title": "How to Get Your Content Into AI Answers",
+      "angle": "Practical steps: quotable passages, evidence, structure, consistent facts.",
+      "internal_url": "/learn/how-ai-answer-engines-work",
+      "priority": 2,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#AIsearch",
+        "#ContentMarketing"
+      ]
+    },
+    {
+      "slug": "li-best-aeo-practices-for-small-business-owners",
+      "title": "Best AEO Practices for Small Business Owners",
+      "angle": "Accessible, no big budget. The 20 percent that moves the needle.",
+      "internal_url": "/what-is-aeo",
+      "priority": 2,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#SmallBusiness",
+        "#AIsearch"
+      ]
+    },
+    {
+      "slug": "li-can-i-do-aeo-myself-or-hire-an-agency",
+      "title": "Can I Do AEO Myself or Hire an Agency",
+      "angle": "DIY vs agency honestly. What you can do alone, where a partner earns their fee.",
+      "internal_url": "/pricing",
+      "priority": 2,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#SmallBusiness",
+        "#Marketing"
+      ]
+    },
+    {
+      "slug": "li-why-reddit-now-matters-for-ai-visibility",
+      "title": "Why Reddit Now Matters for AI Visibility",
+      "angle": "Both a topic AND our own tactic. Engines lean on Reddit; genuine participation beats link drops.",
+      "internal_url": "/learn/how-ai-answer-engines-work",
+      "priority": 2,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#AIsearch",
+        "#Reddit"
+      ]
+    },
+    {
+      "slug": "li-how-to-optimize-faq-sections-for-answer-engines",
+      "title": "How to Optimize FAQ Sections for Answer Engines",
+      "angle": "Concrete tactic. Question-and-answer phrasing engines lift directly.",
+      "internal_url": "/what-is-aeo",
+      "priority": 2,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#AIsearch",
+        "#SEO"
+      ]
+    },
+    {
+      "slug": "li-what-questions-should-you-optimize-for",
+      "title": "What Questions Should You Optimize For",
+      "angle": "Buying-intent prompt research: how we pick the questions that matter.",
+      "internal_url": "/scanner",
+      "priority": 2,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#AIsearch",
+        "#Marketing"
+      ]
+    },
+    {
+      "slug": "li-aeo-for-b2b-a-practical-roadmap",
+      "title": "AEO for B2B: A Practical Roadmap",
+      "angle": "B2B and SaaS angle, maps to our SaaS page.",
+      "internal_url": "/aeo-for-saas",
+      "priority": 2,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#B2B",
+        "#SaaS"
+      ]
+    },
+    {
+      "slug": "li-making-the-business-case-for-aeo-to-leadership",
+      "title": "Making the Business Case for AEO to Leadership",
+      "angle": "Help a champion sell it internally. The one-slide argument.",
+      "internal_url": "/pricing",
+      "priority": 2,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#B2B",
+        "#Leadership"
+      ]
+    },
+    {
+      "slug": "li-budget-friendly-aeo-for-startups",
+      "title": "Budget-Friendly AEO for Startups",
+      "angle": "Cost-effective first moves for early companies.",
+      "internal_url": "/what-is-aeo",
+      "priority": 2,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#Startups",
+        "#AIsearch"
+      ]
+    },
+    {
+      "slug": "li-does-your-website-need-aeo-right-now",
+      "title": "Does Your Website Need AEO Right Now",
+      "angle": "Self-qualify. Run a scan, see if you are named. If you are, great; if not, that is the gap.",
+      "internal_url": "/scanner",
+      "priority": 2,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#AIsearch",
+        "#SmallBusiness"
+      ]
+    },
+    {
+      "slug": "li-aeo-for-local-businesses-does-it-work",
+      "title": "AEO for Local Businesses: Does It Work",
+      "angle": "Local relevance; ties to industry pages.",
+      "internal_url": "/industries",
+      "priority": 2,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#LocalSEO",
+        "#AIsearch"
+      ]
+    },
+    {
+      "slug": "li-how-to-compete-with-ai-answers-in-search",
+      "title": "How to Compete With AI Answers in Search",
+      "angle": "Visibility strategy alongside AI responses.",
+      "internal_url": "/what-is-aeo",
+      "priority": 2,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#AIsearch",
+        "#SEO"
+      ]
+    },
+    {
+      "slug": "li-aeo-myths-vs-reality",
+      "title": "AEO Myths vs Reality",
+      "angle": "Separate fact from hype. What actually works.",
+      "internal_url": "/what-is-aeo",
+      "priority": 2,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#AIsearch",
+        "#Marketing"
+      ]
+    },
+    {
+      "slug": "li-the-future-of-search-why-aeo-matters-now",
+      "title": "The Future of Search: Why AEO Matters Now",
+      "angle": "Long-view framing of the shift.",
+      "internal_url": "/what-is-aeo",
+      "priority": 2,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#AIsearch",
+        "#FutureOfSearch"
+      ]
+    },
+    {
+      "slug": "li-how-to-stay-ahead-of-aeo-changes",
+      "title": "How to Stay Ahead of AEO Changes",
+      "angle": "Engines change constantly; how we track and adapt.",
+      "internal_url": "/method",
+      "priority": 2,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#AIsearch",
+        "#Marketing"
+      ]
+    },
+    {
+      "slug": "li-should-you-update-your-seo-to-include-aeo",
+      "title": "Should You Update Your SEO to Include AEO",
+      "angle": "Integrate AEO into existing marketing without ripping it up.",
+      "internal_url": "/learn/aeo-vs-seo",
+      "priority": 2,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#SEO",
+        "#Marketing"
+      ]
+    },
+    {
+      "slug": "li-getting-started-with-aeo-first-steps",
+      "title": "Getting Started With AEO: First Steps",
+      "angle": "Beginner action plan.",
+      "internal_url": "/what-is-aeo",
+      "priority": 2,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#AIsearch",
+        "#SmallBusiness"
+      ]
+    },
+    {
+      "slug": "li-what-is-aeo-and-why-it-matters",
+      "title": "What Is AEO and Why It Matters",
+      "angle": "Foundational; pillar page already covers it, use a fresh hook.",
+      "internal_url": "/what-is-aeo",
+      "priority": 3,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#AIsearch"
+      ]
+    },
+    {
+      "slug": "li-how-aeo-differs-from-seo",
+      "title": "How AEO Differs From SEO",
+      "angle": "Overlaps existing post li-myth-seo. Use a new angle or skip.",
+      "internal_url": "/learn/aeo-vs-seo",
+      "priority": 3,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#SEO"
+      ]
+    },
+    {
+      "slug": "li-aeo-vs-geo-vs-seo-which-to-focus-on",
+      "title": "AEO vs GEO vs SEO: Which to Focus On",
+      "angle": "Comparison already on the pillar and GEO page.",
+      "internal_url": "/learn/what-is-geo",
+      "priority": 3,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#GEO",
+        "#SEO"
+      ]
+    },
+    {
+      "slug": "li-how-ai-answers-your-customers-questions",
+      "title": "How AI Answers Your Customers Questions",
+      "angle": "Covered by how-ai-answer-engines-work.",
+      "internal_url": "/learn/how-ai-answer-engines-work",
+      "priority": 3,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#AIsearch"
+      ]
+    },
+    {
+      "slug": "li-what-answer-engines-want-from-your-content",
+      "title": "What Answer Engines Want From Your Content",
+      "angle": "Ranking factors; covered by how-ai-answer-engines-work.",
+      "internal_url": "/learn/how-ai-answer-engines-work",
+      "priority": 3,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#AIsearch"
+      ]
+    },
+    {
+      "slug": "li-schema-and-structured-data-for-aeo",
+      "title": "Schema and Structured Data for AEO",
+      "angle": "Concrete technical tactic.",
+      "internal_url": "/what-is-aeo",
+      "priority": 3,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#SEO",
+        "#Schema"
+      ]
+    },
+    {
+      "slug": "li-building-authority-for-better-ai-visibility",
+      "title": "Building Authority for Better AI Visibility",
+      "angle": "Off-site authority; ties to our own lever.",
+      "internal_url": "/what-is-aeo",
+      "priority": 3,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#AIsearch",
+        "#SEO"
+      ]
+    },
+    {
+      "slug": "li-voice-search-and-answer-engines",
+      "title": "Voice Search and Answer Engines",
+      "angle": "Adjacent surface; the voice and AEO connection.",
+      "internal_url": "/what-is-aeo",
+      "priority": 3,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#VoiceSearch",
+        "#AIsearch"
+      ]
+    },
+    {
+      "slug": "li-competitor-analysis-for-ai-answers",
+      "title": "Competitor Analysis for AI Answers",
+      "angle": "Who engines name instead of you, and why.",
+      "internal_url": "/scanner",
+      "priority": 3,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#AIsearch",
+        "#Competitive"
+      ]
+    },
+    {
+      "slug": "li-real-client-results-with-aeo",
+      "title": "Real Client Results With AEO",
+      "angle": "Case-study format. HOLD until a real client consents to public results. Do not fabricate; use the dogfood post instead.",
+      "internal_url": "",
+      "priority": 1,
+      "status": "hold",
+      "tags": [
+        "#AEO",
+        "#CaseStudy"
+      ]
+    },
+    {
+      "slug": "li-best-aeo-tools-and-platforms",
+      "title": "Best AEO Tools and Platforms",
+      "angle": "Roundup. HOLD/soft: avoid publicly boosting paid competitor tools; frame around free/first-party if used.",
+      "internal_url": "",
+      "priority": 3,
+      "status": "hold",
+      "tags": [
+        "#AEO",
+        "#AIsearch"
+      ]
+    }
+  ]
+}
