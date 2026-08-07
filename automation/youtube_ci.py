@@ -19,6 +19,19 @@ DRY = os.environ.get("YT_DRY", "").lower() == "true"
 
 
 def main():
+    today = dt.date.today().isoformat()
+    # Idempotency: GitHub cron AND cron-job.org both trigger this workflow. The
+    # concurrency group serializes them; this guard makes the 2nd a no-op so only
+    # ONE reel posts per calendar day.
+    igj = os.path.join(ROOT, "content", "ig-today.json")
+    if not DRY and os.path.exists(igj):
+        try:
+            if (json.load(open(igj, encoding="utf-8")) or {}).get("date") == today:
+                print(f"already posted today ({today}); skipping to avoid a double post.")
+                return
+        except Exception:
+            pass
+
     man = json.load(open(MANIFEST, encoding="utf-8"))
     reels = {r["slug"]: r for r in man["reels"]}
     order = [r["slug"] for r in man["reels"]]
