@@ -10,7 +10,7 @@ import { fileURLToPath } from "url";
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const REPO = path.resolve(HERE, "..");
-const CONTENT = path.join(REPO, "content", "reels-content.json");
+let CONTENT = path.join(REPO, "content", "reels-content.json");
 const DL = "C:/Users/anmta/Downloads/aeo-reels";
 const SRC = path.join(DL, "_source"); // master reels (1 per topic); post from by-date/ instead
 const OUT = path.join(HERE, "out");
@@ -22,8 +22,11 @@ fs.mkdirSync(OUT, { recursive: true });
 fs.mkdirSync(DL, { recursive: true });
 fs.mkdirSync(SRC, { recursive: true });
 
+let cliArgs = process.argv.slice(2);
+const _ci = cliArgs.indexOf("--content");
+if (_ci >= 0) { CONTENT = path.resolve(REPO, cliArgs[_ci + 1]); cliArgs.splice(_ci, 2); }
 const all = JSON.parse(fs.readFileSync(CONTENT, "utf-8"));
-const only = process.argv.slice(2);
+const only = cliArgs;
 const reels = only.length ? all.filter((r) => only.includes(r.slug)) : all;
 
 console.log("Bundling Remotion project...");

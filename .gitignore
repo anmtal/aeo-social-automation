@@ -20,3 +20,7 @@ Thumbs.db
 
 # temp reel frames
 content/reels/_frames/
+
+# local-only YouTube runtime state
+content/youtube-posted.json
+content/daily-reel.log

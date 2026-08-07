@@ -1,197 +1,209 @@
 {
-  "_readme": "YouTube Shorts upload metadata for @theaeoloop. One entry per UNIQUE reel (the IG reel-manifest repeats slugs; YouTube uploads each once). The publisher (youtube_publisher.py) matches slug -> the rendered MP4 in REELS_DIR, muxes YOUTUBE_MUSIC, and uploads a public Short. Titles are search-first (<=100 chars); keep #Shorts in the description so YouTube treats vertical clips as Shorts. Rules: no fabricated stats, never guarantee AI rankings, do not disparage SEO.",
+  "_readme": "YouTube Shorts metadata, generated from content/reels-content.json. Titles = each reel's hook (surgeon-focused). Reels are GENERIC (no city named in the video); city targeting is hashtags only (#NYC #BeverlyHills ...). One reel/day is rendered just-in-time and auto-posted by automation/daily_reel.py. Rules: no fabricated stats, no guaranteed rankings.",
   "channel": "UCktLX860_6jJsSCd0utNrNg",
   "reels": [
     {
       "slug": "edu-ai-first",
-      "title": "Your customers ask AI who to hire before they open Google",
-      "description": "Discovery moved. People ask ChatGPT and Gemini who to hire, then act on the answer.\n\nSee what AI says about your business (free scan): https://theaeoloop.com\n\n#Shorts #AEO #AIsearch #AnswerEngineOptimization",
+      "title": "Your next patient asks AI before they call you",
+      "description": "More patients are starting with AI, not Google. The shortlist forms before they ever land on your website. Curious who AI names in your area?\n\nSee what AI says about your practice (free scan): https://theaeoloop.com\n\n#Shorts #plasticsurgeon #NYC #BeverlyHills #Manhattan #LosAngeles #plasticsurgery #AEO #AIsearch #ChatGPT",
       "tags": [
+        "plastic surgeon",
+        "plastic surgery marketing",
+        "NYC plastic surgeon",
+        "Beverly Hills plastic surgeon",
         "AEO",
-        "Answer Engine Optimization",
+        "answer engine optimization",
         "AI search",
-        "AI visibility",
         "ChatGPT",
-        "Perplexity",
-        "GEO",
-        "AI SEO",
-        "Shorts"
+        "AI visibility",
+        "medical marketing"
       ]
     },
     {
       "slug": "edu-shortlist",
-      "title": "Ask AI for the best in a field and you get one short list",
-      "description": "AI does not hand you ten links anymore. It names a few businesses. You are on the list or you are not.\n\nSee what AI says about your business (free scan): https://theaeoloop.com\n\n#Shorts #AEO #AIsearch #AnswerEngineOptimization",
+      "title": "AI already built a shortlist of surgeons in your city",
+      "description": "There's a shortlist you can't see — the one AI hands patients when they ask for a surgeon. Most practices don't know if they're on it.\n\nSee what AI says about your practice (free scan): https://theaeoloop.com\n\n#Shorts #plasticsurgeon #NYC #BeverlyHills #Manhattan #LosAngeles #plasticsurgery #AEO #AIsearch #ChatGPT",
       "tags": [
+        "plastic surgeon",
+        "plastic surgery marketing",
+        "NYC plastic surgeon",
+        "Beverly Hills plastic surgeon",
         "AEO",
-        "Answer Engine Optimization",
+        "answer engine optimization",
         "AI search",
-        "AI visibility",
         "ChatGPT",
-        "Perplexity",
-        "GEO",
-        "AI SEO",
-        "Shorts"
+        "AI visibility",
+        "medical marketing"
       ]
     },
     {
       "slug": "edu-seo-vs-aeo",
-      "title": "SEO vs AEO: the difference that decides if AI names you",
-      "description": "SEO ranks your page. AEO decides whether AI recommends you by name. You want both working together.\n\nSee what AI says about your business (free scan): https://theaeoloop.com\n\n#Shorts #AEO #AIsearch #AnswerEngineOptimization",
+      "title": "SEO gets you found. AEO gets you chosen.",
+      "description": "Ranking on Google and being recommended by AI are two different games. Plenty of great practices win one and lose the other.\n\nSee what AI says about your practice (free scan): https://theaeoloop.com\n\n#Shorts #plasticsurgeon #NYC #BeverlyHills #Manhattan #LosAngeles #plasticsurgery #AEO #AIsearch #ChatGPT",
       "tags": [
+        "plastic surgeon",
+        "plastic surgery marketing",
+        "NYC plastic surgeon",
+        "Beverly Hills plastic surgeon",
         "AEO",
-        "Answer Engine Optimization",
+        "answer engine optimization",
         "AI search",
-        "AI visibility",
         "ChatGPT",
-        "Perplexity",
-        "GEO",
-        "AI SEO",
-        "Shorts"
+        "AI visibility",
+        "medical marketing"
       ]
     },
     {
       "slug": "edu-reviews",
-      "title": "The review signal AI weighs most, and it is not your star rating",
-      "description": "AI looks at whether your reviews are recent and consistent across sites, not just how many stars you have.\n\nSee what AI says about your business (free scan): https://theaeoloop.com\n\n#Shorts #AEO #AIsearch #AnswerEngineOptimization",
+      "title": "Your reviews now quietly shape what AI recommends",
+      "description": "Reviews aren't just social proof anymore — they're a signal AI reads when it decides who to recommend. And the part that matters most surprises most doctors.\n\nSee what AI says about your practice (free scan): https://theaeoloop.com\n\n#Shorts #plasticsurgeon #NYC #BeverlyHills #Manhattan #LosAngeles #plasticsurgery #AEO #AIsearch #ChatGPT",
       "tags": [
+        "plastic surgeon",
+        "plastic surgery marketing",
+        "NYC plastic surgeon",
+        "Beverly Hills plastic surgeon",
         "AEO",
-        "Answer Engine Optimization",
+        "answer engine optimization",
         "AI search",
-        "AI visibility",
         "ChatGPT",
-        "Perplexity",
-        "GEO",
-        "AI SEO",
-        "Shorts"
+        "AI visibility",
+        "medical marketing"
       ]
     },
     {
       "slug": "edu-competitor",
-      "title": "Why AI keeps recommending your competitor instead of you",
-      "description": "It is rarely about who does better work. It is about who the engine can actually read and trust.\n\nSee what AI says about your business (free scan): https://theaeoloop.com\n\n#Shorts #AEO #AIsearch #AnswerEngineOptimization",
+      "title": "AI names your competitor, not you — and it's rarely about skill",
+      "description": "When AI recommends the practice down the street instead of you, it's almost never about who's the better surgeon.\n\nSee what AI says about your practice (free scan): https://theaeoloop.com\n\n#Shorts #plasticsurgeon #NYC #BeverlyHills #Manhattan #LosAngeles #plasticsurgery #AEO #AIsearch #ChatGPT",
       "tags": [
+        "plastic surgeon",
+        "plastic surgery marketing",
+        "NYC plastic surgeon",
+        "Beverly Hills plastic surgeon",
         "AEO",
-        "Answer Engine Optimization",
+        "answer engine optimization",
         "AI search",
-        "AI visibility",
         "ChatGPT",
-        "Perplexity",
-        "GEO",
-        "AI SEO",
-        "Shorts"
+        "AI visibility",
+        "medical marketing"
       ]
     },
     {
       "slug": "edu-signals",
-      "title": "What signals AI reads before it recommends a business",
-      "description": "Reviews, profiles on trusted sites, consistent details, and pages written so a model can quote them.\n\nSee what AI says about your business (free scan): https://theaeoloop.com\n\n#Shorts #AEO #AIsearch #AnswerEngineOptimization",
+      "title": "AI weighs specific signals before it recommends you",
+      "description": "AI doesn't recommend the prettiest website. It reads a specific set of signals — and most of them aren't what practices assume.\n\nSee what AI says about your practice (free scan): https://theaeoloop.com\n\n#Shorts #plasticsurgeon #NYC #BeverlyHills #Manhattan #LosAngeles #plasticsurgery #AEO #AIsearch #ChatGPT",
       "tags": [
+        "plastic surgeon",
+        "plastic surgery marketing",
+        "NYC plastic surgeon",
+        "Beverly Hills plastic surgeon",
         "AEO",
-        "Answer Engine Optimization",
+        "answer engine optimization",
         "AI search",
-        "AI visibility",
         "ChatGPT",
-        "Perplexity",
-        "GEO",
-        "AI SEO",
-        "Shorts"
+        "AI visibility",
+        "medical marketing"
       ]
     },
     {
       "slug": "ad-free-scan",
-      "title": "See what ChatGPT, Gemini and Perplexity say about your business",
-      "description": "Run a free scan across the major AI engines and see whether you are recommended, mentioned, or left out.\n\nSee what AI says about your business (free scan): https://theaeoloop.com\n\n#Shorts #AEO #AIsearch #AnswerEngineOptimization",
+      "title": "See if AI recommends your practice in 60 seconds",
+      "description": "Want to know if ChatGPT, Gemini or Perplexity recommend your practice? Find out free in about a minute. Link in bio.\n\nSee what AI says about your practice (free scan): https://theaeoloop.com\n\n#Shorts #plasticsurgeon #NYC #BeverlyHills #Manhattan #LosAngeles #plasticsurgery #AEO #AIsearch #ChatGPT",
       "tags": [
+        "plastic surgeon",
+        "plastic surgery marketing",
+        "NYC plastic surgeon",
+        "Beverly Hills plastic surgeon",
         "AEO",
-        "Answer Engine Optimization",
+        "answer engine optimization",
         "AI search",
-        "AI visibility",
         "ChatGPT",
-        "Perplexity",
-        "GEO",
-        "AI SEO",
-        "Shorts"
+        "AI visibility",
+        "medical marketing"
       ]
     },
     {
       "slug": "ad-competitor-stakes",
-      "title": "If AI names a competitor instead of you, you never see the lost lead",
-      "description": "There is no missed call to review. The customer just hears another name and books it.\n\nSee what AI says about your business (free scan): https://theaeoloop.com\n\n#Shorts #AEO #AIsearch #AnswerEngineOptimization",
+      "title": "AI might be sending your patients to a competitor",
+      "description": "If AI doesn't know you exist, it recommends whoever it does know. Don't let that be the practice down the street.\n\nSee what AI says about your practice (free scan): https://theaeoloop.com\n\n#Shorts #plasticsurgeon #NYC #BeverlyHills #Manhattan #LosAngeles #plasticsurgery #AEO #AIsearch #ChatGPT",
       "tags": [
+        "plastic surgeon",
+        "plastic surgery marketing",
+        "NYC plastic surgeon",
+        "Beverly Hills plastic surgeon",
         "AEO",
-        "Answer Engine Optimization",
+        "answer engine optimization",
         "AI search",
-        "AI visibility",
         "ChatGPT",
-        "Perplexity",
-        "GEO",
-        "AI SEO",
-        "Shorts"
+        "AI visibility",
+        "medical marketing"
       ]
     },
     {
       "slug": "ad-google-not-ai",
-      "title": "You can rank number 1 on Google and be invisible in AI answers",
-      "description": "They are different systems. Sitting on top of search does not mean AI ever names you.\n\nSee what AI says about your business (free scan): https://theaeoloop.com\n\n#Shorts #AEO #AIsearch #AnswerEngineOptimization",
+      "title": "Great on Google, invisible on AI?",
+      "description": "Google isn't the only front door anymore. If AI can't find you, you're missing the patients who start their search there.\n\nSee what AI says about your practice (free scan): https://theaeoloop.com\n\n#Shorts #plasticsurgeon #NYC #BeverlyHills #Manhattan #LosAngeles #plasticsurgery #AEO #AIsearch #ChatGPT",
       "tags": [
+        "plastic surgeon",
+        "plastic surgery marketing",
+        "NYC plastic surgeon",
+        "Beverly Hills plastic surgeon",
         "AEO",
-        "Answer Engine Optimization",
+        "answer engine optimization",
         "AI search",
-        "AI visibility",
         "ChatGPT",
-        "Perplexity",
-        "GEO",
-        "AI SEO",
-        "Shorts"
+        "AI visibility",
+        "medical marketing"
       ]
     },
     {
       "slug": "ad-cost-invisible",
-      "title": "The real cost of being invisible when customers ask AI",
-      "description": "When buyers ask AI who to hire and you are not in the answer, you never even enter the running.\n\nSee what AI says about your business (free scan): https://theaeoloop.com\n\n#Shorts #AEO #AIsearch #AnswerEngineOptimization",
+      "title": "Being invisible to AI costs you patients silently",
+      "description": "The hardest losses are the ones you never see. When AI skips you, there's no alert — just a patient who booked elsewhere.\n\nSee what AI says about your practice (free scan): https://theaeoloop.com\n\n#Shorts #plasticsurgeon #NYC #BeverlyHills #Manhattan #LosAngeles #plasticsurgery #AEO #AIsearch #ChatGPT",
       "tags": [
+        "plastic surgeon",
+        "plastic surgery marketing",
+        "NYC plastic surgeon",
+        "Beverly Hills plastic surgeon",
         "AEO",
-        "Answer Engine Optimization",
+        "answer engine optimization",
         "AI search",
-        "AI visibility",
         "ChatGPT",
-        "Perplexity",
-        "GEO",
-        "AI SEO",
-        "Shorts"
+        "AI visibility",
+        "medical marketing"
       ]
     },
     {
       "slug": "ad-what-we-do",
-      "title": "How The AEO Loop gets you recommended by AI answer engines",
-      "description": "We measure what AI says about you today, fix the signals it reads, and track it every month.\n\nSee what AI says about your business (free scan): https://theaeoloop.com\n\n#Shorts #AEO #AIsearch #AnswerEngineOptimization",
+      "title": "We get your practice recommended by AI",
+      "description": "We help plastic surgeons show up when patients ask AI who to trust — measured, tracked, and honest about what moves the needle.\n\nSee what AI says about your practice (free scan): https://theaeoloop.com\n\n#Shorts #plasticsurgeon #NYC #BeverlyHills #Manhattan #LosAngeles #plasticsurgery #AEO #AIsearch #ChatGPT",
       "tags": [
+        "plastic surgeon",
+        "plastic surgery marketing",
+        "NYC plastic surgeon",
+        "Beverly Hills plastic surgeon",
         "AEO",
-        "Answer Engine Optimization",
+        "answer engine optimization",
         "AI search",
-        "AI visibility",
         "ChatGPT",
-        "Perplexity",
-        "GEO",
-        "AI SEO",
-        "Shorts"
+        "AI visibility",
+        "medical marketing"
       ]
     },
     {
       "slug": "ad-straight-talk",
-      "title": "No one can guarantee AI rankings. Here is what actually works",
-      "description": "AI answers are non deterministic. Anyone promising a guaranteed spot is guessing. Steady, measured work is the honest path.\n\nSee what AI says about your business (free scan): https://theaeoloop.com\n\n#Shorts #AEO #AIsearch #AnswerEngineOptimization",
+      "title": "No one can guarantee AI rankings. Here's what we promise.",
+      "description": "Anyone promising guaranteed AI rankings is guessing. We promise real work and honest measurement — here's how we think about it.\n\nSee what AI says about your practice (free scan): https://theaeoloop.com\n\n#Shorts #plasticsurgeon #NYC #BeverlyHills #Manhattan #LosAngeles #plasticsurgery #AEO #AIsearch #ChatGPT",
       "tags": [
+        "plastic surgeon",
+        "plastic surgery marketing",
+        "NYC plastic surgeon",
+        "Beverly Hills plastic surgeon",
         "AEO",
-        "Answer Engine Optimization",
+        "answer engine optimization",
         "AI search",
-        "AI visibility",
         "ChatGPT",
-        "Perplexity",
-        "GEO",
-        "AI SEO",
-        "Shorts"
+        "AI visibility",
+        "medical marketing"
       ]
     }
   ]
