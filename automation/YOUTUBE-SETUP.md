@@ -13,18 +13,21 @@ and the Google libraries already). Each unique reel uploads once.
    YouTube channel**, and create a project (e.g. `aeo-youtube`).
 2. **APIs & Services → Library → search "YouTube Data API v3" → Enable.**
 
-## Step 2 — OAuth consent screen
-1. **APIs & Services → OAuth consent screen.** User type **External**, fill the app
-   name (`The AEO Loop uploader`), your email, save.
-2. **Test users → add your own Google address.** (Leaving the app in "Testing" is
-   fine; test-user refresh tokens for a Desktop app do not expire on the old 7-day
-   rule as long as the app stays in testing with you as a listed test user. If a
-   token ever stops working, just re-run Step 4.)
-3. Scopes: you can skip adding scopes on this screen; the script requests
-   `youtube.upload` + `youtube.readonly` at auth time.
+## Step 2 — Configure the auth platform (new "Google Auth Platform" UI)
+Google merged the old "OAuth consent screen" into **APIs & Services → Google Auth
+Platform**. Use the left-nav tabs:
+1. **Branding** — set the app name (`The AEO Loop uploader`) + your support email, save.
+2. **Audience** — this is where the old **User type** moved. On a personal Gmail,
+   **External** is the only option (Internal is Workspace-only) and is usually already
+   selected. Set **Publishing status = Testing**, then under **Test users** add your
+   own Google address. (Test-user refresh tokens for a Desktop app keep working while
+   the app stays in Testing with you listed; if one ever stops, just re-run Step 4.)
+3. **Data Access** (scopes) — leave as-is; the script requests `youtube.upload` +
+   `youtube.readonly` at auth time.
 
 ## Step 3 — OAuth client (Desktop app)
-1. **APIs & Services → Credentials → Create credentials → OAuth client ID.**
+1. **Google Auth Platform → Clients → Create client** (this replaced the old
+   Credentials → OAuth client ID).
 2. Application type: **Desktop app**. Create.
 3. **Download JSON** and save it as **`automation/client_secret.json`**
    (already gitignored — it must never be committed; this repo is public).
