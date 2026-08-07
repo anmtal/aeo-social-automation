@@ -39,15 +39,26 @@ def main():
         sys.exit("No refresh_token returned. Revoke the app's access at "
                  "myaccount.google.com/permissions and run this again.")
 
-    print("\n================  paste into automation/.env  (NEVER commit)  ================")
-    print(f"YOUTUBE_CLIENT_ID={conf.get('client_id','')}")
-    print(f"YOUTUBE_CLIENT_SECRET={conf.get('client_secret','')}")
-    print(f"YOUTUBE_REFRESH_TOKEN={creds.refresh_token}")
-    print(f"YOUTUBE_CHANNEL_ID={CHANNEL_ID}")
-    print("# optional: YOUTUBE_MUSIC=C:\\path\\to\\royalty-free.mp3")
-    print("# optional: REELS_DIR=C:\\Users\\anmta\\Downloads\\aeo-reels")
-    print("==============================================================================")
-    print("\nThen test:  python automation/youtube_publisher.py --check")
+    kv = {
+        "YOUTUBE_CLIENT_ID": conf.get("client_id", ""),
+        "YOUTUBE_CLIENT_SECRET": conf.get("client_secret", ""),
+        "YOUTUBE_REFRESH_TOKEN": creds.refresh_token,
+        "YOUTUBE_CHANNEL_ID": CHANNEL_ID,
+    }
+    envp = os.path.join(HERE, ".env")
+    kept = []
+    if os.path.exists(envp):
+        for line in open(envp, encoding="utf-8"):
+            key = line.split("=", 1)[0].strip()
+            if key not in kv:            # keep unrelated lines, replace the YOUTUBE_* ones
+                kept.append(line.rstrip("\n"))
+    out = kept + [f"{k}={v}" for k, v in kv.items()]
+    has_music = any(l.startswith("YOUTUBE_MUSIC=") for l in kept)
+    if not has_music:
+        out.append("# YOUTUBE_MUSIC=C:\\Users\\anmta\\Downloads\\aeo-reels\\bed.mp3  (a YouTube-cleared mp3)")
+    open(envp, "w", encoding="utf-8").write("\n".join(out) + "\n")
+    print("\nDONE. Wrote YOUTUBE_* credentials to automation/.env (refresh token hidden, not printed).")
+    print("Next:  python automation/youtube_publisher.py --check")
 
 
 if __name__ == "__main__":

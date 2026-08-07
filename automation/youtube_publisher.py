@@ -26,6 +26,10 @@ MANIFEST = os.path.join(HERE, "youtube-manifest.json")
 POSTED = os.path.join(ROOT, "content", "youtube-posted.json")
 TOKEN_URI = "https://oauth2.googleapis.com/token"
 UPLOAD_SCOPE = "https://www.googleapis.com/auth/youtube.upload"
+READONLY_SCOPE = "https://www.googleapis.com/auth/youtube.readonly"
+# Must match the scopes granted at consent, or a refresh narrows the token and
+# channel reads 403. Uploading itself only needs youtube.upload.
+SCOPES = [UPLOAD_SCOPE, READONLY_SCOPE]
 
 
 def load_env():
@@ -54,7 +58,7 @@ def _service():
         client_id=env("YOUTUBE_CLIENT_ID"),
         client_secret=env("YOUTUBE_CLIENT_SECRET"),
         token_uri=TOKEN_URI,
-        scopes=[UPLOAD_SCOPE],
+        scopes=SCOPES,
     )
     return build("youtube", "v3", credentials=creds, cache_discovery=False)
 
