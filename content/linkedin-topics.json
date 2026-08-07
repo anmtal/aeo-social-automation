@@ -13,7 +13,7 @@
       "angle": "Buyer is actively shopping. Frame the criteria that separate a real AEO partner from an SEO shop bolting on a buzzword.",
       "internal_url": "/pricing",
       "priority": 1,
-      "status": "queued",
+      "status": "scheduled",
       "tags": [
         "#AEO",
         "#AIsearch",
@@ -26,7 +26,7 @@
       "angle": "Handle the ROI objection before the sales call. What it costs to be invisible in AI answers vs the work to fix it.",
       "internal_url": "/pricing",
       "priority": 1,
-      "status": "queued",
+      "status": "scheduled",
       "tags": [
         "#AEO",
         "#AIsearch",
@@ -39,7 +39,7 @@
       "angle": "Our differentiator. You cannot manage what you do not measure. Show the Recommended/Mentioned/Excluded model and the live scan.",
       "internal_url": "/scanner",
       "priority": 1,
-      "status": "queued",
+      "status": "scheduled",
       "tags": [
         "#AEO",
         "#AIsearch",
@@ -52,7 +52,7 @@
       "angle": "Set honest expectations. Non-deterministic engines, directional gains, month over month, not overnight.",
       "internal_url": "/method",
       "priority": 1,
-      "status": "queued",
+      "status": "scheduled",
       "tags": [
         "#AEO",
         "#AIsearch",
@@ -65,7 +65,7 @@
       "angle": "Authority piece. The handful of avoidable errors that keep a good business out of AI answers.",
       "internal_url": "/what-is-aeo",
       "priority": 1,
-      "status": "queued",
+      "status": "scheduled",
       "tags": [
         "#AEO",
         "#AIsearch",
@@ -78,7 +78,7 @@
       "angle": "Ties to the real lever: engines cite consensus and third-party mentions, not your own marketing.",
       "internal_url": "/what-is-aeo",
       "priority": 1,
-      "status": "queued",
+      "status": "scheduled",
       "tags": [
         "#AEO",
         "#AIsearch",
