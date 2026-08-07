@@ -1,0 +1,198 @@
+{
+  "_readme": "YouTube Shorts upload metadata for @theaeoloop. One entry per UNIQUE reel (the IG reel-manifest repeats slugs; YouTube uploads each once). The publisher (youtube_publisher.py) matches slug -> the rendered MP4 in REELS_DIR, muxes YOUTUBE_MUSIC, and uploads a public Short. Titles are search-first (<=100 chars); keep #Shorts in the description so YouTube treats vertical clips as Shorts. Rules: no fabricated stats, never guarantee AI rankings, do not disparage SEO.",
+  "channel": "UCktLX860_6jJsSCd0utNrNg",
+  "reels": [
+    {
+      "slug": "edu-ai-first",
+      "title": "Your customers ask AI who to hire before they open Google",
+      "description": "Discovery moved. People ask ChatGPT and Gemini who to hire, then act on the answer.\n\nSee what AI says about your business (free scan): https://theaeoloop.com\n\n#Shorts #AEO #AIsearch #AnswerEngineOptimization",
+      "tags": [
+        "AEO",
+        "Answer Engine Optimization",
+        "AI search",
+        "AI visibility",
+        "ChatGPT",
+        "Perplexity",
+        "GEO",
+        "AI SEO",
+        "Shorts"
+      ]
+    },
+    {
+      "slug": "edu-shortlist",
+      "title": "Ask AI for the best in a field and you get one short list",
+      "description": "AI does not hand you ten links anymore. It names a few businesses. You are on the list or you are not.\n\nSee what AI says about your business (free scan): https://theaeoloop.com\n\n#Shorts #AEO #AIsearch #AnswerEngineOptimization",
+      "tags": [
+        "AEO",
+        "Answer Engine Optimization",
+        "AI search",
+        "AI visibility",
+        "ChatGPT",
+        "Perplexity",
+        "GEO",
+        "AI SEO",
+        "Shorts"
+      ]
+    },
+    {
+      "slug": "edu-seo-vs-aeo",
+      "title": "SEO vs AEO: the difference that decides if AI names you",
+      "description": "SEO ranks your page. AEO decides whether AI recommends you by name. You want both working together.\n\nSee what AI says about your business (free scan): https://theaeoloop.com\n\n#Shorts #AEO #AIsearch #AnswerEngineOptimization",
+      "tags": [
+        "AEO",
+        "Answer Engine Optimization",
+        "AI search",
+        "AI visibility",
+        "ChatGPT",
+        "Perplexity",
+        "GEO",
+        "AI SEO",
+        "Shorts"
+      ]
+    },
+    {
+      "slug": "edu-reviews",
+      "title": "The review signal AI weighs most, and it is not your star rating",
+      "description": "AI looks at whether your reviews are recent and consistent across sites, not just how many stars you have.\n\nSee what AI says about your business (free scan): https://theaeoloop.com\n\n#Shorts #AEO #AIsearch #AnswerEngineOptimization",
+      "tags": [
+        "AEO",
+        "Answer Engine Optimization",
+        "AI search",
+        "AI visibility",
+        "ChatGPT",
+        "Perplexity",
+        "GEO",
+        "AI SEO",
+        "Shorts"
+      ]
+    },
+    {
+      "slug": "edu-competitor",
+      "title": "Why AI keeps recommending your competitor instead of you",
+      "description": "It is rarely about who does better work. It is about who the engine can actually read and trust.\n\nSee what AI says about your business (free scan): https://theaeoloop.com\n\n#Shorts #AEO #AIsearch #AnswerEngineOptimization",
+      "tags": [
+        "AEO",
+        "Answer Engine Optimization",
+        "AI search",
+        "AI visibility",
+        "ChatGPT",
+        "Perplexity",
+        "GEO",
+        "AI SEO",
+        "Shorts"
+      ]
+    },
+    {
+      "slug": "edu-signals",
+      "title": "What signals AI reads before it recommends a business",
+      "description": "Reviews, profiles on trusted sites, consistent details, and pages written so a model can quote them.\n\nSee what AI says about your business (free scan): https://theaeoloop.com\n\n#Shorts #AEO #AIsearch #AnswerEngineOptimization",
+      "tags": [
+        "AEO",
+        "Answer Engine Optimization",
+        "AI search",
+        "AI visibility",
+        "ChatGPT",
+        "Perplexity",
+        "GEO",
+        "AI SEO",
+        "Shorts"
+      ]
+    },
+    {
+      "slug": "ad-free-scan",
+      "title": "See what ChatGPT, Gemini and Perplexity say about your business",
+      "description": "Run a free scan across the major AI engines and see whether you are recommended, mentioned, or left out.\n\nSee what AI says about your business (free scan): https://theaeoloop.com\n\n#Shorts #AEO #AIsearch #AnswerEngineOptimization",
+      "tags": [
+        "AEO",
+        "Answer Engine Optimization",
+        "AI search",
+        "AI visibility",
+        "ChatGPT",
+        "Perplexity",
+        "GEO",
+        "AI SEO",
+        "Shorts"
+      ]
+    },
+    {
+      "slug": "ad-competitor-stakes",
+      "title": "If AI names a competitor instead of you, you never see the lost lead",
+      "description": "There is no missed call to review. The customer just hears another name and books it.\n\nSee what AI says about your business (free scan): https://theaeoloop.com\n\n#Shorts #AEO #AIsearch #AnswerEngineOptimization",
+      "tags": [
+        "AEO",
+        "Answer Engine Optimization",
+        "AI search",
+        "AI visibility",
+        "ChatGPT",
+        "Perplexity",
+        "GEO",
+        "AI SEO",
+        "Shorts"
+      ]
+    },
+    {
+      "slug": "ad-google-not-ai",
+      "title": "You can rank number 1 on Google and be invisible in AI answers",
+      "description": "They are different systems. Sitting on top of search does not mean AI ever names you.\n\nSee what AI says about your business (free scan): https://theaeoloop.com\n\n#Shorts #AEO #AIsearch #AnswerEngineOptimization",
+      "tags": [
+        "AEO",
+        "Answer Engine Optimization",
+        "AI search",
+        "AI visibility",
+        "ChatGPT",
+        "Perplexity",
+        "GEO",
+        "AI SEO",
+        "Shorts"
+      ]
+    },
+    {
+      "slug": "ad-cost-invisible",
+      "title": "The real cost of being invisible when customers ask AI",
+      "description": "When buyers ask AI who to hire and you are not in the answer, you never even enter the running.\n\nSee what AI says about your business (free scan): https://theaeoloop.com\n\n#Shorts #AEO #AIsearch #AnswerEngineOptimization",
+      "tags": [
+        "AEO",
+        "Answer Engine Optimization",
+        "AI search",
+        "AI visibility",
+        "ChatGPT",
+        "Perplexity",
+        "GEO",
+        "AI SEO",
+        "Shorts"
+      ]
+    },
+    {
+      "slug": "ad-what-we-do",
+      "title": "How The AEO Loop gets you recommended by AI answer engines",
+      "description": "We measure what AI says about you today, fix the signals it reads, and track it every month.\n\nSee what AI says about your business (free scan): https://theaeoloop.com\n\n#Shorts #AEO #AIsearch #AnswerEngineOptimization",
+      "tags": [
+        "AEO",
+        "Answer Engine Optimization",
+        "AI search",
+        "AI visibility",
+        "ChatGPT",
+        "Perplexity",
+        "GEO",
+        "AI SEO",
+        "Shorts"
+      ]
+    },
+    {
+      "slug": "ad-straight-talk",
+      "title": "No one can guarantee AI rankings. Here is what actually works",
+      "description": "AI answers are non deterministic. Anyone promising a guaranteed spot is guessing. Steady, measured work is the honest path.\n\nSee what AI says about your business (free scan): https://theaeoloop.com\n\n#Shorts #AEO #AIsearch #AnswerEngineOptimization",
+      "tags": [
+        "AEO",
+        "Answer Engine Optimization",
+        "AI search",
+        "AI visibility",
+        "ChatGPT",
+        "Perplexity",
+        "GEO",
+        "AI SEO",
+        "Shorts"
+      ]
+    }
+  ]
+}

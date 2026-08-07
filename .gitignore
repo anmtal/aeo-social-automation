@@ -3,6 +3,12 @@
 *.env
 !.env.example
 
+# NEVER commit YouTube OAuth secrets (this repo is PUBLIC)
+client_secret*.json
+automation/client_secret.json
+token*.json
+*-oauth.json
+
 # Python
 __pycache__/
 *.pyc
