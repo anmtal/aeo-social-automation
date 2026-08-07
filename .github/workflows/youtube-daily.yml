@@ -1,0 +1,54 @@
+name: The AEO Loop YouTube daily
+
+# Posts one pre-rendered reel/day to YouTube (music + city hashtags) and stages
+# content/ig-today.* for the founder to download for the evening Instagram post.
+# Laptop-free — renders nothing (uses the committed reels in content/reels-mp4).
+# GitHub cron is unreliable; a cron-job.org backup should also hit workflow_dispatch.
+on:
+  schedule:
+    - cron: "7 18 * * *"     # 18:07 UTC = ~2:07 PM ET (summer); afternoon slot
+  workflow_dispatch:
+    inputs:
+      dry:
+        description: "true = validate auth + assets without posting"
+        default: "true"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aeo-youtube-daily
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet google-api-python-client google-auth
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Post next reel + stage IG copy
+        env:
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+          REELS_DIR: content/reels-mp4
+          YOUTUBE_MUSIC: assets/aeo-ambient.mp3
+          YOUTUBE_PRIVACY: public
+          YT_DRY: ${{ github.event.inputs.dry }}
+        run: python automation/youtube_ci.py
+      - name: Commit posted log + today's IG file
+        if: ${{ github.event.inputs.dry != 'true' }}
+        run: |
+          set -e
+          git config user.name "aeo-bot"
+          git config user.email "bot@theaeoloop.com"
+          git add content/youtube-posted.json content/ig-today.mp4 content/ig-today.txt content/ig-today.json 2>/dev/null || true
+          if git diff --cached --quiet; then echo "nothing to commit"; else
+            git pull --rebase origin main
+            git commit -m "youtube: daily post + stage IG copy [skip ci]"
+            git push
+          fi

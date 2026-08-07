@@ -21,6 +21,5 @@ Thumbs.db
 # temp reel frames
 content/reels/_frames/
 
-# local-only YouTube runtime state
-content/youtube-posted.json
+# local-only YouTube log (posted.json IS committed now — the cloud tracks state there)
 content/daily-reel.log
