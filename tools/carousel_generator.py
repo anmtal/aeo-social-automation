@@ -47,12 +47,15 @@ def wrap_lines(d, text, f, max_w):
     if cur: out.append(cur)
     return out
 
-def fit(d, text, max_w, path, start, min_size, gap=1.16):
+def fit(d, text, max_w, path, start, min_size, gap=1.16, max_h=None):
     s=start
     while s>=min_size:
         f=font(path,s); lines=wrap_lines(d,text,f,max_w)
-        if all(d.textlength(l,font=f)<=max_w for l in lines):
-            a,de=f.getmetrics(); return lines,f,int((a+de)*gap)
+        a,de=f.getmetrics(); lh=int((a+de)*gap)
+        w_ok=all(d.textlength(l,font=f)<=max_w for l in lines)
+        h_ok=(max_h is None) or (lh*len(lines)<=max_h)
+        if w_ok and h_ok:
+            return lines,f,lh
         s-=4*SS
     a,de=f.getmetrics(); return lines,f,int((a+de)*gap)
 
@@ -72,7 +75,7 @@ def slide_cover(spec, idx, total):
     img,d=base(); glyph(d, W//2, 250*SS, 11*SS)
     d.text((W/2, 430*SS), "  ".join(list(spec["eyebrow"].upper())), font=font(FB,30*SS), fill=MINT, anchor="mm")
     top, bot = 560*SS, H-300*SS          # hook zone: below the eyebrow, above the footer
-    lines,hf,lh=fit(d, spec["hook"], W-2*MARGIN, FB, 94*SS, 50*SS)
+    lines,hf,lh=fit(d, spec["hook"], W-2*MARGIN, FB, 94*SS, 50*SS, max_h=bot-top)
     y = top + (bot-top-lh*len(lines))//2 + lh//2
     for l in lines: d.text((W/2,y),l,font=hf,fill=WHITE,anchor="mm"); y+=lh
     d.text((W/2, H-205*SS), "swipe →", font=font(FR,30*SS), fill=MUTE, anchor="mm")
@@ -82,15 +85,16 @@ def slide_point(num, text, idx, total):
     img,d=base()
     d.text((MARGIN, 300*SS), str(num), font=font(FB,120*SS), fill=MINT, anchor="lm")
     d.line([(MARGIN, 400*SS),(MARGIN+70*SS,400*SS)], fill=MINT, width=5*SS)
-    lines,tf,lh=fit(d, text, W-2*MARGIN, FB, 82*SS, 46*SS)
-    y=520*SS
+    top, bot = 500*SS, H-200*SS          # BELOW the number/underline, ABOVE the footer website
+    lines,tf,lh=fit(d, text, W-2*MARGIN, FB, 82*SS, 46*SS, max_h=bot-top)
+    y=top+lh//2
     for l in lines: d.text((MARGIN,y),l,font=tf,fill=WHITE,anchor="lm"); y+=lh
     footer(d, idx, total); return img
 
 def slide_cta(text, idx, total):
     img,d=base(); glyph(d, W//2, 300*SS, 10*SS)
-    lines,tf,lh=fit(d, text, W-2*MARGIN, FB, 72*SS, 44*SS)
     top, bot = 470*SS, H-200*SS          # text zone strictly BELOW the glyph, above the footer (no overlap)
+    lines,tf,lh=fit(d, text, W-2*MARGIN, FB, 72*SS, 44*SS, max_h=bot-top)
     y = top + (bot-top-lh*len(lines))//2 + lh//2
     for l in lines: d.text((W/2,y),l,font=tf,fill=WHITE,anchor="mm"); y+=lh
     footer(d, idx, total); return img
