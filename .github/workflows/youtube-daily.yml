@@ -25,6 +25,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main          # fresh tip, so a serialized 2nd trigger sees today's ig-today.json guard
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -47,8 +49,14 @@ jobs:
           git config user.name "aeo-bot"
           git config user.email "bot@theaeoloop.com"
           git add content/youtube-posted.json content/ig-today.mp4 content/ig-today.txt content/ig-today.json 2>/dev/null || true
-          if git diff --cached --quiet; then echo "nothing to commit"; else
-            git pull --rebase origin main
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+          else
+            # Commit FIRST, then rebase+push — rebasing with staged changes fails and
+            # silently skipped the push, so state never persisted. Retry push on races.
             git commit -m "youtube: daily post + stage IG copy [skip ci]"
-            git push
+            for i in 1 2 3; do
+              if git pull --rebase origin main && git push; then echo "pushed"; break; fi
+              echo "push attempt $i failed; retrying"; sleep 3
+            done
           fi
