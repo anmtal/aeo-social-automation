@@ -26,7 +26,16 @@ def due(p):
     return d.replace(tzinfo=tz) if tz else d.replace(tzinfo=dt.timezone.utc)
 
 
-future = [p for p in m["posts"] if p.get("status") == "ready" and due(p) > now]
+# Anything ready and not yet in posted.json still owes a post, including entries whose
+# scheduled time has slipped into the past. Counting only future timestamps quietly
+# dropped everything the publisher failed to ship and overstated the runway.
+try:
+    import json as _json, os as _os
+    _pp = _os.path.join(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))), "content", "posted.json")
+    _posted = set(_json.load(open(_pp, encoding="utf-8"))) if _os.path.exists(_pp) else set()
+except Exception:
+    _posted = set()
+future = [p for p in m["posts"] if p.get("status") == "ready" and p.get("slug") not in _posted]
 n = len(future)
 per_day = m.get("posts_per_day", 2)
 days_left = round(n / per_day, 1)

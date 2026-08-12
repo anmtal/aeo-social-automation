@@ -47,7 +47,10 @@ GRAPH = os.environ.get("IG_GRAPH_BASE", "https://graph.instagram.com")
 
 MAX_ATTEMPTS = 3      # after this many failures a post is quarantined so the queue advances
 GRACE_HOURS = 6       # a post more than this late is rescheduled, not fired off-hours
-SLOT_HOURS = (12, 20)  # the only times of day we ever publish (local tz)
+SLOT_HOURS = (12,)  # the only time of day we ever publish (local tz).
+# 20:00 was removed 2026-08-12: the publishing cron only fires around noon, so an
+# evening slot can never be reached and reschedule_stale() would park posts there
+# permanently. Add an evening cron before adding an evening slot back.
 
 
 # ---- Durable state ----

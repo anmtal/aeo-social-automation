@@ -12,9 +12,13 @@ done = set(json.load(open(dp, encoding="utf-8"))) if os.path.exists(dp) else set
 now = dt.datetime.now(tz())
 due = []
 for r in m["reels"]:
-    if r["slug"] in done: continue
+    # reel-manifest.json repeats slugs on a rotation, so a slug-only key marks every
+    # later occurrence as already rendered. Key on slug + scheduled date, and keep
+    # honouring bare-slug entries written by older runs.
+    key = f'{r["slug"]}@{r["publish_at"][:10]}'
+    if key in done or r["slug"] in done: continue
     d = dt.datetime.fromisoformat(r["publish_at"]).replace(tzinfo=tz())
     if d <= now and (now - d) <= dt.timedelta(hours=18):
-        due.append((r["publish_at"], r["slug"]))
+        due.append((r["publish_at"], r["slug"]))  # renderer marks done as slug@YYYY-MM-DD
 due.sort()
 print(due[0][1] if due else "")

@@ -11,7 +11,10 @@ on:
     inputs:
       dry:
         description: "true = validate auth + assets without posting"
-        default: "true"
+        # Must stay "false": the documented cron-job.org backup trigger dispatches with
+        # no inputs, and a "true" default made that backup validate and post nothing
+        # while still reporting green.
+        default: "false"
 
 permissions:
   contents: write

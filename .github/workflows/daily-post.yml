@@ -60,7 +60,11 @@ jobs:
       - name: Re-read the posted log at the last possible moment
         run: |
           git fetch origin ${{ github.event.repository.default_branch }} --quiet
-          git checkout FETCH_HEAD -- content/posted.json content/failed.json 2>/dev/null || true
+          # Separate commands on purpose: a multi-pathspec checkout aborts entirely if ANY
+          # path is untracked, and content/failed.json has never been tracked - which made
+          # this double-post guard a silent no-op.
+          git checkout FETCH_HEAD -- content/posted.json 2>/dev/null || true
+          git checkout FETCH_HEAD -- content/failed.json 2>/dev/null || true
           echo "posted:"; cat content/posted.json
       - name: Publish due / run mode
         if: ${{ github.event_name != 'schedule' || steps.gate.outputs.post == 'true' }}

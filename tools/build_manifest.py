@@ -1,8 +1,12 @@
 # -*- coding: utf-8 -*-
-"""Build posts-manifest.json from carousels.json — one post/day at 19:00 ET.
+"""Build posts-manifest.json from carousels.json — one post/day at POST_HOUR (noon ET).
 Start date is passed as arg (YYYY-MM-DD) since the runtime forbids Date.now here.
 Run:  python tools/build_manifest.py 2026-07-23"""
 import json, os, sys, datetime as dt
+
+# Single source of truth for the publishing hour. publisher.SLOT_HOURS and the
+# GitHub Actions cron must agree with this value.
+POST_HOUR = 12
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 carousels = json.load(open(os.path.join(HERE, "content", "carousels.json"), encoding="utf-8"))
@@ -18,13 +22,13 @@ for i, c in enumerate(carousels):
         "status": "ready",
         "caption": c["caption"],
         "firstComment": c.get("firstComment", ""),
-        "publish_at": f"{day.isoformat()}T12:00",   # 12:00 noon, interpreted in manifest timezone (ET)
+        "publish_at": f"{day.isoformat()}T{POST_HOUR:02d}:00",  # interpreted in the manifest timezone (ET)
     })
 
 manifest = {
     "timezone": "America/Toronto",
     "posts_per_day": 1,
-    "note": "Daily Instagram carousels at 19:00 ET. Rebuild with tools/build_manifest.py after adding to carousels.json.",
+    "note": f"Daily Instagram carousels at {POST_HOUR:02d}:00 ET. Rebuild with tools/build_manifest.py after adding to carousels.json.",
     "posts": posts,
 }
 json.dump(manifest, open(os.path.join(HERE, "automation", "posts-manifest.json"), "w", encoding="utf-8"),

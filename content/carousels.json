@@ -25,7 +25,7 @@
   {
     "slug": "third-party-sites-surgeons",
     "vertical": "surgeon",
-    "eyebrow": "The proof",
+    "eyebrow": "The pattern",
     "hook": "A prettier website won't get you named by AI",
     "visual": {
       "type": "bars",
@@ -79,7 +79,7 @@
     ],
     "cta": "Want your own Gap Report? It's free. Start the scan, link in bio. Be the name AI recommends.",
     "caption": "A Gap Report is a plain snapshot of how you show up when patients ask an AI who to see. We run the real questions, note where you appear and where you're invisible, then trace the sources behind the practices that got recommended instead.\n\nThe result fits on a single page. It tells you what to fix first instead of guessing, and it costs nothing to see.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
-    "firstComment": "Most surgeons who request one are surprised by how often they're missing from all four engines at once."
+    "firstComment": "A scan checks all four engines at once, so you see whether you are missing from every one of them or just some."
   },
   {
     "slug": "consult-that-never-booked",
@@ -144,7 +144,7 @@
   {
     "slug": "three-practices-one-answer",
     "vertical": "surgeon",
-    "eyebrow": "The proof",
+    "eyebrow": "The pattern",
     "hook": "Out of three strong practices, AI recommended only one.",
     "visual": {
       "type": "compare",
@@ -318,7 +318,7 @@
   {
     "slug": "legal-directories-weight",
     "vertical": "law",
-    "eyebrow": "The proof",
+    "eyebrow": "The pattern",
     "hook": "Your Avvo and Justia profiles may matter more to AI than your own website.",
     "visual": {
       "type": "bars",
@@ -452,7 +452,7 @@
     ],
     "cta": "Want your own report? It's free. Start the scan, link in bio. Be the name AI recommends.",
     "caption": "Before we touch anything, a Gap Report shows a law firm exactly where it stands with AI assistants. It's an honest snapshot of where you stand today, taken before any of the fixes begin.\n\nWe ask ChatGPT, Gemini, Perplexity and Claude the hiring questions real clients type, then record who each engine names and which sources it trusted to get there. You end up with a clear picture of where you are invisible and which competitors keep coming up in your place.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
-    "firstComment": "Most firms are surprised by which single competitor the engines keep recommending across their city."
+    "firstComment": "A scan shows which single competitor the engines keep recommending across your city, which is usually the more useful half of the answer."
   },
   {
     "slug": "bar-listing-nap-law",

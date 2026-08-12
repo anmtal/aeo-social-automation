@@ -1,12 +1,12 @@
 name: Daily-post failure alert
 
-# Fires whenever "The AEO Loop scheduler" run COMPLETES with a failure — including
+# Fires whenever the Instagram, LinkedIn or YouTube scheduler COMPLETES with a failure — including
 # the "job was not acquired by Runner" case, because workflow_run reports that run
 # as completed/failure. Opens (or comments on) a GitHub issue, which emails you, so
 # a missed carousel is caught the SAME DAY instead of the next morning. No PC needed.
 on:
   workflow_run:
-    workflows: ["The AEO Loop scheduler"]
+    workflows: ["The AEO Loop scheduler", "The AEO Loop LinkedIn scheduler", "The AEO Loop YouTube daily"]
     types: [completed]
 
 permissions:

@@ -115,13 +115,22 @@ def publish(m, post, dry, org_urn, token, version):
 
 def pick_due(m):
     tz = tzinfo(m); now = now_local(m); posted = load_posted()
-    due = []
+    due = []; stale = []
     for p in m.get("posts", []):
         if p.get("status") != "ready" or p["slug"] in posted: continue
         d = due_dt(p, tz)
         # due if the time has passed but not more than 12h stale (no backlog spam)
         if d <= now and (now - d) <= dt.timedelta(hours=12): due.append(p)
+        elif d < now:
+            # Older than the 12h window: it can never publish on its own. Say so loudly
+            # rather than letting it read "ready" forever (LinkedIn was pending API
+            # approval for weeks and four posts silently stranded this way).
+            stale.append((p["slug"], p["publish_at"]))
     due.sort(key=lambda p: p["publish_at"])
+    if stale:
+        print(f"WARNING: {len(stale)} ready post(s) fell outside the 12h publish window and "
+              f"will never ship until they are re-dated:")
+        for slug, when in stale: print(f"  - {slug} (was due {when})")
     return now, due
 
 def resolve_person_urn(token):

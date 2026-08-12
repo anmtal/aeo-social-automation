@@ -20,7 +20,9 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LAST_POST = os.path.join(ROOT, "content", "last-post.json")
-MAX_SILENCE_HOURS = 26
+# One post/day at noon ET. 26h left ~2h of margin on a scheduler documented as
+# starting 1-2h late, so a normal late run raised a false alarm.
+MAX_SILENCE_HOURS = 30
 TITLE = "The AEO Loop: nothing has posted recently"
 REPO = os.environ.get("GITHUB_REPOSITORY", "")
 
@@ -71,7 +73,7 @@ def main():
         alert(
             f"Nothing has posted to @aeo-social-automation in {hours:.0f} hours "
             f"(last: `{d.get('slug')}` at {d['published_at']} UTC).\n\n"
-            f"Expected cadence is 2/day at 12:00 and 20:00 Eastern, so anything over "
+            f"Expected cadence is 1/day at 12:00 Eastern, so anything over "
             f"{MAX_SILENCE_HOURS}h means the scheduler is stuck.\n\n"
             f"Check, in order:\n"
             f"1. The **The AEO Loop scheduler** workflow runs — are they failing?\n"

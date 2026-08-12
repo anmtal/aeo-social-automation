@@ -45,11 +45,30 @@ if ZoneInfo is not None:
 now = dt.datetime.now(tz) if tz else dt.datetime.now(dt.timezone.utc)
 cutoff = now - dt.timedelta(days=BUFFER_DAYS)
 
+# Reels live in automation/reel-manifest.json, not in posts-manifest.json. This script
+# used to iterate posts-manifest and filter on type == "reel"; every entry there is a
+# carousel, so the job ran every 2 days and could never delete anything while the videos
+# accumulated in the repo. Read the reel manifest, and fall back to the posts manifest
+# for any legacy type=="reel" rows.
+_reels = []
+_rm = os.path.join(ROOT, "automation", "reel-manifest.json")
+if os.path.exists(_rm):
+    try:
+        _reels = json.load(open(_rm, encoding="utf-8")).get("reels", [])
+    except Exception:
+        _reels = []
+_reels += [p for p in m["posts"] if p.get("type") == "reel"]
+
+# content/reels-mp4/ is deliberately committed for the YouTube CI poster and is never
+# touched here; only the render output in content/reels/ is cleaned up.
 removed = []
 kept_unposted = []
-for post in m["posts"]:
-    if post.get("type") != "reel":
+_seen = set()
+for post in _reels:
+    _k = f'{post["slug"]}@{post.get("publish_at","")[:10]}'
+    if _k in _seen:
         continue
+    _seen.add(_k)
     if post["slug"] not in POSTED:
         kept_unposted.append(post["slug"])   # never published -> its video is still needed
         continue
