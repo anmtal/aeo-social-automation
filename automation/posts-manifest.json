@@ -241,10 +241,11 @@
       "slug": "73-percent-invisible-study",
       "type": "carousel",
       "slides": 5,
-      "status": "ready",
+      "status": "hold",
       "caption": "We wanted to know how visible New York plastic surgery practices really are inside AI search, so we tested it.\n\nAcross 103 practices, we asked ChatGPT, Gemini, Perplexity and Claude who to hire. Seventy three percent were recommended by none of the four, and the average visibility score came out to 16.7 out of 100. Most of these practices never entered the AI recommendation race in the first place.\n\n#aisearch #aeo #answerengineoptimization #chatgpt #theaeoloop",
       "firstComment": "The free scan runs the same four engine test on any single practice if you want to see where you land.",
-      "publish_at": "2026-08-29T12:00"
+      "publish_at": "2026-08-29T12:00",
+      "hold_reason": "73% figure is unverified: produced by the pre-c67cdde scanner whose judge over-counted Excluded. Do not publish until the 103-practice cohort is re-run on the fixed scanner."
     },
     {
       "slug": "nap-consistency-foundation",
