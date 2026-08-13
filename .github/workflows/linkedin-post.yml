@@ -1,12 +1,12 @@
 name: The AEO Loop LinkedIn scheduler
 
-# Posts the due LinkedIn Company Page update daily (per linkedin-manifest.json,
+# Posts the due LinkedIn Company Page update on Mon/Tue/Thu/Sat (per linkedin-manifest.json,
 # 09:00 ET). Runs at 13:xx and 14:xx UTC to cover 9am ET in both EDT and EST; the
 # publisher only posts what's due and not already in linkedin-posted.json, so the extra
 # checks can't double-post.
 on:
   schedule:
-    - cron: "3,33 13,14 * * *"
+    - cron: "3,33 13,14 * * 1,2,4,6"
   workflow_dispatch:
     inputs:
       mode:

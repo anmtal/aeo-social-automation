@@ -2,7 +2,7 @@
 """The AEO Loop - LinkedIn 'generate as needed' helper.
 
 Shows how deep the publish queue is, which backlog topics to draft next
-(priority order), and the next daily 09:00 ET slots to assign. With
+(priority order), and the next Mon/Tue/Thu/Sat 09:00 ET slots to assign. With
 --scaffold it appends empty 'draft' slots to linkedin-manifest.json for the
 next N topics and marks them 'drafted' in linkedin-topics.json, so the
 drafting step is just: fill in `text`, flip status 'draft' -> 'ready'.
@@ -24,7 +24,7 @@ MANIFEST = os.path.join(AUTO, "linkedin-manifest.json")
 TOPICS = os.path.join(CONTENT, "linkedin-topics.json")
 POSTED = os.path.join(CONTENT, "linkedin-posted.json")
 FMT = "%Y-%m-%dT%H:%M"
-POST_DAYS = {0, 1, 2, 3, 4, 5, 6}  # every day (7-day cadence; trim this set to post on fewer days)
+POST_DAYS = {0, 1, 3, 5}  # Mon, Tue, Thu, Sat (Mon=0 .. Sun=6; edit this set to change days)
 POST_HOUR = 9
 
 
@@ -64,7 +64,7 @@ def parse_at(s):
 
 
 def next_slots(manifest, now, n):
-    """Next n daily 09:00 slots after the later of now and the last scheduled post,
+    """Next n Mon/Tue/Thu/Sat 09:00 slots after the later of now and the last scheduled post,
     skipping any date already present in the manifest."""
     used = {p.get("publish_at") for p in manifest.get("posts", [])}
     scheduled = [parse_at(p["publish_at"]) for p in manifest.get("posts", []) if parse_at(p.get("publish_at", ""))]

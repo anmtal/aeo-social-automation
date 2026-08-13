@@ -2,8 +2,8 @@
 """The AEO Loop — LinkedIn Company Page publisher (official LinkedIn Posts API).
 
 Posts text updates to the Company Page (urn:li:organization:...) on schedule.
-ToS-legal, no browser bots. Daily cadence comes from publish_at in the manifest
-plus a daily cron in .github/workflows/linkedin-post.yml.
+ToS-legal, no browser bots. Mon/Tue/Thu/Sat cadence comes from publish_at in the manifest
+plus that cron in .github/workflows/linkedin-post.yml.
 
 Usage:
     python automation/linkedin_publisher.py --due       # post the earliest due, not-yet-posted
