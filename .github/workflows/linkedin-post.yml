@@ -5,8 +5,11 @@ name: The AEO Loop LinkedIn scheduler
 # publisher only posts what's due and not already in linkedin-posted.json, so the extra
 # checks can't double-post.
 on:
-  schedule:
-    - cron: "3,33 13,14 * * 1,2,4,6"
+  # AUTO-POST DISABLED: there is no LinkedIn API token, so the publish step can only fail.
+  # Post manually with  python tools/linkedin_today.py  (or "LinkedIn post today.bat").
+  # When you have API access, re-enable by uncommenting these two lines (cadence Mon/Tue/Thu/Sat):
+  # schedule:
+  #   - cron: "3,33 13,14 * * 1,2,4,6"
   workflow_dispatch:
     inputs:
       mode:
