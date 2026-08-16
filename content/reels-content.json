@@ -89,7 +89,8 @@
       "Most doctors have never thought about it this way."
     ],
     "cta": "When did a patient last review you?",
-    "caption": "Reviews aren't just social proof anymore — they're a signal AI reads when it decides who to recommend. And the part that matters most surprises most doctors."
+    "caption": "Reviews aren't just social proof anymore — they're a signal AI reads when it decides who to recommend. And the part that matters most surprises most doctors.",
+    "scene": null
   },
   {
     "slug": "edu-competitor",
@@ -120,7 +121,8 @@
       "Most aren't what you'd guess — and a slick website isn't one of them."
     ],
     "cta": "Most practices guess wrong.",
-    "caption": "AI doesn't recommend the prettiest website. It reads a specific set of signals — and most of them aren't what practices assume."
+    "caption": "AI doesn't recommend the prettiest website. It reads a specific set of signals — and most of them aren't what practices assume.",
+    "scene": null
   },
   {
     "slug": "ad-free-scan",
@@ -216,7 +218,8 @@
       "Just a name that was never said — theirs, not yours."
     ],
     "cta": "The loss you never see.",
-    "caption": "The hardest losses are the ones you never see. When AI skips you, there's no alert — just a patient who booked elsewhere."
+    "caption": "The hardest losses are the ones you never see. When AI skips you, there's no alert — just a patient who booked elsewhere.",
+    "scene": null
   },
   {
     "slug": "ad-what-we-do",
