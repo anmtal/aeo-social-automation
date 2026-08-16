@@ -168,7 +168,7 @@ def stethoscope(d, cx, cy, scale, color, diaphragm_glyph=True):
     diaphragm_glyph, the diaphragm is our infinity glyph (hero use); else a
     plain inner ring (small accent use)."""
     k = SS*scale
-    sw = max(2, int(9*k))
+    sw = max(2, int(12*k))
     earL=(cx-125*k, cy-165*k); earR=(cx+125*k, cy-165*k)
     J=(cx, cy-25*k)
     ro=58*k
@@ -178,7 +178,7 @@ def stethoscope(d, cx, cy, scale, color, diaphragm_glyph=True):
     for p in (L, R, M):
         d.line(p, fill=color, width=sw, joint="curve")
     for e in (earL, earR):                                   # ear tips
-        d.ellipse([e[0]-16*k, e[1]-16*k, e[0]+16*k, e[1]+16*k], fill=color)
+        d.ellipse([e[0]-19*k, e[1]-19*k, e[0]+19*k, e[1]+19*k], fill=color)
     cc=(cx, cy+112*k+ro)                                     # chestpiece centre
     d.ellipse([cc[0]-ro, cc[1]-ro, cc[0]+ro, cc[1]+ro], outline=color, width=int(sw*1.15))
     if diaphragm_glyph:
@@ -191,9 +191,9 @@ def stethoscope_rotated(img, cx, cy, scale, color, angle, diaphragm_glyph=False)
     """Draw the stethoscope on a transparent tile, rotate it, composite onto img
     centred at (cx,cy). Lets the accent hang at a natural angle."""
     k = SS*scale
-    tw, th = int(360*k), int(480*k)
+    tw, th = int(390*k), int(510*k)
     tile = Image.new("RGBA", (tw, th), (0, 0, 0, 0))
-    stethoscope(ImageDraw.Draw(tile), tw//2, int(th*0.42), scale, color,
+    stethoscope(ImageDraw.Draw(tile), tw//2, int(th*0.43), scale, color,
                 diaphragm_glyph=diaphragm_glyph)
     tile = tile.rotate(angle, resample=Image.BICUBIC, expand=True)
     img.paste(tile, (int(cx-tile.width/2), int(cy-tile.height/2)), tile)
@@ -204,7 +204,7 @@ def s1_cover():
     img = glow(img, W//2, int(H*0.30), 560*SS, MINT, strength=105, squash=0.9)
     d = ImageDraw.Draw(img)
     glyph(d, W//2, int(H*0.235), 12.0)
-    stethoscope_rotated(img, int(W*0.80), int(H*0.735), 0.44, MINT_DIM, angle=-22, diaphragm_glyph=False)
+    stethoscope_rotated(img, int(W*0.80), int(H*0.755), 0.56, MINT_DIM, angle=-22, diaphragm_glyph=False)
     d.text((W//2, int(H*0.40)), "  ".join(list("THE NEW FRONT DOOR")),
            font=font(F_BOLD, 22), fill=MINT, anchor="mm")
     fB=font(F_BLACK, 78)
