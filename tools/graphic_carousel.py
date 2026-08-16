@@ -3,7 +3,7 @@
 2026-08-16. Pillow-only, renders at 2x then downsamples. Reusable design system:
 helpers glow / soft-shadow / phone-mockup / icon-grid / leaderboard / CTA-pill /
 stethoscope (medical accent; hero use puts the infinity glyph in the diaphragm,
-accent use is a small dim mark bottom-right and keeps the logo as the hero).
+accent use is a bigger angled dim mark lower-right and keeps the logo as the hero).
 Reuse these helpers for future practice carousels; swap the slide functions + copy.
 Rules still apply: carousel-generation-quality checklist (CTA ends 'free scan,
 link in bio' then 'Be the name AI recommends.'), invented example names only,
@@ -187,13 +187,24 @@ def stethoscope(d, cx, cy, scale, color, diaphragm_glyph=True):
         d.ellipse([cc[0]-ro*0.5, cc[1]-ro*0.5, cc[0]+ro*0.5, cc[1]+ro*0.5],
                   outline=color, width=int(sw*0.7))          # plain diaphragm (accent)
 
+def stethoscope_rotated(img, cx, cy, scale, color, angle, diaphragm_glyph=False):
+    """Draw the stethoscope on a transparent tile, rotate it, composite onto img
+    centred at (cx,cy). Lets the accent hang at a natural angle."""
+    k = SS*scale
+    tw, th = int(360*k), int(480*k)
+    tile = Image.new("RGBA", (tw, th), (0, 0, 0, 0))
+    stethoscope(ImageDraw.Draw(tile), tw//2, int(th*0.42), scale, color,
+                diaphragm_glyph=diaphragm_glyph)
+    tile = tile.rotate(angle, resample=Image.BICUBIC, expand=True)
+    img.paste(tile, (int(cx-tile.width/2), int(cy-tile.height/2)), tile)
+
 # ---------- slides ----------
 def s1_cover():
     img, d = base(pageno="1 / 6")
     img = glow(img, W//2, int(H*0.30), 560*SS, MINT, strength=105, squash=0.9)
     d = ImageDraw.Draw(img)
     glyph(d, W//2, int(H*0.235), 12.0)
-    stethoscope(d, int(W*0.85), int(H*0.775), 0.32, MINT_DIM, diaphragm_glyph=False)
+    stethoscope_rotated(img, int(W*0.80), int(H*0.735), 0.44, MINT_DIM, angle=-22, diaphragm_glyph=False)
     d.text((W//2, int(H*0.40)), "  ".join(list("THE NEW FRONT DOOR")),
            font=font(F_BOLD, 22), fill=MINT, anchor="mm")
     fB=font(F_BLACK, 78)
