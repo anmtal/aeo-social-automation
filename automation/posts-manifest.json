@@ -106,7 +106,7 @@
       "slug": "how-ai-picks-lawyers",
       "type": "carousel",
       "slides": 5,
-      "status": "ready",
+      "status": "hold",
       "caption": "When someone asks AI for the best injury attorney nearby, a shortlist appears in seconds, and the way it gets assembled is fairly predictable.\n\nThe engine gathers what it can find about local firms from directories like Avvo and Justia, from Google reviews, and from bar and Super Lawyers listings. It favors firms with consistent, complete profiles it can trust, then names a few. If your listings are thin or don't match, you're left off before the searcher ever sees a name.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
       "firstComment": "The firms that make these shortlists usually did the unglamorous work of keeping every profile complete and consistent.",
       "publish_at": "2026-08-14T12:00"
@@ -115,7 +115,7 @@
       "slug": "legal-directories-weight",
       "type": "carousel",
       "slides": 5,
-      "status": "ready",
+      "status": "hold",
       "caption": "For law firms, your third-party profiles may carry more weight with AI than your own website does.\n\nWhen an engine recommends attorneys, it looks for firms it can verify through independent sources, and legal directories like Avvo, Justia and Super Lawyers sit near the top of that list. A full, current profile gives the AI something it can quote with confidence. A blank or outdated one quietly drops you out of the running, no matter how polished your site looks.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
       "firstComment": "Start with the directory where your practice area is strongest and make sure every field is filled in and accurate.",
       "publish_at": "2026-08-15T12:00"
@@ -124,7 +124,7 @@
       "slug": "reviews-for-law-firms",
       "type": "carousel",
       "slides": 5,
-      "status": "ready",
+      "status": "hold",
       "caption": "Every detailed client review does quiet work for your firm in the background of AI search.\n\nAI reads reviews in bulk, looking for patterns. When clients mention the practice area, the city and the outcome, the engine gets clear language to match against the real questions people ask. A steady flow of recent reviews also signals that your firm is active and trusted right now, which is exactly what the AI wants to see before naming you.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
       "firstComment": "A simple ask at the end of a good case, pointing clients to Google, compounds faster than most partners expect.",
       "publish_at": "2026-08-16T12:00"
@@ -133,7 +133,7 @@
       "slug": "aeo-vs-seo-legal-intake",
       "type": "carousel",
       "slides": 5,
-      "status": "ready",
+      "status": "hold",
       "caption": "A growing share of intake now starts inside an AI answer, well before anyone opens Google.\n\nSEO still matters, since plenty of clients find firms by searching and clicking through to a site. AEO handles the newer path, where someone asks ChatGPT or Gemini for a recommendation and calls the name they hear. Firms that show up in both catch clients at either end, instead of missing the ones who never run a traditional search.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
       "firstComment": "If you only track where your website leads come from, you may be missing the intake calls that started with an AI recommendation.",
       "publish_at": "2026-08-17T12:00"
@@ -142,7 +142,7 @@
       "slug": "divorce-lawyer-never-called",
       "type": "carousel",
       "slides": 5,
-      "status": "ready",
+      "status": "hold",
       "caption": "Somewhere in your city last night, a person going through a divorce asked an AI assistant who to call. They got a short list back and started dialing, and your firm was never part of that list.\n\nThis is the quiet way firms lose clients now. There's no missed call and no lost pitch, because the decision happened inside a chat window before anyone reached out. The firms that get named are the ones the engines can find and trust, and that is something you can actually work on.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
       "firstComment": "A free scan shows you which of the four big engines already leave your firm out when someone asks for a divorce lawyer in your city.",
       "publish_at": "2026-08-18T12:00"
@@ -151,7 +151,7 @@
       "slug": "gap-report-law-firm",
       "type": "carousel",
       "slides": 5,
-      "status": "ready",
+      "status": "hold",
       "caption": "Before we touch anything, a Gap Report shows a law firm exactly where it stands with AI assistants. It's an honest snapshot of where you stand today, taken before any of the fixes begin.\n\nWe ask ChatGPT, Gemini, Perplexity and Claude the hiring questions real clients type, then record who each engine names and which sources it trusted to get there. You end up with a clear picture of where you are invisible and which competitors keep coming up in your place.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
       "firstComment": "Most firms are surprised by which single competitor the engines keep recommending across their city.",
       "publish_at": "2026-08-19T12:00"
@@ -160,7 +160,7 @@
       "slug": "bar-listing-nap-law",
       "type": "carousel",
       "slides": 5,
-      "status": "ready",
+      "status": "hold",
       "caption": "AI assistants run a quiet background check before they recommend a law firm, and your state bar listing is part of it. So is every place your name, address and phone number show up.\n\nWhen those details match across your site, your Google profile, your bar page and the legal directories, an engine reads you as a real, established firm. When an old address or a swapped phone number appears, that small mismatch chips away at how much the engine trusts you, and it starts to favor a firm whose records agree.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
       "firstComment": "Pull up your bar listing and your website footer right now and check that the phone numbers actually match.",
       "publish_at": "2026-08-20T12:00"
@@ -169,7 +169,7 @@
       "slug": "practice-area-pages-ai-quotes",
       "type": "carousel",
       "slides": 5,
-      "status": "ready",
+      "status": "hold",
       "caption": "The practice-area pages an AI can quote look very different from the ones most law firm sites run. That difference decides whether an engine pulls your words into an answer or passes you by.\n\nEngines recommend firms they can quote cleanly, so a focused page that answers a real client question in plain language gives them something to lift. A single catch-all services page written for browsing leaves them with nothing clear to pull, and they move on to a firm that made the answer easy.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
       "firstComment": "Read one of your practice-area pages out loud and ask whether an engine could quote a single sentence as a direct answer.",
       "publish_at": "2026-08-21T12:00"
@@ -178,7 +178,7 @@
       "slug": "near-me-specialty-match",
       "type": "carousel",
       "slides": 6,
-      "status": "ready",
+      "status": "hold",
       "caption": "When a client asks an AI for an estate lawyer near me, the engine is really answering two questions at once. Plenty of firms win the first and quietly lose the second.\n\nIt works out who is genuinely close, then who clearly handles that specific matter, and both have to line up before your name comes back. Firms that describe themselves in broad full-service terms pass the location check but blur the specialty check, so a narrower competitor gets the match.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
       "firstComment": "Check whether your main practice area and your city both appear in plain words on the same page.",
       "publish_at": "2026-08-22T12:00"
@@ -187,7 +187,7 @@
       "slug": "big-firm-vs-solo-ai",
       "type": "carousel",
       "slides": 5,
-      "status": "ready",
+      "status": "hold",
       "caption": "Size isn't what gets a firm recommended by AI.\n\nWhen someone asks ChatGPT or Gemini for a lawyer, the engine looks for a clear match to the question. A solo attorney with focused reviews, a complete Avvo or Justia profile and pages that plainly say what they handle can get named ahead of a large firm whose signals are spread thin across every practice area.\n\nBigger marketing budgets don't change what the engine actually reads.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
       "firstComment": "A quick scan shows whether the engines are naming you or a firm down the street.",
       "publish_at": "2026-08-23T12:00"
@@ -196,7 +196,7 @@
       "slug": "client-prompts-before-hiring",
       "type": "carousel",
       "slides": 5,
-      "status": "ready",
+      "status": "hold",
       "caption": "The research a client does before hiring a lawyer looks nothing like it did a few years ago.\n\nInstead of reading through a page of results, they ask an assistant who to hire and get a handful of names in reply. That short answer decides who gets the call and who never comes up. The firms in it aren't always the ones with the flashiest website. Often they're the ones an engine finds easy to read and trust.\n\nIf you don't know what those engines say about your practice area, you're guessing at your own pipeline.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
       "firstComment": "The free check shows you the exact names each engine gives for your practice area and city.",
       "publish_at": "2026-08-24T12:00"
