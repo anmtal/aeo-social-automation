@@ -1,111 +1,380 @@
 [
   {
-    "slug": "edu-ai-first", "kind": "edu",
+    "slug": "edu-ai-first",
+    "kind": "edu",
     "eyebrow": "The shift",
     "hook": "Your next patient asks AI before they call you",
-    "scene": { "type": "chat", "prompt": "Who's the best plastic surgeon near me?", "answers": ["A Midtown practice", "A nearby competitor"], "note": "— AI answers before they ever reach your site." },
-    "points": ["They act on the shortlist AI gives — before they ever reach your site."],
+    "scene": {
+      "type": "chat",
+      "prompt": "Who's the best plastic surgeon near me?",
+      "answers": [
+        "A Midtown practice",
+        "A nearby competitor"
+      ],
+      "note": "— AI answers before they ever reach your site."
+    },
+    "points": [
+      "They act on the shortlist AI gives — before they ever reach your site."
+    ],
     "cta": "Ask AI. See who it names.",
     "caption": "More patients are starting with AI, not Google. The shortlist forms before they ever land on your website. Curious who AI names in your area?",
-    "hashtags": ["#plasticsurgeon", "#plasticsurgery", "#ChatGPT", "#medicalmarketing", "#AIsearch"]
+    "hashtags": [
+      "#plasticsurgeon",
+      "#plasticsurgery",
+      "#ChatGPT",
+      "#medicalmarketing",
+      "#AIsearch"
+    ]
   },
   {
-    "slug": "edu-shortlist", "kind": "edu",
+    "slug": "edu-shortlist",
+    "kind": "edu",
     "eyebrow": "The blind spot",
     "hook": "AI already built a shortlist of surgeons in your city",
-    "scene": { "type": "shortlist", "names": ["A Midtown practice", "A downtown competitor", "Another nearby surgeon"], "youLabel": "you?" },
-    "points": ["Most practices aren't on it — and never find out.", "It's decided before a patient visits your site."],
+    "scene": {
+      "type": "shortlist",
+      "names": [
+        "A Midtown practice",
+        "A downtown competitor",
+        "Another nearby surgeon"
+      ],
+      "youLabel": "you?"
+    },
+    "points": [
+      "Most practices aren't on it — and never find out.",
+      "It's decided before a patient visits your site."
+    ],
     "cta": "Wondering if you made the list?",
     "caption": "There's a shortlist you can't see — the one AI hands patients when they ask for a surgeon. Most practices don't know if they're on it."
   },
   {
-    "slug": "edu-seo-vs-aeo", "kind": "edu",
+    "slug": "edu-seo-vs-aeo",
+    "kind": "edu",
     "eyebrow": "The difference",
     "hook": "SEO gets you found. AEO gets you chosen.",
-    "scene": { "type": "versus", "left": { "title": "SEO", "sub": "Found on Google", "tone": "mute" }, "right": { "title": "AEO", "sub": "Chosen by AI", "tone": "mint" } },
-    "points": ["You can rank #3 on Google and still be absent from every AI answer.", "Different game, different signals."],
+    "scene": {
+      "type": "versus",
+      "left": {
+        "title": "SEO",
+        "sub": "Found on Google",
+        "tone": "mute"
+      },
+      "right": {
+        "title": "AEO",
+        "sub": "Chosen by AI",
+        "tone": "mint"
+      }
+    },
+    "points": [
+      "You can rank #3 on Google and still be absent from every AI answer.",
+      "Different game, different signals."
+    ],
     "cta": "Winning on Google, missing from AI?",
     "caption": "Ranking on Google and being recommended by AI are two different games. Plenty of great practices win one and lose the other.",
-    "hashtags": ["#plasticsurgeon", "#plasticsurgery", "#ChatGPT", "#medicalmarketing", "#AEO"]
+    "hashtags": [
+      "#plasticsurgeon",
+      "#plasticsurgery",
+      "#ChatGPT",
+      "#medicalmarketing",
+      "#AEO"
+    ]
   },
   {
-    "slug": "edu-reviews", "kind": "edu",
+    "slug": "edu-reviews",
+    "kind": "edu",
     "eyebrow": "New rules",
     "hook": "Your reviews now quietly shape what AI recommends",
-    "points": ["And it's not the number you'd expect that matters most.", "Most doctors have never thought about it this way."],
+    "points": [
+      "And it's not the number you'd expect that matters most.",
+      "Most doctors have never thought about it this way."
+    ],
     "cta": "When did a patient last review you?",
     "caption": "Reviews aren't just social proof anymore — they're a signal AI reads when it decides who to recommend. And the part that matters most surprises most doctors."
   },
   {
-    "slug": "edu-competitor", "kind": "edu",
+    "slug": "edu-competitor",
+    "kind": "edu",
     "eyebrow": "The gap",
     "hook": "AI names your competitor, not you — and it's rarely about skill",
-    "scene": { "type": "chat", "prompt": "Best plastic surgeon in my area?", "answers": ["A competitor down the street"], "note": "— not you. And it's rarely about skill." },
-    "points": ["It usually comes down to a few things you can fix.", "Not talent. Not price."],
+    "scene": {
+      "type": "chat",
+      "prompt": "Best plastic surgeon in my area?",
+      "answers": [
+        "A competitor down the street"
+      ],
+      "note": "— not you. And it's rarely about skill."
+    },
+    "points": [
+      "It usually comes down to a few things you can fix.",
+      "Not talent. Not price."
+    ],
     "cta": "See who AI names in your city.",
     "caption": "When AI recommends the practice down the street instead of you, it's almost never about who's the better surgeon."
   },
   {
-    "slug": "edu-signals", "kind": "edu",
+    "slug": "edu-signals",
+    "kind": "edu",
     "eyebrow": "Behind the scenes",
     "hook": "AI weighs specific signals before it recommends you",
-    "points": ["Most aren't what you'd guess — and a slick website isn't one of them."],
+    "points": [
+      "Most aren't what you'd guess — and a slick website isn't one of them."
+    ],
     "cta": "Most practices guess wrong.",
     "caption": "AI doesn't recommend the prettiest website. It reads a specific set of signals — and most of them aren't what practices assume."
   },
-
   {
-    "slug": "ad-free-scan", "kind": "ad",
+    "slug": "ad-free-scan",
+    "kind": "ad",
     "eyebrow": "Free check",
     "hook": "See if AI recommends your practice in 60 seconds",
-    "scene": { "type": "chat", "prompt": "Best plastic surgeon near me?", "answers": ["A Midtown practice", "A nearby competitor", "Another surgeon"], "note": "— is your name on this list?" },
-    "points": ["We ask the questions patients actually ask AI.", "You get a clear answer, per engine."],
+    "scene": {
+      "type": "chat",
+      "prompt": "Best plastic surgeon near me?",
+      "answers": [
+        "A Midtown practice",
+        "A nearby competitor",
+        "Another surgeon"
+      ],
+      "note": "— is your name on this list?"
+    },
+    "points": [
+      "We ask the questions patients actually ask AI.",
+      "You get a clear answer, per engine."
+    ],
     "cta": "See if AI recommends you.",
     "caption": "Want to know if ChatGPT, Gemini or Perplexity recommend your practice? Find out free in about a minute. Link in bio.",
-    "hashtags": ["#plasticsurgeon", "#plasticsurgery", "#ChatGPT", "#medicalmarketing", "#AIsearch"]
+    "hashtags": [
+      "#plasticsurgeon",
+      "#plasticsurgery",
+      "#ChatGPT",
+      "#medicalmarketing",
+      "#AIsearch"
+    ]
   },
   {
-    "slug": "ad-competitor-stakes", "kind": "ad",
+    "slug": "ad-competitor-stakes",
+    "kind": "ad",
     "eyebrow": "The stakes",
     "hook": "AI might be sending your patients to a competitor",
-    "scene": { "type": "shortlist", "title": "WHO AI RECOMMENDS INSTEAD", "names": ["A competitor uptown", "A practice downtown", "Someone else"], "youLabel": "you?" },
-    "points": ["Every day you're invisible, someone else gets named."],
+    "scene": {
+      "type": "shortlist",
+      "title": "WHO AI RECOMMENDS INSTEAD",
+      "names": [
+        "A competitor uptown",
+        "A practice downtown",
+        "Someone else"
+      ],
+      "youLabel": "you?"
+    },
+    "points": [
+      "Every day you're invisible, someone else gets named."
+    ],
     "cta": "Don't let it be the practice next door.",
     "caption": "If AI doesn't know you exist, it recommends whoever it does know. Don't let that be the practice down the street."
   },
   {
-    "slug": "ad-google-not-ai", "kind": "ad",
+    "slug": "ad-google-not-ai",
+    "kind": "ad",
     "eyebrow": "Booked on Google?",
     "hook": "Great on Google, invisible on AI?",
-    "scene": { "type": "versus", "left": { "title": "Google", "sub": "You rank", "tone": "mint", "mark": "check" }, "right": { "title": "AI", "sub": "You're invisible", "tone": "coral", "mark": "cross" } },
-    "points": ["More patients start with ChatGPT every month.", "We make sure AI knows you exist."],
+    "scene": {
+      "type": "versus",
+      "left": {
+        "title": "Google",
+        "sub": "You rank",
+        "tone": "mint",
+        "mark": "check"
+      },
+      "right": {
+        "title": "AI",
+        "sub": "You're invisible",
+        "tone": "coral",
+        "mark": "cross"
+      }
+    },
+    "points": [
+      "More patients start with ChatGPT every month.",
+      "We make sure AI knows you exist."
+    ],
     "cta": "Get found where patients now search.",
     "caption": "Google isn't the only front door anymore. If AI can't find you, you're missing the patients who start their search there.",
-    "hashtags": ["#plasticsurgeon", "#plasticsurgery", "#ChatGPT", "#medicalmarketing", "#AEO"]
+    "hashtags": [
+      "#plasticsurgeon",
+      "#plasticsurgery",
+      "#ChatGPT",
+      "#medicalmarketing",
+      "#AEO"
+    ]
   },
   {
-    "slug": "ad-cost-invisible", "kind": "ad",
+    "slug": "ad-cost-invisible",
+    "kind": "ad",
     "eyebrow": "The quiet loss",
     "hook": "Being invisible to AI costs you patients silently",
-    "points": ["No failed form. No missed call.", "Just a name that was never said — theirs, not yours."],
+    "points": [
+      "No failed form. No missed call.",
+      "Just a name that was never said — theirs, not yours."
+    ],
     "cta": "The loss you never see.",
     "caption": "The hardest losses are the ones you never see. When AI skips you, there's no alert — just a patient who booked elsewhere."
   },
   {
-    "slug": "ad-what-we-do", "kind": "ad",
+    "slug": "ad-what-we-do",
+    "kind": "ad",
     "eyebrow": "What we do",
-    "hook": "We get your practice recommended by AI",
-    "scene": { "type": "engines", "lead": "We make sure they name you on", "items": ["ChatGPT", "Gemini", "Perplexity"] },
-    "points": ["Measured across ChatGPT, Gemini, Perplexity and more.", "Tracked month over month — no guesswork."],
+    "hook": "When patients ask AI who to trust, your name should come up",
+    "scene": {
+      "type": "engines",
+      "lead": "We work to get you named on",
+      "items": [
+        "ChatGPT",
+        "Gemini",
+        "Perplexity"
+      ]
+    },
+    "points": [
+      "We work on the signals AI actually reads.",
+      "Then we measure whether it starts naming you."
+    ],
     "cta": "Get recommended by AI.",
-    "caption": "We help plastic surgeons show up when patients ask AI who to trust — measured, tracked, and honest about what moves the needle."
+    "caption": "We help practices show up when patients ask AI who to trust. We measure where you stand now and track what actually changes over time.",
+    "hashtags": [
+      "#plasticsurgeon",
+      "#plasticsurgery",
+      "#medspa",
+      "#medicalmarketing",
+      "#AIsearch"
+    ]
   },
   {
-    "slug": "ad-straight-talk", "kind": "ad",
+    "slug": "ad-straight-talk",
+    "kind": "ad",
     "eyebrow": "Straight talk",
-    "hook": "No one can guarantee AI rankings. Here's what we promise.",
-    "points": ["We improve how AI reads, trusts and recommends you.", "Real work, measured — not hype."],
+    "hook": "You cannot buy a guaranteed spot in AI answers. You can earn it.",
+    "points": [
+      "We improve how AI reads, trusts and recommends you.",
+      "We do the real work and measure what it changes."
+    ],
     "cta": "Real work. Honest measurement.",
-    "caption": "Anyone promising guaranteed AI rankings is guessing. We promise real work and honest measurement — here's how we think about it."
+    "caption": "Anyone promising guaranteed AI rankings is guessing. What we promise your practice is real work on the signals AI reads, and honest measurement of whether patients start hearing your name.",
+    "hashtags": [
+      "#plasticsurgeon",
+      "#plasticsurgery",
+      "#medspa",
+      "#medicalmarketing",
+      "#AIsearch"
+    ],
+    "scene": null
+  },
+  {
+    "slug": "edu-four-engines",
+    "kind": "edu",
+    "eyebrow": "Four engines",
+    "hook": "One AI assistant recommends you. Another has never heard of you.",
+    "scene": {
+      "type": "versus",
+      "left": {
+        "title": "ChatGPT",
+        "sub": "Recommends you",
+        "tone": "mint",
+        "mark": "check"
+      },
+      "right": {
+        "title": "Gemini",
+        "sub": "Never names you",
+        "tone": "coral",
+        "mark": "cross"
+      }
+    },
+    "points": [
+      "Each engine trusts different sources and signals.",
+      "Being chosen by one is not being chosen by all of them."
+    ],
+    "cta": "See where each AI puts you.",
+    "caption": "Your patients do not all use the same assistant. You can be the top pick on ChatGPT and completely absent on Gemini, because each one reads different signals.",
+    "hashtags": [
+      "#plasticsurgeon",
+      "#plasticsurgery",
+      "#medspa",
+      "#medicalmarketing",
+      "#AIsearch"
+    ]
+  },
+  {
+    "slug": "edu-real-prompts",
+    "kind": "edu",
+    "eyebrow": "What they ask",
+    "hook": "Patients ask AI who to avoid before they book",
+    "scene": {
+      "type": "chat",
+      "prompt": "Who is the most reputable rhinoplasty surgeon near me?",
+      "answers": [
+        "A nearby practice",
+        "A competitor across town"
+      ],
+      "note": "They act on this answer."
+    },
+    "points": [
+      "The questions are specific and personal, right down to who to avoid.",
+      "What AI answers shapes who they trust before they ever meet you."
+    ],
+    "cta": "Know what AI says about you.",
+    "caption": "Before booking, patients ask AI who is reputable and who does natural work, then trust what it tells them. Whatever it answers becomes the shortlist they act on.",
+    "hashtags": [
+      "#plasticsurgeon",
+      "#plasticsurgery",
+      "#medspa",
+      "#medicalmarketing",
+      "#AIsearch"
+    ]
+  },
+  {
+    "slug": "ad-track-monthly",
+    "kind": "ad",
+    "eyebrow": "Measured",
+    "hook": "You cannot improve what you cannot see",
+    "points": [
+      "We ask the prompts your patients actually use.",
+      "Then we track who gets named, month after month."
+    ],
+    "cta": "Get a clear read every month.",
+    "caption": "Most practices have no idea if AI recommends them or the competitor down the street. We check the real patient prompts and track who gets named, month after month.",
+    "hashtags": [
+      "#plasticsurgeon",
+      "#plasticsurgery",
+      "#medspa",
+      "#medicalmarketing",
+      "#AIsearch"
+    ],
+    "scene": null
+  },
+  {
+    "slug": "ad-new-practice",
+    "kind": "ad",
+    "eyebrow": "New here?",
+    "hook": "New practice? AI does not know you exist yet",
+    "scene": {
+      "type": "shortlist",
+      "title": "WHO AI RECOMMENDS TODAY",
+      "names": [
+        "An established practice",
+        "A busy competitor",
+        "Someone down the street"
+      ],
+      "youLabel": "you?"
+    },
+    "points": [
+      "AI leans on what it already knows, and it does not know you yet.",
+      "Show up early and you start giving AI reasons to name you."
+    ],
+    "cta": "Get on the shortlist.",
+    "caption": "Just opened, or brought on a new associate? AI leans on what it already knows, so a new practice starts out invisible. The fix is getting the right signals in front of it early.",
+    "hashtags": [
+      "#plasticsurgeon",
+      "#plasticsurgery",
+      "#medspa",
+      "#medicalmarketing",
+      "#AIsearch"
+    ]
   }
 ]
