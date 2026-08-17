@@ -468,6 +468,19 @@
         "#AEO",
         "#AIsearch"
       ]
+    },
+    {
+      "slug": "li-google-preferred-sources-ai-visibility",
+      "title": "What Google's Preferred Sources Means for Your AI Visibility",
+      "angle": "Timely news reaction to Google's new Preferred Sources feature. Keep these facts accurate: it is user driven (people mark sites as preferred); those sites then show more, with a preferred badge, in that user's Top Stories and in their Google AI Overviews and AI Mode; it needs no markup on your end. It is Google only and does nothing for ChatGPT, Perplexity or Claude. It is a loyalty lever for people who already chose you, not a discovery lever for new buyers who have never heard of you. Honest take: do not chase it, understand it, and keep doing the work that actually gets you recommended. Shows The AEO Loop is on top of the space.",
+      "internal_url": "/what-is-aeo",
+      "priority": 1,
+      "status": "queued",
+      "tags": [
+        "#AEO",
+        "#AIsearch",
+        "#SEO"
+      ]
     }
   ]
 }
