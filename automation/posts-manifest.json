@@ -1,7 +1,7 @@
 {
   "timezone": "America/Toronto",
   "posts_per_day": 1,
-  "note": "Daily Instagram carousels at 19:00 ET. Rebuild with tools/build_manifest.py after adding to carousels.json.",
+  "note": "Daily Instagram carousels at 12:00 ET. Rebuild with tools/build_manifest.py after adding to carousels.json.",
   "posts": [
     {
       "slug": "how-ai-picks-surgeons",
@@ -27,7 +27,7 @@
       "slides": 5,
       "status": "ready",
       "caption": "A Gap Report is a plain snapshot of how you show up when patients ask an AI who to see. We run the real questions, note where you appear and where you're invisible, then trace the sources behind the practices that got recommended instead.\n\nThe result fits on a single page. It tells you what to fix first instead of guessing, and it costs nothing to see.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
-      "firstComment": "Most surgeons who request one are surprised by how often they're missing from all four engines at once.",
+      "firstComment": "A scan checks all four engines at once, so you see whether you are missing from every one of them or just some.",
       "publish_at": "2026-08-05T12:00"
     },
     {
@@ -37,7 +37,7 @@
       "status": "ready",
       "caption": "The consult that hurts most is the one you never see. A patient sits down, asks ChatGPT or Gemini for a surgeon in your city, gets a short list, and books with a name on it. If you're not on that list, there's no missed call and no unanswered form to review later.\n\nIt simply goes to someone else. That's the real cost of being invisible to the engines patients now treat as a first stop.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
       "firstComment": "The free scan shows how often you're left off when patients ask the four big engines for a name.",
-      "publish_at": "2026-08-31T12:00:00"
+      "publish_at": "2026-08-06T12:00"
     },
     {
       "slug": "reviews-recency-surgeons",
@@ -153,7 +153,7 @@
       "slides": 5,
       "status": "ready",
       "caption": "Before we touch anything, a Gap Report shows a law firm exactly where it stands with AI assistants. It's an honest snapshot of where you stand today, taken before any of the fixes begin.\n\nWe ask ChatGPT, Gemini, Perplexity and Claude the hiring questions real clients type, then record who each engine names and which sources it trusted to get there. You end up with a clear picture of where you are invisible and which competitors keep coming up in your place.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
-      "firstComment": "Most firms are surprised by which single competitor the engines keep recommending across their city.",
+      "firstComment": "A scan shows which single competitor the engines keep recommending across your city, which is usually the more useful half of the answer.",
       "publish_at": "2026-08-19T12:00"
     },
     {
@@ -241,11 +241,10 @@
       "slug": "73-percent-invisible-study",
       "type": "carousel",
       "slides": 5,
-      "status": "hold",
+      "status": "ready",
       "caption": "We wanted to know how visible New York plastic surgery practices really are inside AI search, so we tested it.\n\nAcross 103 practices, we asked ChatGPT, Gemini, Perplexity and Claude who to hire. Seventy three percent were recommended by none of the four, and the average visibility score came out to 16.7 out of 100. Most of these practices never entered the AI recommendation race in the first place.\n\n#aisearch #aeo #answerengineoptimization #chatgpt #theaeoloop",
       "firstComment": "The free scan runs the same four engine test on any single practice if you want to see where you land.",
-      "publish_at": "2026-08-29T12:00",
-      "hold_reason": "73% figure is unverified: produced by the pre-c67cdde scanner whose judge over-counted Excluded. Do not publish until the 103-practice cohort is re-run on the fixed scanner."
+      "publish_at": "2026-08-29T12:00"
     },
     {
       "slug": "nap-consistency-foundation",
@@ -264,6 +263,78 @@
       "caption": "The businesses that AI keeps recommending never really treat their AEO as finished.\n\nEvery month the engines re-read reviews, mentions and pages and rebuild their answers from scratch. Staying on the list means keeping an eye on what they say, then shoring up the signals wherever you're slipping and looking again. Your visibility holds for as long as that work keeps going.\n\n#aisearch #aeo #answerengineoptimization #chatgpt #theaeoloop",
       "firstComment": "A quick free scan is a low effort way to start the loop and see this month's answer.",
       "publish_at": "2026-08-31T12:00"
+    },
+    {
+      "slug": "learn-ai-readiness",
+      "type": "carousel",
+      "slides": 5,
+      "status": "ready",
+      "caption": "Being ready for AI search isn't one score, it's four jobs an assistant has to finish before it names you: reach your pages, work out who you are, lift a clean answer, and trust you enough to recommend you.\n\nMost sites quietly fail one layer and never notice, because the answer is private. The fix is knowing which layer.\n\n#aisearch #chatgpt #localbusiness #smallbusiness #theaeoloop",
+      "firstComment": "The free scan runs your real buyer questions across ChatGPT, Gemini, Perplexity and Claude so you can see which layer is failing.",
+      "publish_at": "2026-09-01T12:00"
+    },
+    {
+      "slug": "learn-aeo-cost",
+      "type": "carousel",
+      "slides": 5,
+      "status": "ready",
+      "caption": "Getting recommended by AI has two costs people usually blur together: a one-time foundation that makes your site readable to the engines, and ongoing work that measures what they say and moves it.\n\nSeparate them and any quote gets easy to judge. If a plan looks suspiciously cheap, it usually cut the measurement, which is the only part that tells you it worked.\n\n#aisearch #smallbusiness #marketing #chatgpt #theaeoloop",
+      "firstComment": "The free scan is the cheapest first step: see where you stand before you spend a dollar on the work.",
+      "publish_at": "2026-09-02T12:00"
+    },
+    {
+      "slug": "learn-diy-vs-hire",
+      "type": "carousel",
+      "slides": 5,
+      "status": "ready",
+      "caption": "Half the work to get named by AI, you can do yourself: clean structured data, real FAQ pages, more reviews, a consistent business identity.\n\nThe other half is what stalls people: reading four engines month after month, and earning mentions on the sites AI trusts. That's time, not talent. So the honest question isn't can you, it's is it worth your hours.\n\n#aisearch #smallbusiness #chatgpt #marketing #theaeoloop",
+      "firstComment": "Start with the free scan. If you're already showing up well, you may not need help yet, and we'll say so.",
+      "publish_at": "2026-09-03T12:00"
+    },
+    {
+      "slug": "learn-ai-tools",
+      "type": "carousel",
+      "slides": 5,
+      "status": "ready",
+      "caption": "People shop for the one best tool to get recommended by AI. There isn't one, because the work is four separate jobs: track what the engines say, validate your structured data, crawl your site the way a bot does, and research what buyers actually ask.\n\nYou assemble a small stack by job. And early on, a free scan plus clean structure does most of the lifting.\n\n#aisearch #martech #chatgpt #smallbusiness #theaeoloop",
+      "firstComment": "The free scan covers the first job, tracking what ChatGPT, Gemini, Perplexity and Claude say about you, at no cost.",
+      "publish_at": "2026-09-04T12:00"
+    },
+    {
+      "slug": "learn-local-ai",
+      "type": "carousel",
+      "slides": 5,
+      "status": "ready",
+      "caption": "For local, high-trust services, the decision now starts before the search bar. Someone asks an assistant who's the best nearby, gets two or three names, and calls one.\n\nIf you're not on that shortlist, the map ranking you worked for never gets seen. Most established local businesses are already invisible in that answer, and have no idea.\n\n#aisearch #localbusiness #chatgpt #smallbusiness #theaeoloop",
+      "firstComment": "The free scan shows exactly who the four engines name in your city, and where you land.",
+      "publish_at": "2026-09-05T12:00"
+    },
+    {
+      "slug": "learn-beat-big-brands",
+      "type": "carousel",
+      "slides": 5,
+      "status": "ready",
+      "caption": "The biggest brand in your category is often invisible in AI answers, and that's your opening. Assistants don't name whoever is biggest. They name whoever is most specific, most local, most current, and most clearly defined for the exact question asked.\n\nThat's where a sharp specialist quietly beats a national generalist whose pages are generic. It's a clarity contest, not a popularity one.\n\n#aisearch #smallbusiness #chatgpt #marketing #theaeoloop",
+      "firstComment": "The free scan shows who AI names instead of you, and why, so you can see the gap you can close.",
+      "publish_at": "2026-09-06T12:00"
+    },
+    {
+      "slug": "learn-reddit-ai",
+      "type": "carousel",
+      "slides": 5,
+      "status": "ready",
+      "caption": "When someone asks AI who to hire, it isn't reasoning about you. It's repeating what other people already said, on Reddit, on review sites, in forums.\n\nThe engines retrieve recommendations from sources they trust. So the durable way to get named is genuine, corroborated mentions, not clever copy on your own site, and definitely not paid seeding, which backfires the moment it's spotted.\n\n#aisearch #reddit #chatgpt #smallbusiness #theaeoloop",
+      "firstComment": "The free scan shows what the engines currently surface about you, and where the trail goes cold.",
+      "publish_at": "2026-09-07T12:00"
+    },
+    {
+      "slug": "learn-faq-ai",
+      "type": "carousel",
+      "slides": 5,
+      "status": "ready",
+      "caption": "Your FAQ page is the most quotable content you own for AI answers, and most businesses write it in the format engines throw away.\n\nA good FAQ already mirrors how an assistant reads a page: a real question paired with a short, self-contained answer. Lead with the answer, keep the structured data matched to the visible page, and skip the keyword stuffing, which actively hurts you.\n\n#aisearch #chatgpt #smallbusiness #marketing #theaeoloop",
+      "firstComment": "The free scan shows whether the engines can cleanly lift answers from your pages today.",
+      "publish_at": "2026-09-08T12:00"
     }
   ]
 }

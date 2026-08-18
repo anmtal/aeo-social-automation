@@ -753,5 +753,234 @@
     "cta": "See what the engines say about you this month. Start with the free scan, link in bio. Be the name AI recommends.",
     "caption": "The businesses that AI keeps recommending never really treat their AEO as finished.\n\nEvery month the engines re-read reviews, mentions and pages and rebuild their answers from scratch. Staying on the list means keeping an eye on what they say, then shoring up the signals wherever you're slipping and looking again. Your visibility holds for as long as that work keeps going.\n\n#aisearch #aeo #answerengineoptimization #chatgpt #theaeoloop",
     "firstComment": "A quick free scan is a low effort way to start the loop and see this month's answer."
+  },
+  {
+    "slug": "learn-ai-readiness",
+    "vertical": "agency",
+    "eyebrow": "The check",
+    "hook": "Is your website ready for AI answers?",
+    "visual": {
+      "type": "flow",
+      "eyebrow": "Four jobs, in order",
+      "steps": [
+        "AI can reach your pages",
+        "It can tell exactly who you are",
+        "It can lift a clean, quotable answer",
+        "It trusts you enough to name you"
+      ]
+    },
+    "points": [
+      "Passing every SEO test doesn't mean an AI can find, understand, and trust you.",
+      "Miss any one of the four and you drop out of the answer, and never find out."
+    ],
+    "cta": "See how the AI engines read your site. Run the free scan, link in bio. Be the name AI recommends.",
+    "caption": "Being ready for AI search isn't one score, it's four jobs an assistant has to finish before it names you: reach your pages, work out who you are, lift a clean answer, and trust you enough to recommend you.\n\nMost sites quietly fail one layer and never notice, because the answer is private. The fix is knowing which layer.\n\n#aisearch #chatgpt #localbusiness #smallbusiness #theaeoloop",
+    "firstComment": "The free scan runs your real buyer questions across ChatGPT, Gemini, Perplexity and Claude so you can see which layer is failing."
+  },
+  {
+    "slug": "learn-aeo-cost",
+    "vertical": "agency",
+    "eyebrow": "The real cost",
+    "hook": "What does it cost to get recommended by AI?",
+    "visual": {
+      "type": "compare",
+      "eyebrow": "Two costs, not one",
+      "left": {
+        "title": "One-time",
+        "items": [
+          "Make the site AI-readable",
+          "Fix your business identity",
+          "Set up trusted profiles"
+        ]
+      },
+      "right": {
+        "title": "Ongoing",
+        "items": [
+          "Measure what engines say",
+          "Earn off-site mentions",
+          "Publish, then re-check"
+        ]
+      }
+    },
+    "points": [
+      "The price is really two things: a one-time foundation, and ongoing measurement.",
+      "A suspiciously cheap plan usually dropped the measurement, the part that proves it worked."
+    ],
+    "cta": "Not sure what you need yet? Start with the free scan. Run the free scan, link in bio. Be the name AI recommends.",
+    "caption": "Getting recommended by AI has two costs people usually blur together: a one-time foundation that makes your site readable to the engines, and ongoing work that measures what they say and moves it.\n\nSeparate them and any quote gets easy to judge. If a plan looks suspiciously cheap, it usually cut the measurement, which is the only part that tells you it worked.\n\n#aisearch #smallbusiness #marketing #chatgpt #theaeoloop",
+    "firstComment": "The free scan is the cheapest first step: see where you stand before you spend a dollar on the work."
+  },
+  {
+    "slug": "learn-diy-vs-hire",
+    "vertical": "agency",
+    "eyebrow": "DIY or hire",
+    "hook": "Can you get recommended by AI yourself?",
+    "visual": {
+      "type": "compare",
+      "eyebrow": "Where the line is",
+      "left": {
+        "title": "You can DIY",
+        "items": [
+          "Structured data",
+          "FAQ pages",
+          "Reviews",
+          "Business identity"
+        ]
+      },
+      "right": {
+        "title": "Hard to DIY",
+        "items": [
+          "Reading 4 engines monthly",
+          "Off-site authority",
+          "The time it eats"
+        ]
+      }
+    },
+    "points": [
+      "Half of this you can absolutely do yourself.",
+      "The other half is time and consistency, which is where most people get stuck."
+    ],
+    "cta": "See where you stand first, then decide. Run the free scan, link in bio. Be the name AI recommends.",
+    "caption": "Half the work to get named by AI, you can do yourself: clean structured data, real FAQ pages, more reviews, a consistent business identity.\n\nThe other half is what stalls people: reading four engines month after month, and earning mentions on the sites AI trusts. That's time, not talent. So the honest question isn't can you, it's is it worth your hours.\n\n#aisearch #smallbusiness #chatgpt #marketing #theaeoloop",
+    "firstComment": "Start with the free scan. If you're already showing up well, you may not need help yet, and we'll say so."
+  },
+  {
+    "slug": "learn-ai-tools",
+    "vertical": "agency",
+    "eyebrow": "The toolkit",
+    "hook": "There's no single best AI-visibility tool",
+    "visual": {
+      "type": "flow",
+      "eyebrow": "Four jobs, four tools",
+      "steps": [
+        "Track what AI says about you",
+        "Check your structured data",
+        "Crawl your site like a bot does",
+        "Research the questions buyers ask"
+      ]
+    },
+    "points": [
+      "The work is four jobs, so you build a small stack, not one magic app.",
+      "If you're early, a free scan and clean structure get you surprisingly far."
+    ],
+    "cta": "Start with a free read of what AI says about you. Run the free scan, link in bio. Be the name AI recommends.",
+    "caption": "People shop for the one best tool to get recommended by AI. There isn't one, because the work is four separate jobs: track what the engines say, validate your structured data, crawl your site the way a bot does, and research what buyers actually ask.\n\nYou assemble a small stack by job. And early on, a free scan plus clean structure does most of the lifting.\n\n#aisearch #martech #chatgpt #smallbusiness #theaeoloop",
+    "firstComment": "The free scan covers the first job, tracking what ChatGPT, Gemini, Perplexity and Claude say about you, at no cost."
+  },
+  {
+    "slug": "learn-local-ai",
+    "vertical": "agency",
+    "eyebrow": "The new front door",
+    "hook": "Your next customer asks AI \"who's the best near me\" first",
+    "visual": {
+      "type": "chat",
+      "eyebrow": "The moment",
+      "prompt": "Who's the best dentist near me?",
+      "names": [
+        "Bright Smile Dental",
+        "Riverside Family Dental",
+        "Downtown Ortho Studio"
+      ],
+      "note": "— and your practice isn't on the list."
+    },
+    "points": [
+      "For local services, the shortlist now forms before anyone opens Google.",
+      "Ranking in the map pack doesn't help if you're not in the AI's answer."
+    ],
+    "cta": "See who AI names in your city. Run the free scan, link in bio. Be the name AI recommends.",
+    "caption": "For local, high-trust services, the decision now starts before the search bar. Someone asks an assistant who's the best nearby, gets two or three names, and calls one.\n\nIf you're not on that shortlist, the map ranking you worked for never gets seen. Most established local businesses are already invisible in that answer, and have no idea.\n\n#aisearch #localbusiness #chatgpt #smallbusiness #theaeoloop",
+    "firstComment": "The free scan shows exactly who the four engines name in your city, and where you land."
+  },
+  {
+    "slug": "learn-beat-big-brands",
+    "vertical": "agency",
+    "eyebrow": "Small beats big",
+    "hook": "The biggest brand is often invisible in AI answers",
+    "visual": {
+      "type": "bars",
+      "eyebrow": "What AI actually weighs",
+      "title": "What gets you named",
+      "bars": [
+        {
+          "label": "Specific, local, clearly defined",
+          "value": 0.92
+        },
+        {
+          "label": "Recent, real reviews",
+          "value": 0.8
+        },
+        {
+          "label": "Named on trusted sites",
+          "value": 0.68
+        },
+        {
+          "label": "Just being a big brand",
+          "value": 0.28
+        }
+      ]
+    },
+    "points": [
+      "AI doesn't rank by brand size, it names whoever fits the exact question best.",
+      "A focused local specialist can out-signal a national generalist."
+    ],
+    "cta": "See where you stand against the big names. Run the free scan, link in bio. Be the name AI recommends.",
+    "caption": "The biggest brand in your category is often invisible in AI answers, and that's your opening. Assistants don't name whoever is biggest. They name whoever is most specific, most local, most current, and most clearly defined for the exact question asked.\n\nThat's where a sharp specialist quietly beats a national generalist whose pages are generic. It's a clarity contest, not a popularity one.\n\n#aisearch #smallbusiness #chatgpt #marketing #theaeoloop",
+    "firstComment": "The free scan shows who AI names instead of you, and why, so you can see the gap you can close."
+  },
+  {
+    "slug": "learn-reddit-ai",
+    "vertical": "agency",
+    "eyebrow": "Where AI looks",
+    "hook": "AI repeats what strangers said about you online",
+    "visual": {
+      "type": "flow",
+      "eyebrow": "How a name gets picked",
+      "steps": [
+        "Someone asks AI who to hire",
+        "It reads Reddit, reviews and forums",
+        "It trusts what's said consistently",
+        "It names the businesses backed up there"
+      ]
+    },
+    "points": [
+      "AI doesn't invent recommendations, it retrieves them from places it trusts.",
+      "Genuine mentions build it. Fake seeding backfires the moment it's caught."
+    ],
+    "cta": "See what AI already reads about you. Run the free scan, link in bio. Be the name AI recommends.",
+    "caption": "When someone asks AI who to hire, it isn't reasoning about you. It's repeating what other people already said, on Reddit, on review sites, in forums.\n\nThe engines retrieve recommendations from sources they trust. So the durable way to get named is genuine, corroborated mentions, not clever copy on your own site, and definitely not paid seeding, which backfires the moment it's spotted.\n\n#aisearch #reddit #chatgpt #smallbusiness #theaeoloop",
+    "firstComment": "The free scan shows what the engines currently surface about you, and where the trail goes cold."
+  },
+  {
+    "slug": "learn-faq-ai",
+    "vertical": "agency",
+    "eyebrow": "Quick win",
+    "hook": "Your FAQ page is gold for AI answers",
+    "visual": {
+      "type": "compare",
+      "eyebrow": "How AI reads a page",
+      "left": {
+        "title": "AI ignores",
+        "items": [
+          "Marketing-speak",
+          "Answer buried deep",
+          "Keyword stuffing"
+        ]
+      },
+      "right": {
+        "title": "AI lifts",
+        "items": [
+          "A real question",
+          "A short, direct answer",
+          "Matching schema"
+        ]
+      }
+    },
+    "points": [
+      "A good FAQ already looks like how AI reads a page: a question, then a clean answer.",
+      "Lead with the answer, keep your schema matched to the page, skip the fluff."
+    ],
+    "cta": "See if AI can actually read your answers. Run the free scan, link in bio. Be the name AI recommends.",
+    "caption": "Your FAQ page is the most quotable content you own for AI answers, and most businesses write it in the format engines throw away.\n\nA good FAQ already mirrors how an assistant reads a page: a real question paired with a short, self-contained answer. Lead with the answer, keep the structured data matched to the visible page, and skip the keyword stuffing, which actively hurts you.\n\n#aisearch #chatgpt #smallbusiness #marketing #theaeoloop",
+    "firstComment": "The free scan shows whether the engines can cleanly lift answers from your pages today."
   }
 ]

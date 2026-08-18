@@ -56,6 +56,54 @@
       "status": "ready",
       "publish_at": "2026-08-21T09:00",
       "text": "You can't improve AI visibility you can't see. Most businesses have never once checked what AI actually says about them.\n\nWe measure it directly. Take the real questions your buyers ask, run them against the live engines, and record what comes back: are you recommended, just mentioned, or left out entirely. Then track that month over month.\n\nIt turns a vague worry, are we showing up in AI, into a number you can move. You see which engines name you, which name competitors instead, and where the gap is.\n\nIf a vendor can't show you that baseline, they're optimizing blind.\n\n#AEO #AIsearch #Analytics"
+    },
+    {
+      "slug": "li-aeo-readiness-checklist",
+      "status": "ready",
+      "publish_at": "2026-09-02T09:00",
+      "text": "Your website can pass every SEO test and still be invisible to ChatGPT.\n\nBeing ready for AI answers isn't one score. It's four separate jobs an engine has to finish before it will name you: reach your pages, identify you as a distinct business, extract a clean answer, and trust you enough to recommend you.\n\nMost sites quietly fail one layer — a stray robots.txt line, a muddy identity, content that only renders after four scripts load, thin outside corroboration — and never find out, because they never read the live answers.\n\nI turned it into a five-checkpoint readiness check you can run yourself.\n\nFull guide: https://theaeoloop.com/learn/aeo-readiness-checklist\n\n#AIsearch #AEO #AnswerEngineOptimization"
+    },
+    {
+      "slug": "li-how-much-does-aeo-cost",
+      "status": "ready",
+      "publish_at": "2026-09-04T09:00",
+      "text": "AEO pricing runs from $0 to five figures a month, and the gap between them isn't what most agencies will tell you.\n\nHere's the honest way to read any quote: AEO is really two costs. A finite one-time foundation that makes your site AI-readable, and an ongoing retainer that measures what the engines say and moves it. Separate those two and a confusing market gets simple.\n\nIt also exposes the trap. A suspiciously cheap \"AEO\" plan is usually one that quietly dropped the measurement, which is the part that tells you whether any of it worked.\n\nI broke down the real 2026 numbers, the four ways to buy it, and what should make you walk.\n\nFull guide: https://theaeoloop.com/learn/how-much-does-aeo-cost\n\n#AEO #AIsearch #Marketing"
+    },
+    {
+      "slug": "li-do-i-need-an-aeo-agency",
+      "status": "ready",
+      "publish_at": "2026-09-07T09:00",
+      "text": "Half of what an AEO agency sells, you can do yourself.\n\nSchema, FAQ pages, cleaning up your reviews and your business identity — a capable owner can own all of that. If someone is charging a fortune to do only that, you're overpaying.\n\nThe other half is where do-it-yourself hits a wall: reading four AI engines consistently, month after month, and building the off-site authority that actually gets you named. Those two resist solo effort, not because they're hard to understand, but because they eat time.\n\nSo the honest deciding factor isn't skill. It's whether buying back those hours is worth it to you.\n\nI wrote the full DIY-vs-hire breakdown, including when the answer is \"not yet.\"\n\nFull guide: https://theaeoloop.com/learn/do-i-need-an-aeo-agency\n\n#AEO #AIsearch #SmallBusiness"
+    },
+    {
+      "slug": "li-best-aeo-tools",
+      "status": "ready",
+      "publish_at": "2026-09-09T09:00",
+      "text": "Most \"best AEO tools\" lists rank whoever paid to be on them at #1. This isn't that.\n\nThere's no single best AEO tool, because the work is four different jobs: tracking what the engines say about you, validating your schema, crawling your site for machine-readability, and researching the questions buyers actually ask. You assemble a small stack by job, not one magic platform.\n\nAnd if you're early, you often need almost nothing paid. A free scan and clean schema take you a long way.\n\nI named the real tools in each category, with honest limits, ours included and listed where it belongs.\n\nFull guide: https://theaeoloop.com/learn/best-aeo-tools\n\n#AEO #AIsearch #MarTech"
+    },
+    {
+      "slug": "li-aeo-for-local-businesses",
+      "status": "ready",
+      "publish_at": "2026-09-11T09:00",
+      "text": "Your next patient just asked ChatGPT \"who's the best dentist near me\" and never heard your name.\n\nFor local, high-trust services, the hiring decision now starts before the search bar. A buyer asks an assistant, gets two or three names, and calls one. If you're not on that short list, the map pack you worked to rank in never gets seen.\n\nThe uncomfortable part: most established local businesses are already invisible in that answer and have no idea, because the answer is private.\n\nI wrote a full guide on how AI picks a local provider, and how AEO works alongside the Local SEO you already do.\n\nFull guide: https://theaeoloop.com/learn/aeo-for-local-businesses\n\n#LocalSEO #AIsearch #AEO"
+    },
+    {
+      "slug": "li-compete-with-bigger-brands-in-ai",
+      "status": "ready",
+      "publish_at": "2026-09-14T09:00",
+      "text": "The biggest brand in your category is often invisible in AI answers. That's your opening.\n\nAI assistants don't rank by brand size. They name whoever is most specific, most local, most current, and most clearly defined for the exact question asked. That's precisely where a focused specialist out-signals a national generalist whose pages are generic and whose proof for your city is stale.\n\nIt isn't a popularity contest. It's a clarity contest, and small, sharp businesses can win it.\n\nI wrote up where big brands are actually weak in AI answers, and the concrete levers a smaller player can pull to get named instead.\n\nFull guide: https://theaeoloop.com/learn/compete-with-bigger-brands-in-ai\n\n#AIsearch #AEO #SmallBusiness"
+    },
+    {
+      "slug": "li-reddit-and-ai-recommendations",
+      "status": "ready",
+      "publish_at": "2026-09-16T09:00",
+      "text": "When someone asks ChatGPT who to hire, it isn't reasoning about you. It's repeating what other people already said about you, on Reddit, on review sites, in forums.\n\nAI answer engines don't invent recommendations. They retrieve them from community sources they trust. So the durable way to get named isn't clever copy on your own site. It's genuine, corroborated mentions in the places engines actually read.\n\nThe shortcut, paid seeding and fake threads, violates platform rules and backfires the moment it's spotted. The real work is slower, and it lasts.\n\nI wrote up how it actually works, and the honest way to build it.\n\nFull guide: https://theaeoloop.com/learn/reddit-and-ai-recommendations\n\n#AIsearch #AEO #Reddit"
+    },
+    {
+      "slug": "li-optimize-faq-pages-for-ai",
+      "status": "ready",
+      "publish_at": "2026-09-18T09:00",
+      "text": "Your FAQ page is the most extractable content you own for AI answers. Most businesses write it in the one format engines throw away.\n\nA good FAQ already mirrors how an answer engine reads a page: a real question paired with a short, self-contained answer. So the whole game is writing answer-first, leading with the direct answer, then explaining, and keeping your FAQ schema matched to the visible page word for word.\n\nThe mistakes are just as consistent: marketing-speak answers, the real answer buried in paragraph three, schema that doesn't match the page, and keyword stuffing, which the research shows actively hurts you.\n\nI turned it into a tactical guide, with a correct schema example.\n\nFull guide: https://theaeoloop.com/learn/optimize-faq-pages-for-ai\n\n#AEO #AIsearch #SEO"
     }
   ]
 }
