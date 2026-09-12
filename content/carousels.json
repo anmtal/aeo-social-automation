@@ -1,986 +1,1088 @@
 [
   {
-    "slug": "how-ai-picks-surgeons",
+    "slug": "surgeon-before-after-alt",
     "vertical": "surgeon",
-    "eyebrow": "The walkthrough",
-    "hook": "How an AI actually decides which surgeon to name",
-    "visual": {
-      "type": "flow",
-      "eyebrow": "Before it answers",
-      "steps": [
-        "Reads the question and the city",
-        "Pulls your Google reviews and profile signals",
-        "Checks trusted directories like RealSelf and ASPS",
-        "Names the practices it can back up with evidence"
-      ]
-    },
-    "points": [
-      "Before ChatGPT or Gemini says a single name, it runs a fast pass over the sources it trusts.",
-      "If your practice is thin in those sources, the engine has nothing to say when a patient asks."
-    ],
-    "cta": "Curious what the four engines find when they run this on your practice? A free check shows you in a couple of minutes. Be the name AI recommends.",
-    "caption": "When a patient asks an AI who to see for a facelift in their city, the engine isn't guessing. It runs a quick pass over your reviews, your Google profile, and the directories it treats as reliable, then it names the practices it can support with evidence.\n\nMost surgeons never watch this happen, so they never learn why a competitor keeps getting named instead. The steps are the same every time, which means they're something you can actually work on.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
-    "firstComment": "The free scan runs these same checks across ChatGPT, Gemini, Perplexity and Claude so you can see where the trail goes cold."
-  },
-  {
-    "slug": "third-party-sites-surgeons",
-    "vertical": "surgeon",
-    "eyebrow": "The pattern",
-    "hook": "A prettier website won't get you named by AI",
-    "visual": {
-      "type": "bars",
-      "eyebrow": "Signal weight",
-      "title": "What moves an engine",
-      "bars": [
-        {
-          "label": "RealSelf, Healthgrades, ASPS profiles",
-          "value": 0.9
-        },
-        {
-          "label": "Google reviews and profile",
-          "value": 0.85
-        },
-        {
-          "label": "Press and best of mentions",
-          "value": 0.6
-        },
-        {
-          "label": "A website redesign",
-          "value": 0.25
-        }
-      ]
-    },
-    "points": [
-      "Surgeons pour budget into a website refresh and wonder why the AI answers still skip them.",
-      "The engines lean on third-party profiles like RealSelf, Healthgrades and ASPS far more than on your homepage."
-    ],
-    "cta": "See where your practice stands on the sources AI reads. Run the free scan, link in bio. Be the name AI recommends.",
-    "caption": "A website redesign feels like progress, but the AI engines barely glance at your homepage when they build a recommendation. They lean on the profiles patients already trust, like RealSelf, Healthgrades and the ASPS directory.\n\nThat's where your reviews, credentials, and consistency get read and weighed. A thin or outdated profile there costs you more visibility than any font choice on your own site ever will.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
-    "firstComment": "Claim and fill out every third-party profile before you spend a dollar on the website, and you'll usually see the bigger lift."
-  },
-  {
-    "slug": "gap-report-surgeon",
-    "vertical": "surgeon",
-    "eyebrow": "Behind the check",
-    "hook": "The one page report that shows how AI sees your practice",
-    "visual": {
-      "type": "flow",
-      "eyebrow": "Inside the report",
-      "steps": [
-        "We ask all four engines who to see in your city",
-        "We note where you show up and where you don't",
-        "We check the sources behind every name that beat you",
-        "You get one page showing exactly what's missing"
-      ]
-    },
-    "points": [
-      "We run the same questions your patients ask across ChatGPT, Gemini, Perplexity and Claude.",
-      "Then we show you which practices got named and what those competitors have that you don't."
-    ],
-    "cta": "Want your own Gap Report? It's free. Start the scan, link in bio. Be the name AI recommends.",
-    "caption": "A Gap Report is a plain snapshot of how you show up when patients ask an AI who to see. We run the real questions, note where you appear and where you're invisible, then trace the sources behind the practices that got recommended instead.\n\nThe result fits on a single page. It tells you what to fix first instead of guessing, and it costs nothing to see.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
-    "firstComment": "A scan checks all four engines at once, so you see whether you are missing from every one of them or just some."
-  },
-  {
-    "slug": "consult-that-never-booked",
-    "vertical": "surgeon",
-    "eyebrow": "The silent loss",
-    "hook": "The consult you'll never know you lost",
-    "visual": {
-      "type": "chat",
-      "eyebrow": "The ask",
-      "prompt": "best plastic surgeon near me for a mommy makeover?",
-      "names": [
-        "Park Ave Aesthetics",
-        "Hudson Plastic Surgery",
-        "Riverside Cosmetic"
-      ],
-      "note": "and the patient booked with one of them instead of you."
-    },
-    "points": [
-      "A patient asks an AI for a surgeon, gets three names, and books one of them, all without ever hearing yours.",
-      "It isn't your prices or your reviews holding you back here. The engine just never put you in the room."
-    ],
-    "cta": "See how often you're left off. Run the free scan, link in bio. Be the name AI recommends.",
-    "caption": "The consult that hurts most is the one you never see. A patient sits down, asks ChatGPT or Gemini for a surgeon in your city, gets a short list, and books with a name on it. If you're not on that list, there's no missed call and no unanswered form to review later.\n\nIt simply goes to someone else. That's the real cost of being invisible to the engines patients now treat as a first stop.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
-    "firstComment": "The free scan shows how often you're left off when patients ask the four big engines for a name."
-  },
-  {
-    "slug": "reviews-recency-surgeons",
-    "vertical": "surgeon",
-    "eyebrow": "Hack list",
-    "hook": "Your star count isn't the review number AI cares about most",
-    "visual": {
-      "type": "bars",
-      "eyebrow": "Signal weight",
-      "title": "What engines weigh in reviews",
-      "bars": [
-        {
-          "label": "Fresh reviews this month",
-          "value": 0.9
-        },
-        {
-          "label": "A steady flow over time",
-          "value": 0.85
-        },
-        {
-          "label": "Consistent name and address",
-          "value": 0.7
-        },
-        {
-          "label": "Total star count alone",
-          "value": 0.35
-        }
-      ]
-    },
-    "points": [
-      "Reviews from two years ago read as stale, so ask recent patients for a quick note while the memory is fresh.",
-      "Keep your name, address and phone identical everywhere, because an engine that can't match them trusts you less."
-    ],
-    "cta": "See how your review signals look to AI. Run the free scan, link in bio. Be the name AI recommends.",
-    "caption": "Star count feels like the whole game, but it isn't the review signal the AI engines weigh most heavily. They're looking at whether the reviews are recent and whether your details line up across the places they check.\n\nA practice with a hundred old five-star reviews can lose to one that's clearly active this month. Recency and consistency tell the engine you're a safe, current name to hand a patient.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
-    "firstComment": "Set a habit of asking two or three happy patients a week for a review and the recency signal takes care of itself."
-  },
-  {
-    "slug": "three-practices-one-answer",
-    "vertical": "surgeon",
-    "eyebrow": "The pattern",
-    "hook": "Out of three strong practices, AI recommended only one.",
-    "visual": {
-      "type": "compare",
-      "eyebrow": "Same city",
-      "left": {
-        "title": "Went unnamed",
-        "items": [
-          "Strong results, mostly offline",
-          "Few recent reviews",
-          "Pages AI can't easily quote"
-        ]
+    "accent": "stethoscope",
+    "eyebrow": "hidden from AI",
+    "hook": "AI cannot see your before and after photos",
+    "cta_headline": "See what AI can actually read on your site",
+    "deck": [
+      {
+        "type": "point",
+        "num": 1,
+        "kicker": "the blind spot",
+        "text": "AI reads words, not pictures. Your best gallery is a set of file names to a crawler that has nothing to describe."
       },
-      "right": {
-        "title": "Got recommended",
+      {
+        "type": "signals",
+        "kicker": "give the images words",
+        "title": "What makes a photo count",
         "items": [
-          "Reviews a patient can find",
-          "Listed on trusted directories",
-          "Clear pages AI can read"
-        ]
+          {
+            "icon": "doc",
+            "title": "Alt text",
+            "sub": "describe each image plainly"
+          },
+          {
+            "icon": "star",
+            "title": "Captions",
+            "sub": "name the procedure and result"
+          },
+          {
+            "icon": "pin",
+            "title": "Context",
+            "sub": "who it helped and how"
+          },
+          {
+            "icon": "building",
+            "title": "Page markup",
+            "sub": "label the image in schema"
+          }
+        ],
+        "caption": "Describe the result in words and the work finally counts."
       }
-    },
-    "points": [
-      "The two that went unnamed do strong work, but most of it lives offline where the engine can't see it or quote it.",
-      "The one AI picked showed up in recent reviews, on directories it already trusts, and on pages clear enough to lift a sentence from."
     ],
-    "cta": "See which group you land in. The free scan takes a minute, link in bio. Be the name AI recommends.",
-    "caption": "We asked the four big AI engines to recommend a plastic surgeon, and out of three strong practices in the same city, only one name came back.\n\nThe gap had nothing to do with skill. The practice that got named had reviews a patient could find, a presence on the directories AI already trusts, and web pages written clearly enough for a machine to quote. The other two did excellent work that mostly lived offline, so the engine had nothing to point at.\n\nIt's worth knowing which group you're in before a patient asks.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
-    "firstComment": "The unnamed practices weren't worse surgeons, they were just harder for a machine to read, and that part is fixable."
+    "caption": "A patient asks AI for the best surgeon for their procedure, and the engine reads text to decide who to name. Your before and after gallery is your strongest proof, but to a crawler it is a row of file names with nothing to say.\n\nThe fix is small. Describe each image in plain words, caption the procedure and the outcome, and the work you are proudest of becomes something AI can actually point to.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
+    "firstComment": "The free scan flags pages where your images carry no text for AI to read."
   },
   {
-    "slug": "surgeon-page-before-after",
+    "slug": "surgeon-procedure-pages",
     "vertical": "surgeon",
-    "eyebrow": "Before and after",
-    "hook": "This is how your surgeon page looks to an AI reading it.",
-    "visual": {
-      "type": "compare",
-      "eyebrow": "Same surgeon",
-      "left": {
-        "title": "Normal page",
-        "items": [
-          "Procedures hidden in images",
-          "Credentials in a PDF",
-          "No plain answer to common questions"
-        ]
+    "accent": "stethoscope",
+    "eyebrow": "one page, one answer",
+    "hook": "One clear page per procedure gets you named",
+    "cta_headline": "See which procedures AI ties to your name",
+    "deck": [
+      {
+        "type": "phone",
+        "kicker": "the question",
+        "title": "Patients ask by procedure",
+        "prompt": "Who is best for a mommy makeover near me?",
+        "names": [
+          "Meridian Aesthetics",
+          "Lakeside Plastic Surgery",
+          "Park Avenue Facial"
+        ],
+        "caption": "AI answers the exact procedure, so give it an exact page."
       },
-      "right": {
-        "title": "AEO-ready page",
-        "items": [
-          "Procedures written in text",
-          "Credentials stated on the page",
-          "Clear answers a machine can quote"
-        ]
+      {
+        "type": "point",
+        "num": 2,
+        "kicker": "why it works",
+        "text": "A page built around a single procedure answers the question directly, which is exactly what an engine looks for before it recommends anyone."
       }
-    },
-    "points": [
-      "An engine can't read text baked into a photo, a slider, or a PDF, so a page that keeps its procedures there reads as nearly blank.",
-      "Move the procedures, credentials, and common answers into plain text, and the same page starts giving AI something to quote."
     ],
-    "cta": "See how your main procedure page reads to an engine. Free scan, link in bio. Be the name AI recommends.",
-    "caption": "Your procedure page might look polished to a visitor and still read as almost empty to an AI.\n\nEngines can't pull text out of an image, a slider, or a PDF, so a page that keeps its procedures and credentials in those places gives the machine very little to work with. Move that same information into plain text and the page starts answering the questions patients ask AI.\n\nThe build barely changes, but what the engine can see changes a lot.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
-    "firstComment": "Try viewing your page as plain text, and if the procedures vanish, that's roughly what the engine sees too."
+    "caption": "People do not search for a surgeon in general. They ask AI who is best for a specific procedure in their city, and the engine looks for a clear, direct answer to name.\n\nOne strong page per procedure gives it that answer. A page that explains the procedure, who it suits, and what recovery looks like is far easier to quote than a single services list that mentions everything at once.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
+    "firstComment": "The free scan checks whether your procedure pages read as clear answers or a catch-all list."
   },
   {
-    "slug": "gbp-fields-surgeons",
+    "slug": "surgeon-cost-transparency",
     "vertical": "surgeon",
-    "eyebrow": "The checklist",
-    "hook": "These are the Google Business Profile fields AI actually reads about your practice.",
-    "points": [
-      "Set your primary category to your real focus and list every procedure you offer, since that text is among the first things the engine reads about you.",
-      "Keep reviews recent and reply to them, because volume and freshness tell AI the practice is active and worth recommending.",
-      "Match your name, address, and phone to the exact format used across your site and directories, so nothing reads as a separate business."
+    "accent": "stethoscope",
+    "eyebrow": "the money question",
+    "hook": "Publishing price ranges gets you named for cost questions",
+    "cta_headline": "See if AI names you on cost questions",
+    "deck": [
+      {
+        "type": "statement",
+        "kicker": "what they type first",
+        "tone": "mint",
+        "lines": [
+          "How much",
+          "does it cost?"
+        ],
+        "caption": "It is one of the most common questions patients bring to AI."
+      },
+      {
+        "type": "point",
+        "num": 2,
+        "kicker": "the opening",
+        "text": "Most practices hide the number, so the page that gives an honest range becomes the one AI can quote. A starting price is enough."
+      }
     ],
-    "cta": "Then see where AI has you today. Run the free scan, link in bio. Be the name AI recommends.",
-    "caption": "Your Google Business Profile is one of the first places AI checks when deciding whether to recommend a surgical practice.\n\nA few fields carry most of the weight. The primary category and service list tell the engine what you actually do. Recent reviews show that the practice is active and trusted, and consistent contact details across the web keep you from looking like two separate businesses.\n\nMost profiles have gaps in at least one of these.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
-    "firstComment": "If your primary category still says something generic, that alone can keep you out of procedure-specific answers."
+    "caption": "Cost is one of the first things a patient asks AI about a procedure. Most practices leave the number off the page entirely, which means the engine has nothing to work with and moves on.\n\nYou do not need to post a full price list. An honest starting range, with a line on what changes it, turns your page into the one AI can actually answer with.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
+    "firstComment": "The free scan looks for the pricing signals AI reads before it answers a cost question."
   },
   {
-    "slug": "board-certification-signal",
+    "slug": "surgeon-realself-asps",
     "vertical": "surgeon",
-    "eyebrow": "The signal",
-    "hook": "Your board certification is a signal AI can use, but only if it can read it.",
-    "points": [
-      "State your board certification and ASPS membership in plain text on your site, and confirm the same on directories AI already trusts, so the claim is easy to verify.",
-      "That signal only helps when a machine can find it, so it can't live only inside a logo or a scanned certificate."
+    "accent": "stethoscope",
+    "eyebrow": "proof it trusts",
+    "hook": "AI checks the profiles you do not control",
+    "cta_headline": "See which third-party profiles AI reads for you",
+    "deck": [
+      {
+        "type": "signals",
+        "kicker": "where it looks",
+        "title": "Profiles AI treats as proof",
+        "items": [
+          {
+            "icon": "building",
+            "title": "RealSelf",
+            "sub": "reviews and answered questions"
+          },
+          {
+            "icon": "star",
+            "title": "ASPS listing",
+            "sub": "board membership on record"
+          },
+          {
+            "icon": "pin",
+            "title": "Google profile",
+            "sub": "complete and current"
+          },
+          {
+            "icon": "doc",
+            "title": "Health directories",
+            "sub": "consistent name and details"
+          }
+        ],
+        "caption": "When these agree with your site, the engine trusts what it reads."
+      },
+      {
+        "type": "point",
+        "num": 2,
+        "kicker": "the work",
+        "text": "Claim each profile, fill it out fully, and keep the details identical to your website. Small gaps make an engine hesitate to name you."
+      }
     ],
-    "cta": "See whether AI can read your credentials. Free scan, link in bio. Be the name AI recommends.",
-    "caption": "Board certification and ASPS membership carry real weight with AI, but only when a machine can actually read them.\n\nWhen the certification is stated in plain text on your site and confirmed on directories the engines already trust, it becomes something they can verify and lean on. Locked inside a logo or a scanned certificate, it may as well not be there.\n\nThe credential is real either way, and the question is whether AI can see it.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
-    "firstComment": "A quick check is to search your name plus board certified and see whether a machine could confirm it from public pages."
+    "caption": "Before AI recommends a surgeon, it looks for outside confirmation. Your own website says you are good. A complete RealSelf profile, an ASPS listing, and a filled-out Google profile are what tell the engine to believe it.\n\nClaim those profiles, complete them, and keep every detail matching your site. When the outside sources agree with your own pages, you become a name an engine is comfortable putting forward.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
+    "firstComment": "The free scan checks how consistent your details are across the profiles AI reads."
   },
   {
-    "slug": "rhinoplasty-prompt-test",
+    "slug": "surgeon-recovery-questions",
     "vertical": "surgeon",
-    "eyebrow": "The test",
-    "hook": "Type the rhinoplasty question your patients type, and watch who AI names.",
-    "visual": {
-      "type": "chat",
-      "eyebrow": "Rhinoplasty",
-      "prompt": "who's the best rhinoplasty surgeon near me?",
-      "names": [
-        "Park Ave Aesthetics",
-        "Dr. Lena Fisher",
-        "Midtown Rhino & Face"
-      ],
-      "note": "your name never came up."
-    },
-    "points": [
-      "This is close to what a patient types before booking a rhinoplasty, and the engine answers with a short list of names.",
-      "If yours isn't on it, the work usually starts with reviews, trusted profiles, and a page that explains the procedure in plain text."
+    "accent": "stethoscope",
+    "eyebrow": "answer the real questions",
+    "hook": "Your recovery content is what patients ask AI",
+    "cta_headline": "See which patient questions your site answers",
+    "deck": [
+      {
+        "type": "phone",
+        "kicker": "before they book",
+        "title": "They ask AI, not you",
+        "prompt": "How long is recovery after a facelift?",
+        "names": [
+          "A clear guide from a real practice",
+          "A forum thread",
+          "A generic health page"
+        ],
+        "you_label": "you?",
+        "caption": "The practice with the clearest answer earns the mention."
+      },
+      {
+        "type": "point",
+        "num": 2,
+        "kicker": "the move",
+        "text": "Write the honest answers to the recovery questions you hear all day. Each one is a page an engine can hand to a nervous patient with your name on it."
+      }
     ],
-    "cta": "Run the prompt for your city, then check your own score. Free scan, link in bio. Be the name AI recommends.",
-    "caption": "Before a rhinoplasty, a lot of patients open ChatGPT or Perplexity and ask who the best surgeon near them is.\n\nThe engine answers with a short list of names, and if yours isn't there, the patient may never learn you exist. Getting onto that list usually comes down to reviews, profiles on sites AI trusts, and pages that describe the procedure in text a machine can quote.\n\nRun the question for your own city and see who comes back.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
-    "firstComment": "Try it with a friend's phone or a fresh session so your own history doesn't nudge the answer."
+    "caption": "Patients ask AI the questions they feel shy asking you. How long is recovery, how much will it hurt, when can I go back to work. The practice that answers those clearly is the one that gets pointed to.\n\nYou already answer these in consults every week. Putting the honest version on your site turns everyday reassurance into pages AI can quote, with your practice attached to the answer.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
+    "firstComment": "The free scan shows whether your site answers the questions patients actually bring to AI."
   },
   {
-    "slug": "ads-dont-help-ai",
+    "slug": "surgeon-google-questions",
     "vertical": "surgeon",
-    "eyebrow": "The catch",
-    "hook": "You can outspend everyone on ads and still get skipped when a patient asks AI for a surgeon.",
-    "visual": {
-      "type": "compare",
-      "eyebrow": "Ads vs AEO",
-      "left": {
-        "title": "Paid ads",
+    "accent": "stethoscope",
+    "eyebrow": "a signal you are missing",
+    "hook": "The questions tab on your Google profile is a signal",
+    "cta_headline": "See how your Google profile reads to AI",
+    "deck": [
+      {
+        "type": "signals",
+        "kicker": "an open channel",
+        "title": "Your Google profile Q and A",
         "items": [
-          "Rent a spot at the top",
-          "Stop the moment the budget runs out",
-          "Invisible inside AI answers"
-        ]
+          {
+            "icon": "doc",
+            "title": "Real questions",
+            "sub": "the ones patients actually ask"
+          },
+          {
+            "icon": "star",
+            "title": "Your answers",
+            "sub": "in your own words"
+          },
+          {
+            "icon": "pin",
+            "title": "Stays public",
+            "sub": "visible and indexable"
+          },
+          {
+            "icon": "building",
+            "title": "Read by AI",
+            "sub": "another source it can cite"
+          }
+        ],
+        "caption": "An empty Q and A section is a signal you left on the table."
       },
-      "right": {
-        "title": "AEO",
-        "items": [
-          "Earn a place in the answer",
-          "Built on reviews and profiles",
-          "Named when patients ask AI"
-        ]
+      {
+        "type": "point",
+        "num": 2,
+        "kicker": "do this",
+        "text": "Add the questions you hear most and answer them yourself. Left blank, the section fills with guesses from strangers instead."
       }
-    },
-    "points": [
-      "Ads put you at the top of a search results page, but AI assistants build their answer from reviews, directories and trusted profiles instead.",
-      "When a patient asks ChatGPT who to see, there's no ad slot to buy, so the engine just names practices it already trusts."
     ],
-    "cta": "See whether AI names your practice when patients ask. Free scan, link in bio. Be the name AI recommends.",
-    "caption": "A bigger ad budget won't get your practice into an AI recommendation.\n\nWhen a patient asks ChatGPT or Gemini for the best surgeon in their city, the answer is built from reviews, your Google Business Profile and trusted directories like RealSelf and Healthgrades. There's no ad auction inside that answer, so paid spend doesn't move you up. The practices that get named are the ones with strong signals the engine can actually read.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
-    "firstComment": "Want to see if AI names your practice today? Our free scan checks all four engines in about two minutes."
+    "caption": "Your Google Business Profile has a questions and answers section most surgeons never touch. It is public, it stays on the record, and AI can read it as one more source about your practice.\n\nSeed it with the questions you hear most and answer them in your own words. Leave it empty and it fills with guesses from people who have never met you.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
+    "firstComment": "The free scan reviews how complete your Google profile looks to an engine."
   },
   {
-    "slug": "how-ai-picks-lawyers",
-    "vertical": "law",
-    "eyebrow": "Behind the answer",
-    "hook": "Watch how AI builds its shortlist the moment someone asks for the best injury attorney nearby.",
-    "visual": {
-      "type": "chat",
-      "eyebrow": "The shortlist",
-      "prompt": "best injury attorney near me?",
-      "names": [
-        "Harbor Injury Law",
-        "Delgado & Pierce",
-        "Riverside Accident Group"
-      ],
-      "note": "and your firm never entered the running."
-    },
-    "points": [
-      "The engine pulls from directories like Avvo and Justia, your Google reviews, and any bar or Super Lawyers listing it can find.",
-      "It names only a handful, favoring firms with consistent, trusted profiles, so thin or mismatched listings rarely make the shortlist."
-    ],
-    "cta": "See where your firm lands when someone asks AI. Run the free scan, link in bio. Be the name AI recommends.",
-    "caption": "When someone asks AI for the best injury attorney nearby, a shortlist appears in seconds, and the way it gets assembled is fairly predictable.\n\nThe engine gathers what it can find about local firms from directories like Avvo and Justia, from Google reviews, and from bar and Super Lawyers listings. It favors firms with consistent, complete profiles it can trust, then names a few. If your listings are thin or don't match, you're left off before the searcher ever sees a name.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
-    "firstComment": "The firms that make these shortlists usually did the unglamorous work of keeping every profile complete and consistent."
-  },
-  {
-    "slug": "legal-directories-weight",
-    "vertical": "law",
-    "eyebrow": "The pattern",
-    "hook": "Your Avvo and Justia profiles may matter more to AI than your own website.",
-    "visual": {
-      "type": "bars",
-      "eyebrow": "Signal weight",
-      "title": "What AI leans on for law firms",
-      "bars": [
-        {
-          "label": "Legal directories (Avvo, Justia, Super Lawyers)",
-          "value": 0.9
-        },
-        {
-          "label": "Google reviews and profile",
-          "value": 0.8
-        },
-        {
-          "label": "Bar listings and press",
-          "value": 0.6
-        },
-        {
-          "label": "Your own website",
-          "value": 0.45
-        }
-      ]
-    },
-    "points": [
-      "When AI recommends attorneys, it trusts independent directories more than anything you write about yourself.",
-      "A complete Avvo, Justia or Super Lawyers profile gives the engine something solid to quote, while an empty or outdated one quietly keeps you out of the answer."
-    ],
-    "cta": "See how your directory profiles read to AI. Free scan, link in bio. Be the name AI recommends.",
-    "caption": "For law firms, your third-party profiles may carry more weight with AI than your own website does.\n\nWhen an engine recommends attorneys, it looks for firms it can verify through independent sources, and legal directories like Avvo, Justia and Super Lawyers sit near the top of that list. A full, current profile gives the AI something it can quote with confidence. A blank or outdated one quietly drops you out of the running, no matter how polished your site looks.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
-    "firstComment": "Start with the directory where your practice area is strongest and make sure every field is filled in and accurate."
-  },
-  {
-    "slug": "reviews-for-law-firms",
-    "vertical": "law",
-    "eyebrow": "Hack list",
-    "hook": "Every new client review does quiet work in the background of AI search.",
-    "visual": {
-      "type": "flow",
-      "eyebrow": "How reviews add up",
-      "steps": [
-        "Client leaves a detailed Google review",
-        "Review names the practice area and the outcome",
-        "AI reads the pattern across many reviews",
-        "Your firm surfaces when someone asks"
-      ]
-    },
-    "points": [
-      "Reviews that name the practice area, the city and the result give AI clear language to match against a searcher's question.",
-      "Volume and recency both count, so a steady stream of recent reviews tells the engine your firm is active and trusted right now."
-    ],
-    "cta": "See what AI says about your firm today. Run the free scan, link in bio. Be the name AI recommends.",
-    "caption": "Every detailed client review does quiet work for your firm in the background of AI search.\n\nAI reads reviews in bulk, looking for patterns. When clients mention the practice area, the city and the outcome, the engine gets clear language to match against the real questions people ask. A steady flow of recent reviews also signals that your firm is active and trusted right now, which is exactly what the AI wants to see before naming you.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
-    "firstComment": "A simple ask at the end of a good case, pointing clients to Google, compounds faster than most partners expect."
-  },
-  {
-    "slug": "aeo-vs-seo-legal-intake",
-    "vertical": "law",
-    "eyebrow": "The shift",
-    "hook": "Some of your next intake calls will begin inside an AI answer, before anyone opens Google.",
-    "visual": {
-      "type": "compare",
-      "eyebrow": "SEO vs AEO",
-      "left": {
-        "title": "SEO",
-        "items": [
-          "Ranks your pages in Google",
-          "Earns clicks to your site",
-          "Still where a lot of intake starts"
-        ]
+    "slug": "surgeon-new-practice-visible",
+    "vertical": "surgeon",
+    "accent": "stethoscope",
+    "eyebrow": "age is not the gate",
+    "hook": "A new practice can get named before an older one",
+    "cta_headline": "See where your practice stands with AI today",
+    "deck": [
+      {
+        "type": "leaderboard",
+        "kicker": "signals, not seniority",
+        "title": "AI ranks the evidence",
+        "rows": [
+          {
+            "rank": 1,
+            "name": "Your new practice",
+            "hot": true
+          },
+          {
+            "rank": 2,
+            "name": "Established Aesthetics"
+          },
+          {
+            "rank": 3,
+            "name": "Old Town Surgical"
+          }
+        ],
+        "caption": "Clear pages and recent reviews can outweigh years in business."
       },
-      "right": {
-        "title": "AEO",
-        "items": [
-          "Gets you named in AI answers",
-          "Reaches people who skip the results page",
-          "Where more intake is heading"
-        ]
+      {
+        "type": "point",
+        "num": 2,
+        "kicker": "why",
+        "text": "An engine does not count how long you have existed. It reads what it can find right now, so a newer practice with strong signals can win the mention."
       }
-    },
-    "points": [
-      "SEO still brings people to your site through Google, and that traffic isn't going anywhere.",
-      "AEO covers the growing group who ask ChatGPT or Gemini first and act on the names they hear, so firms showing up in both get the full picture."
     ],
-    "cta": "See whether AI sends any intake your way. Free scan, link in bio. Be the name AI recommends.",
-    "caption": "A growing share of intake now starts inside an AI answer, well before anyone opens Google.\n\nSEO still matters, since plenty of clients find firms by searching and clicking through to a site. AEO handles the newer path, where someone asks ChatGPT or Gemini for a recommendation and calls the name they hear. Firms that show up in both catch clients at either end, instead of missing the ones who never run a traditional search.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
-    "firstComment": "If you only track where your website leads come from, you may be missing the intake calls that started with an AI recommendation."
+    "caption": "It is easy to assume the practices that have been around longest own the AI answers. They do not. An engine reads the signals in front of it today, not a founding date.\n\nA newer practice with clear procedure pages, recent reviews, and complete profiles can be named ahead of an older one that stopped tending to any of it. Time in business is not the moat you think it is.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
+    "firstComment": "The free scan shows the signals AI weighs, whether your practice is one year old or twenty."
   },
   {
-    "slug": "divorce-lawyer-never-called",
-    "vertical": "law",
-    "eyebrow": "The callout",
-    "hook": "A stranger picked their divorce lawyer last night without ever seeing your name.",
-    "visual": {
-      "type": "chat",
-      "eyebrow": "Their search",
-      "prompt": "best divorce lawyer in Chicago?",
-      "names": [
-        "Lakeshore Family Law",
-        "Prairie Divorce Group",
-        "Halsted Family Attorneys"
-      ],
-      "note": "and your firm never came up."
-    },
-    "points": [
-      "Someone going through a divorce opened an AI assistant, asked who to call, and got three names back before they touched Google, and none of them were yours.",
-      "You never lost that client in a consultation, because they were already deciding while your phone stayed quiet."
-    ],
-    "cta": "See how often your firm gets left off. Run the free scan, link in bio. Be the name AI recommends.",
-    "caption": "Somewhere in your city last night, a person going through a divorce asked an AI assistant who to call. They got a short list back and started dialing, and your firm was never part of that list.\n\nThis is the quiet way firms lose clients now. There's no missed call and no lost pitch, because the decision happened inside a chat window before anyone reached out. The firms that get named are the ones the engines can find and trust, and that is something you can actually work on.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
-    "firstComment": "A free scan shows you which of the four big engines already leave your firm out when someone asks for a divorce lawyer in your city."
-  },
-  {
-    "slug": "gap-report-law-firm",
-    "vertical": "law",
-    "eyebrow": "The walkthrough",
-    "hook": "This is exactly what a Gap Report shows a law firm before we change a single thing.",
-    "visual": {
-      "type": "flow",
-      "eyebrow": "How it works",
-      "steps": [
-        "We ask all four engines who to hire for your practice area in your city",
-        "We record where you show up and where you get skipped",
-        "We check the sources each engine leaned on to pick those names",
-        "You get a plain report on what to fix first"
-      ]
-    },
-    "points": [
-      "We run the same hiring questions your clients type across ChatGPT, Gemini, Perplexity and Claude, then write down who each one names and why.",
-      "You see which engines pass over you, which competitors keep surfacing in your place, and the specific sources pushing those names ahead of yours."
-    ],
-    "cta": "Want your own report? It's free. Start the scan, link in bio. Be the name AI recommends.",
-    "caption": "Before we touch anything, a Gap Report shows a law firm exactly where it stands with AI assistants. It's an honest snapshot of where you stand today, taken before any of the fixes begin.\n\nWe ask ChatGPT, Gemini, Perplexity and Claude the hiring questions real clients type, then record who each engine names and which sources it trusted to get there. You end up with a clear picture of where you are invisible and which competitors keep coming up in your place.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
-    "firstComment": "A scan shows which single competitor the engines keep recommending across your city, which is usually the more useful half of the answer."
-  },
-  {
-    "slug": "bar-listing-nap-law",
-    "vertical": "law",
-    "eyebrow": "Quiet check",
-    "hook": "AI checks your state bar listing before it recommends you, and most firms have no idea.",
-    "points": [
-      "When an engine weighs a law firm, it cross-checks the name, address and phone number on your site against your bar page, your Google profile and the legal directories.",
-      "If those details disagree, even by an old suite number or a tracking phone line, the engine trusts you a little less and leans toward a firm whose records line up.",
-      "Pull up your bar listing, your Google Business Profile and your website footer side by side, and make every line match."
-    ],
-    "cta": "See what the engines say about your firm. Run the free scan, link in bio. Be the name AI recommends.",
-    "caption": "AI assistants run a quiet background check before they recommend a law firm, and your state bar listing is part of it. So is every place your name, address and phone number show up.\n\nWhen those details match across your site, your Google profile, your bar page and the legal directories, an engine reads you as a real, established firm. When an old address or a swapped phone number appears, that small mismatch chips away at how much the engine trusts you, and it starts to favor a firm whose records agree.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
-    "firstComment": "Pull up your bar listing and your website footer right now and check that the phone numbers actually match."
-  },
-  {
-    "slug": "practice-area-pages-ai-quotes",
-    "vertical": "law",
-    "eyebrow": "The stack",
-    "hook": "The practice-area pages an AI can quote look nothing like the ones on most law firm sites.",
-    "visual": {
-      "type": "compare",
-      "eyebrow": "Two pages",
-      "left": {
-        "title": "Page AI skips",
-        "items": [
-          "One long page covering every practice area",
-          "Marketing language with no direct answers",
-          "Key facts buried deep in paragraphs"
-        ]
+    "slug": "surgeon-second-opinion",
+    "vertical": "surgeon",
+    "accent": "stethoscope",
+    "eyebrow": "the quiet check",
+    "hook": "Patients ask AI to sanity check your quote",
+    "cta_headline": "See what AI says when a patient checks",
+    "deck": [
+      {
+        "type": "phone",
+        "kicker": "after the consult",
+        "title": "The second opinion is AI",
+        "prompt": "Is this a fair price for rhinoplasty?",
+        "names": [
+          "A surgeon it can describe",
+          "A surgeon it can describe",
+          "A price range article"
+        ],
+        "you_label": "you?",
+        "caption": "If AI cannot describe you, the reassurance goes to someone else."
       },
-      "right": {
-        "title": "Page AI quotes",
-        "items": [
-          "A focused page for each practice area",
-          "Plain answers to real client questions",
-          "Location, credentials and process stated outright"
-        ]
+      {
+        "type": "point",
+        "num": 2,
+        "kicker": "the takeaway",
+        "text": "The patient who just left your office asks AI about you that night. What it can say about you shapes whether they come back."
       }
-    },
-    "points": [
-      "An engine recommends firms it can quote, so a focused page that answers a real client question in plain words gives it something clean to lift.",
-      "A single catch-all services page written for browsing leaves the engine nothing clear to pull, so it moves on to a firm that made the answer easy to find."
     ],
-    "cta": "See which of your pages an engine can quote. Free scan, link in bio. Be the name AI recommends.",
-    "caption": "The practice-area pages an AI can quote look very different from the ones most law firm sites run. That difference decides whether an engine pulls your words into an answer or passes you by.\n\nEngines recommend firms they can quote cleanly, so a focused page that answers a real client question in plain language gives them something to lift. A single catch-all services page written for browsing leaves them with nothing clear to pull, and they move on to a firm that made the answer easy.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
-    "firstComment": "Read one of your practice-area pages out loud and ask whether an engine could quote a single sentence as a direct answer."
+    "caption": "A patient leaves your consult, sits at home, and asks AI whether your quote and your plan make sense. That late-night second opinion is now part of every decision.\n\nIf the engine can describe your training, your reviews, and your results, it reinforces the trust you built in the room. If it has little to say, that silence quietly does its own work.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
+    "firstComment": "The free scan shows what AI can say about you when a patient checks after a consult."
   },
   {
-    "slug": "near-me-specialty-match",
-    "vertical": "law",
-    "eyebrow": "Near me",
-    "hook": "\"Estate lawyer near me\" is really two questions to an AI, and firms keep losing on the second one.",
-    "visual": {
-      "type": "bars",
-      "eyebrow": "Match signals",
-      "title": "What helps AI match 'estate lawyer near me'",
-      "bars": [
-        {
-          "label": "Practice area named clearly on the page",
-          "value": 0.9
-        },
-        {
-          "label": "Same city and address across the web",
-          "value": 0.8
-        },
-        {
-          "label": "Reviews that mention that specific service",
-          "value": 0.7
-        },
-        {
-          "label": "Generic full-service framing",
-          "value": 0.3
-        }
-      ]
-    },
-    "points": [
-      "The engine first works out who is genuinely nearby, then who clearly handles that specific matter, and it needs both to line up before it names you.",
-      "Firms that describe themselves as a broad full-service practice pass the location check but blur the specialty check, so a narrower competitor down the street gets matched instead.",
-      "Say the practice area and the city in plain words on the same page, and back it with reviews that name that service."
-    ],
-    "cta": "See how your main practice area reads to AI. Free scan, link in bio. Be the name AI recommends.",
-    "caption": "When a client asks an AI for an estate lawyer near me, the engine is really answering two questions at once. Plenty of firms win the first and quietly lose the second.\n\nIt works out who is genuinely close, then who clearly handles that specific matter, and both have to line up before your name comes back. Firms that describe themselves in broad full-service terms pass the location check but blur the specialty check, so a narrower competitor gets the match.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
-    "firstComment": "Check whether your main practice area and your city both appear in plain words on the same page."
-  },
-  {
-    "slug": "big-firm-vs-solo-ai",
-    "vertical": "law",
-    "eyebrow": "Firm size",
-    "hook": "The biggest firm in town isn't always the name AI gives out.",
-    "visual": {
-      "type": "compare",
-      "eyebrow": "Firm size myth",
-      "left": {
-        "title": "Big firm",
+    "slug": "surgeon-review-replies",
+    "vertical": "surgeon",
+    "accent": "stethoscope",
+    "eyebrow": "a freshness signal",
+    "hook": "Replying to reviews is a signal AI reads",
+    "cta_headline": "See how your reviews read to an engine",
+    "deck": [
+      {
+        "type": "signals",
+        "kicker": "what a reply shows",
+        "title": "Why responses matter",
         "items": [
-          "Many practice areas at once",
-          "Each lawyer's name spread thin",
-          "General profiles, little focus"
-        ]
+          {
+            "icon": "star",
+            "title": "Freshness",
+            "sub": "recent activity on the profile"
+          },
+          {
+            "icon": "doc",
+            "title": "More text",
+            "sub": "another passage to read"
+          },
+          {
+            "icon": "pin",
+            "title": "Attentiveness",
+            "sub": "a practice that shows up"
+          },
+          {
+            "icon": "building",
+            "title": "Real signal",
+            "sub": "human, not automated noise"
+          }
+        ],
+        "caption": "A profile that is tended reads as a practice that is active."
       },
-      "right": {
-        "title": "Solo attorney",
-        "items": [
-          "One clear specialty",
-          "Focused reviews and citations",
-          "Profiles that match the question"
-        ]
+      {
+        "type": "point",
+        "num": 2,
+        "kicker": "keep it simple",
+        "text": "A short, genuine reply is enough. It keeps the profile current and gives an engine a little more to understand about you."
       }
-    },
-    "points": [
-      "AI doesn't count how many lawyers you have. It reads how clearly one attorney matches the question someone asked.",
-      "A solo lawyer with focused reviews and a clean Avvo profile often gets named ahead of a firm that spreads itself across ten practice areas."
     ],
-    "cta": "See whether you're the clear answer for your specialty. Free scan, link in bio. Be the name AI recommends.",
-    "caption": "Size isn't what gets a firm recommended by AI.\n\nWhen someone asks ChatGPT or Gemini for a lawyer, the engine looks for a clear match to the question. A solo attorney with focused reviews, a complete Avvo or Justia profile and pages that plainly say what they handle can get named ahead of a large firm whose signals are spread thin across every practice area.\n\nBigger marketing budgets don't change what the engine actually reads.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
-    "firstComment": "A quick scan shows whether the engines are naming you or a firm down the street."
+    "caption": "Reviews are not just a star rating. The replies underneath them are text an engine can read, and a profile with recent responses looks like a practice that is present and paying attention.\n\nYou do not need long messages. A short, human reply keeps the profile fresh and adds a little more for AI to understand about how you treat people.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
+    "firstComment": "The free scan looks at how recent and complete your review presence appears to AI."
   },
   {
-    "slug": "client-prompts-before-hiring",
+    "slug": "surgeon-city-pages",
+    "vertical": "surgeon",
+    "accent": "stethoscope",
+    "eyebrow": "local done right",
+    "hook": "Area pages help you, until they read as spam",
+    "cta_headline": "See how your local pages read to AI",
+    "deck": [
+      {
+        "type": "compare",
+        "title": "Two kinds of local page",
+        "left": {
+          "title": "Doorway",
+          "items": [
+            "Same page, new city name",
+            "Nothing local inside",
+            "AI learns to ignore it"
+          ]
+        },
+        "right": {
+          "title": "Real",
+          "items": [
+            "Written for that area",
+            "A genuine local detail",
+            "Worth naming"
+          ]
+        },
+        "caption": "One earns a mention. The other trains AI to skip you."
+      },
+      {
+        "type": "point",
+        "num": 2,
+        "kicker": "the rule",
+        "text": "If a page only swaps the city name, it adds nothing. Give each area page one true local detail or do not publish it."
+      }
+    ],
+    "caption": "Location pages can help patients in nearby areas find you, but only if they are real. A page that swaps the city name and changes nothing else is a pattern engines have learned to distrust.\n\nGive each area page something genuinely local, a neighborhood you serve or a real detail about that community, or leave it off. One honest page beats ten thin copies every time.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
+    "firstComment": "The free scan flags location pages that look templated rather than genuinely local."
+  },
+  {
+    "slug": "surgeon-answers-change",
+    "vertical": "surgeon",
+    "accent": "stethoscope",
+    "eyebrow": "not set in stone",
+    "hook": "The AI shortlist you are on can change next month",
+    "cta_headline": "See where you stand this month",
+    "deck": [
+      {
+        "type": "statement",
+        "kicker": "nothing is permanent",
+        "tone": "mint",
+        "lines": [
+          "Named today.",
+          "Missed tomorrow."
+        ],
+        "caption": "Reviews, profiles, and rivals all move. So does the answer."
+      },
+      {
+        "type": "point",
+        "num": 2,
+        "kicker": "the habit",
+        "text": "Check what AI says about you on a schedule, the way you watch your reviews. Visibility you never look at is visibility you cannot keep."
+      }
+    ],
+    "caption": "Being named by AI is not a badge you earn once. The answer is rebuilt from fresh signals every time someone asks, so a competitor who tightens their profiles or gathers new reviews can shift the list.\n\nTreat it like your reviews. Check what the engines say about you on a regular schedule so you notice movement while you can still respond to it.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
+    "firstComment": "The free scan gives you a snapshot you can rerun to watch how your visibility moves."
+  },
+  {
+    "slug": "law-directory-profiles",
     "vertical": "law",
-    "eyebrow": "The shift",
-    "hook": "Clients are asking AI who to hire before they call anyone.",
-    "visual": {
-      "type": "chat",
-      "eyebrow": "Before they call",
-      "prompt": "who's a good estate lawyer near me?",
-      "names": [
-        "Harbor Estate Law",
-        "Ellison & Reed",
-        "Park District Legal"
-      ],
-      "note": "three names, and your firm isn't one of them."
-    },
-    "points": [
-      "People used to search, click five links and compare firms themselves. Now they ask one question and get three names back.",
-      "If your firm isn't in that short list, the client never learns you exist. They call the names they were handed."
+    "eyebrow": "proof it trusts",
+    "hook": "AI reads the legal directories you forgot about",
+    "cta_headline": "See which directories AI reads for your firm",
+    "deck": [
+      {
+        "type": "signals",
+        "kicker": "where it looks",
+        "title": "Profiles AI treats as proof",
+        "items": [
+          {
+            "icon": "building",
+            "title": "Avvo and Justia",
+            "sub": "complete and claimed"
+          },
+          {
+            "icon": "doc",
+            "title": "FindLaw",
+            "sub": "practice areas listed"
+          },
+          {
+            "icon": "star",
+            "title": "State bar",
+            "sub": "your record, public"
+          },
+          {
+            "icon": "pin",
+            "title": "Google profile",
+            "sub": "consistent with the rest"
+          }
+        ],
+        "caption": "When these agree with your site, an engine believes it."
+      },
+      {
+        "type": "point",
+        "num": 2,
+        "kicker": "the work",
+        "text": "Claim each profile, complete it, and keep the details identical everywhere. A mismatched address or name makes an engine hesitate to name you."
+      }
     ],
-    "cta": "See what the engines say when someone asks for a lawyer near you. Free scan, link in bio. Be the name AI recommends.",
-    "caption": "The research a client does before hiring a lawyer looks nothing like it did a few years ago.\n\nInstead of reading through a page of results, they ask an assistant who to hire and get a handful of names in reply. That short answer decides who gets the call and who never comes up. The firms in it aren't always the ones with the flashiest website. Often they're the ones an engine finds easy to read and trust.\n\nIf you don't know what those engines say about your practice area, you're guessing at your own pipeline.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
-    "firstComment": "The free check shows you the exact names each engine gives for your practice area and city."
+    "caption": "Before AI recommends a firm, it looks for outside sources that back up your own website. Avvo, Justia, FindLaw, and your state bar listing are exactly the kind of confirmation it wants to find.\n\nClaim those profiles, fill them out, and keep every detail matching your site. When the directories and your pages agree, you become a firm an engine is comfortable putting forward.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
+    "firstComment": "The free scan checks how consistent your firm looks across the directories AI reads."
   },
   {
-    "slug": "four-engines-why",
+    "slug": "law-city-practice-pages",
+    "vertical": "law",
+    "eyebrow": "match the question",
+    "hook": "Clients ask AI by practice area and city",
+    "cta_headline": "See which practice areas AI ties to your firm",
+    "deck": [
+      {
+        "type": "phone",
+        "kicker": "how they ask",
+        "title": "Specific beats general",
+        "prompt": "DUI lawyer in Riverside with a free consult?",
+        "names": [
+          "Hale & Cross LLP",
+          "Riverside Legal Group",
+          "Bennett Law Office"
+        ],
+        "caption": "The firm with a page for that exact need gets named."
+      },
+      {
+        "type": "point",
+        "num": 2,
+        "kicker": "why it works",
+        "text": "A page built for one practice area in one place answers the question directly. A single page listing every service you offer answers nothing precisely."
+      }
+    ],
+    "caption": "People do not ask AI for a lawyer in the abstract. They ask for a specific kind of help in a specific place, and the engine looks for a page that matches that exact need.\n\nA clear page for each core practice area, written for the areas you serve, gives it something to name. A single page that lists everything you do at once reads as a brochure, not an answer.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
+    "firstComment": "The free scan checks whether your practice-area pages read as direct answers."
+  },
+  {
+    "slug": "law-do-i-have-a-case",
+    "vertical": "law",
+    "eyebrow": "the first question",
+    "hook": "Clients ask AI if they even have a case",
+    "cta_headline": "See if AI sends those clients to you",
+    "deck": [
+      {
+        "type": "statement",
+        "kicker": "before they call anyone",
+        "tone": "mint",
+        "lines": [
+          "Do I even",
+          "have a case?"
+        ],
+        "caption": "They ask AI this long before they ask a lawyer."
+      },
+      {
+        "type": "point",
+        "num": 2,
+        "kicker": "the opening",
+        "text": "Answer that question honestly on your site, and you become the firm the engine points to when someone is still deciding whether to reach out."
+      }
+    ],
+    "caption": "Long before anyone calls a lawyer, they ask AI whether their situation is even worth a call. Do I have a case, is it too late, is this worth pursuing. That is where the relationship really starts now.\n\nIf your site answers those questions plainly, without pressure, you become the firm an engine can point to at the moment of doubt. Being helpful early is how you get named later.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
+    "firstComment": "The free scan shows whether your site answers the questions clients ask before they call."
+  },
+  {
+    "slug": "law-attorney-bios",
+    "vertical": "law",
+    "eyebrow": "who is behind the firm",
+    "hook": "AI wants to know who is actually behind your firm",
+    "cta_headline": "See how your firm's expertise reads to AI",
+    "deck": [
+      {
+        "type": "signals",
+        "kicker": "what a real bio shows",
+        "title": "Signals AI reads on a bio",
+        "items": [
+          {
+            "icon": "star",
+            "title": "Experience",
+            "sub": "years and focus, stated plainly"
+          },
+          {
+            "icon": "building",
+            "title": "Credentials",
+            "sub": "bar admissions and record"
+          },
+          {
+            "icon": "doc",
+            "title": "Focus",
+            "sub": "the areas you actually practice"
+          },
+          {
+            "icon": "pin",
+            "title": "A real person",
+            "sub": "named, not anonymous"
+          }
+        ],
+        "caption": "An engine trusts a firm it can attribute to real people."
+      },
+      {
+        "type": "point",
+        "num": 2,
+        "kicker": "do this",
+        "text": "Give each attorney a real bio page with experience and focus. A firm with named, credentialed people is easier to recommend than a faceless brand."
+      }
+    ],
+    "caption": "AI leans on who is responsible for a firm before it recommends one. A named attorney with real experience and clear credentials is far easier to trust than an anonymous brand with a contact form.\n\nGive each attorney a genuine bio page, with their focus, their years, and their admissions stated plainly. It is one of the strongest trust signals a firm can offer an engine.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
+    "firstComment": "The free scan checks whether your site shows the real expertise behind your firm."
+  },
+  {
+    "slug": "law-case-results",
+    "vertical": "law",
+    "eyebrow": "proof, done right",
+    "hook": "Honest results are proof an engine can read",
+    "cta_headline": "See what proof AI can find on your site",
+    "deck": [
+      {
+        "type": "point",
+        "num": 1,
+        "kicker": "why it matters",
+        "text": "An engine looks for evidence a firm can back up its claims. Real, ethically framed outcomes are some of the strongest proof you can offer."
+      },
+      {
+        "type": "compare",
+        "title": "How to frame it",
+        "left": {
+          "title": "Weak",
+          "items": [
+            "We win big",
+            "No guarantee shown",
+            "Empty superlatives"
+          ]
+        },
+        "right": {
+          "title": "Strong",
+          "items": [
+            "What the matter involved",
+            "The honest outcome",
+            "Framed with a disclaimer"
+          ]
+        },
+        "caption": "Proof reads as trust. Bragging reads as noise."
+      }
+    ],
+    "caption": "Results content, handled ethically, is some of the most convincing proof a firm can publish. An engine reading your site wants to know you can support what you claim, and honest outcomes do that better than adjectives.\n\nFrame it carefully. Describe what a matter involved and the honest result, with the disclaimers your bar rules require. Done right, it is trust an engine can read. Done as bragging, it is noise it ignores.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
+    "firstComment": "The free scan looks for the proof signals AI weighs before recommending a firm."
+  },
+  {
+    "slug": "law-firm-google-profile",
+    "vertical": "law",
+    "eyebrow": "the local anchor",
+    "hook": "Your Google profile tells AI where you practice",
+    "cta_headline": "See how your Google profile reads to AI",
+    "deck": [
+      {
+        "type": "signals",
+        "kicker": "fill it fully",
+        "title": "What the profile tells AI",
+        "items": [
+          {
+            "icon": "building",
+            "title": "Category",
+            "sub": "the right kind of firm"
+          },
+          {
+            "icon": "pin",
+            "title": "Service area",
+            "sub": "where you actually work"
+          },
+          {
+            "icon": "doc",
+            "title": "Hours and contact",
+            "sub": "complete and current"
+          },
+          {
+            "icon": "star",
+            "title": "Reviews",
+            "sub": "recent and answered"
+          }
+        ],
+        "caption": "A complete profile is a firm an engine can place."
+      },
+      {
+        "type": "point",
+        "num": 2,
+        "kicker": "the point",
+        "text": "Half-finished profiles leave an engine guessing where and what you practice. Complete it once and it keeps working for you."
+      }
+    ],
+    "caption": "Your Google Business Profile is one of the first places AI checks to understand where you practice and what kind of firm you are. A half-finished profile leaves it guessing, and engines do not name what they are unsure about.\n\nSet the right category, define your service area, complete your hours and contact details, and keep your reviews current. It is a one-time cleanup that quietly pays off in every answer.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
+    "firstComment": "The free scan reviews how complete and consistent your Google profile looks to AI."
+  },
+  {
+    "slug": "law-review-responses",
+    "vertical": "law",
+    "eyebrow": "a freshness signal",
+    "hook": "Responding to reviews is a signal AI reads",
+    "cta_headline": "See how your reviews read to an engine",
+    "deck": [
+      {
+        "type": "signals",
+        "kicker": "what a reply shows",
+        "title": "Why responses matter",
+        "items": [
+          {
+            "icon": "star",
+            "title": "Freshness",
+            "sub": "recent activity on record"
+          },
+          {
+            "icon": "doc",
+            "title": "More to read",
+            "sub": "another passage of text"
+          },
+          {
+            "icon": "pin",
+            "title": "You show up",
+            "sub": "a firm that is present"
+          },
+          {
+            "icon": "building",
+            "title": "Professional",
+            "sub": "measured and human"
+          }
+        ],
+        "caption": "A tended profile reads as a firm that is active."
+      },
+      {
+        "type": "point",
+        "num": 2,
+        "kicker": "mind the rules",
+        "text": "Keep replies professional and confidential, never discussing the matter. A short, careful thank you is enough to keep the profile current."
+      }
+    ],
+    "caption": "Reviews are more than a star count. The responses beneath them are text an engine can read, and a profile with recent, professional replies looks like a firm that is present and attentive.\n\nMind your ethics rules. Keep replies confidential and never discuss the matter, but a short, careful acknowledgment keeps the profile fresh and gives AI a little more to understand about your firm.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
+    "firstComment": "The free scan looks at how recent and complete your review presence appears to AI."
+  },
+  {
+    "slug": "law-fee-transparency",
+    "vertical": "law",
+    "eyebrow": "the money question",
+    "hook": "Being clear about fees gets you named for cost questions",
+    "cta_headline": "See if AI names you on cost questions",
+    "deck": [
+      {
+        "type": "statement",
+        "kicker": "what they ask first",
+        "tone": "mint",
+        "lines": [
+          "What will",
+          "this cost me?"
+        ],
+        "caption": "Fees are one of the first things clients ask AI."
+      },
+      {
+        "type": "point",
+        "num": 2,
+        "kicker": "the opening",
+        "text": "You do not need a full rate card. Naming how you charge, whether flat, hourly, or contingency, makes your page the one AI can answer with."
+      }
+    ],
+    "caption": "Cost is one of the first worries a client brings to AI, and most firms say nothing about it. That silence leaves the engine with nothing to work with when someone asks how much a matter might run.\n\nYou do not have to publish a rate card. Explaining how you charge, whether flat fee, hourly, or contingency, and what a free consultation covers, turns your page into the one an engine can point to.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
+    "firstComment": "The free scan looks for the fee signals AI reads before answering a cost question."
+  },
+  {
+    "slug": "law-answer-first-pages",
+    "vertical": "law",
+    "eyebrow": "lead with the answer",
+    "hook": "Pages that answer first are the ones AI quotes",
+    "cta_headline": "See which of your pages AI can quote",
+    "deck": [
+      {
+        "type": "compare",
+        "title": "Two ways to write a page",
+        "left": {
+          "title": "Buried",
+          "items": [
+            "Opens with your history",
+            "Answer is paragraph six",
+            "AI gives up early"
+          ]
+        },
+        "right": {
+          "title": "Answer first",
+          "items": [
+            "Answers in the first lines",
+            "Then the detail",
+            "Easy to quote"
+          ]
+        },
+        "caption": "An engine rewards the page that gets to the point."
+      },
+      {
+        "type": "point",
+        "num": 2,
+        "kicker": "the fix",
+        "text": "Put the direct answer in the first two sentences, then explain. It helps the client, and it gives an engine a clean passage to lift."
+      }
+    ],
+    "caption": "Engines pull short, self-contained passages that answer a question directly. A page that opens with your firm's history and buries the answer six paragraphs down gives them nothing clean to lift.\n\nLead with the answer. State it plainly in the first two sentences, then add the nuance underneath. It reads better for a worried client and gives an engine a passage it can quote with your name on it.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
+    "firstComment": "The free scan checks whether your key pages answer the question up front."
+  },
+  {
+    "slug": "law-referral-vs-ai",
+    "vertical": "law",
+    "eyebrow": "the new referral",
+    "hook": "AI is now the referral you cannot control",
+    "cta_headline": "See what AI says when it refers you",
+    "deck": [
+      {
+        "type": "point",
+        "num": 1,
+        "kicker": "what changed",
+        "text": "A referral used to come from a person who knew you. Now it often comes from an engine that only knows what it can find about you online."
+      },
+      {
+        "type": "leaderboard",
+        "kicker": "when the signals are right",
+        "title": "Be the name it gives",
+        "rows": [
+          {
+            "rank": 1,
+            "name": "Your firm",
+            "hot": true
+          },
+          {
+            "rank": 2,
+            "name": "Hale & Cross LLP"
+          },
+          {
+            "rank": 3,
+            "name": "Bennett Law Office"
+          }
+        ],
+        "caption": "You cannot control the referral, but you can earn it."
+      }
+    ],
+    "caption": "For years the best clients came from referrals, a person who trusted you telling someone else. That still happens, but more and more the first referral comes from an AI that only knows what it can find about you.\n\nYou cannot take the engine to lunch. What you can do is make sure the signals it reads, your reviews, your profiles, your pages, describe a firm worth naming. That is how you earn the referral you no longer control.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
+    "firstComment": "The free scan shows what an engine can say about your firm when it makes the referral."
+  },
+  {
+    "slug": "what-is-schema",
     "vertical": "general",
-    "eyebrow": "The engines",
-    "hook": "Being recommended by ChatGPT isn't the same as being recommended by all four.",
-    "points": [
-      "Each engine pulls from different sources and phrases its answers its own way, so a name that shows up in one can be missing from another.",
-      "Your buyers don't all use the same assistant, and covering only one leaves the rest of them getting a competitor's name."
-    ],
-    "cta": "See which of the four name you and which skip you. Free scan, link in bio. Be the name AI recommends.",
-    "caption": "Showing up in ChatGPT feels like a win, until you check the other three engines and find you're nowhere.\n\nChatGPT, Gemini, Perplexity and Claude each read the web differently and weigh sources their own way. A practice that gets named in one can be completely absent from the next, and buyers are spread across all of them depending on which app they happen to open.\n\nReal visibility means being the answer no matter which one they ask.\n\n#aisearch #aeo #answerengineoptimization #chatgpt #theaeoloop",
-    "firstComment": "Our free scan runs the same question through all four engines so you see every gap at once."
-  },
-  {
-    "slug": "what-your-score-means",
-    "vertical": "general",
-    "eyebrow": "The score",
-    "hook": "Your AI visibility score is one number sitting on top of four questions.",
-    "visual": {
-      "type": "bars",
-      "eyebrow": "Under the number",
-      "title": "What the score adds up",
-      "bars": [
-        {
-          "label": "Named by the engines",
-          "value": 0.9
-        },
-        {
-          "label": "Review & profile strength",
-          "value": 0.72
-        },
-        {
-          "label": "Third-party citations",
-          "value": 0.58
-        },
-        {
-          "label": "Pages the AI can quote",
-          "value": 0.5
-        }
-      ]
-    },
-    "points": [
-      "The number tracks how often the engines name you when someone asks, and how strong the signals behind that mention are.",
-      "A low score usually traces back to one weak layer, like thin reviews or pages the AI can't quote, which tells you exactly where to start."
-    ],
-    "cta": "See your number and the parts that build it. Free scan, link in bio. Be the name AI recommends.",
-    "caption": "A visibility score is easy to glance at and hard to use if you don't know what's underneath it.\n\nThe number rolls up a few things at once, like whether the engines actually name you, how strong your reviews and profiles are, whether trusted third-party sites mention you, and whether your pages are written so an assistant can quote them. When one of those layers is weak, the whole score drops.\n\nThat's why the number is only useful once you can see the pieces behind it.\n\n#aisearch #aeo #answerengineoptimization #chatgpt #theaeoloop",
-    "firstComment": "Run the free scan and you'll see your score broken into the pieces that build it."
-  },
-  {
-    "slug": "zero-click-reality",
-    "vertical": "general",
-    "eyebrow": "Zero click",
-    "hook": "AI hands buyers one answer now, and most of the old ten links never show up.",
-    "points": [
-      "When the engine answers directly, the person rarely scrolls to a list of links. They take the names in the answer and move on.",
-      "That makes being inside the answer the whole game, because there is no page two to climb to when the answer is already written."
-    ],
-    "cta": "See whether your name is in the answer. Free scan, link in bio. Be the name AI recommends.",
-    "caption": "For years the goal was to rank high enough that people would click your link. That whole model is quietly disappearing.\n\nAsk an assistant a question today and it writes you an answer instead of handing you ten results. Most people read that answer and act on it without ever clicking through. If your name isn't in the response, you're not on page two waiting to be found. You're simply not part of the conversation.\n\nThe work now is getting into the answer itself, before your buyer has one written for them.\n\n#aisearch #aeo #answerengineoptimization #chatgpt #theaeoloop",
-    "firstComment": "If you're not sure where you stand, the free scan shows whether AI includes you in the answer."
-  },
-  {
-    "slug": "answers-not-forever",
-    "vertical": "general",
-    "eyebrow": "The catch",
-    "hook": "Making an AI's shortlist once doesn't mean you keep the spot.",
-    "visual": {
-      "type": "flow",
-      "eyebrow": "How the list shifts",
-      "steps": [
-        "You're named in January",
-        "A rival earns fresh reviews",
-        "The engines re-weigh the signals",
-        "You're off the list by March"
-      ]
-    },
-    "points": [
-      "The engines re-weigh reviews, mentions and fresh pages every time someone asks, so the names that come back change as those signals change.",
-      "A practice that shows up this month can quietly drop off the next if competitors keep earning trust while it stays put."
-    ],
-    "cta": "See today's answer for your business. Run the free scan, link in bio. Be the name AI recommends.",
-    "caption": "Getting recommended by ChatGPT or Gemini once can feel like you've arrived, but those lists are rebuilt every time someone asks.\n\nThe engines weigh reviews, third party mentions and fresh pages on the fly, so the names they return shift as those signals shift. A practice that shows up in January can be missing by March if competitors keep earning trust while it stands still. A single check is only a snapshot of one moment.\n\n#aisearch #aeo #answerengineoptimization #chatgpt #theaeoloop",
-    "firstComment": "Worth re-running the free scan every month or two, since the answer you get today has a shelf life."
-  },
-  {
-    "slug": "73-percent-invisible-study",
-    "vertical": "general",
-    "eyebrow": "The study",
-    "hook": "We asked four AI engines who to hire for plastic surgery in New York, and 73% of practices weren't named by a single one.",
-    "visual": {
-      "type": "bars",
-      "eyebrow": "NY plastic surgery, 4 AI engines",
-      "title": "Who the engines actually named",
-      "bars": [
-        {
-          "label": "Invisible to all four",
-          "value": 0.73
-        },
-        {
-          "label": "Named by at least one",
-          "value": 0.27
-        }
-      ]
-    },
-    "points": [
-      "We ran the same hiring questions through ChatGPT, Gemini, Perplexity and Claude across 103 New York practices.",
-      "Seventy three percent were recommended by none of the four, and the average visibility score landed at 16.7 out of 100."
-    ],
-    "cta": "See which side of the 73% you're on. The free scan checks all four, link in bio. Be the name AI recommends.",
-    "caption": "We wanted to know how visible New York plastic surgery practices really are inside AI search, so we tested it.\n\nAcross 103 practices, we asked ChatGPT, Gemini, Perplexity and Claude who to hire. Seventy three percent were recommended by none of the four, and the average visibility score came out to 16.7 out of 100. Most of these practices never entered the AI recommendation race in the first place.\n\n#aisearch #aeo #answerengineoptimization #chatgpt #theaeoloop",
-    "firstComment": "The free scan runs the same four engine test on any single practice if you want to see where you land."
-  },
-  {
-    "slug": "nap-consistency-foundation",
-    "vertical": "general",
-    "eyebrow": "The basics",
-    "hook": "Before any clever AEO work, get your name, address and phone identical everywhere online.",
-    "visual": {
-      "type": "flow",
-      "eyebrow": "Where the details have to match",
-      "steps": [
-        "Google Business Profile",
-        "Your website footer",
-        "Directories and review sites",
-        "Every one reads identically"
-      ]
-    },
-    "points": [
-      "When your name, address and phone read differently across Google, your website and review sites, the engines lose confidence that all those mentions point to one real business.",
-      "Pick one exact format and make every listing match it, right down to Suite versus Ste and whether Street is spelled out."
-    ],
-    "cta": "See where all four engines land on you. Free scan, link in bio. Be the name AI recommends.",
-    "caption": "The most advanced AEO work falls apart if the engines can't tell that all your listings describe the same business.\n\nYour name, address and phone number act as the thread that ties your Google profile, your website and every directory together. When those details don't match, the AI reads them as noise and trusts the whole picture less. So before anything clever, make every listing say the exact same thing.\n\n#aisearch #aeo #answerengineoptimization #chatgpt #theaeoloop",
-    "firstComment": "Matching your listings is unglamorous groundwork, but the engines can't trust a name they keep seeing three different ways."
-  },
-  {
-    "slug": "the-ongoing-loop",
-    "vertical": "general",
-    "eyebrow": "The loop",
-    "hook": "Why the businesses AI keeps recommending never actually 'finish' their AEO.",
-    "visual": {
-      "type": "flow",
-      "eyebrow": "The loop",
-      "steps": [
-        "Monitor what AI says",
-        "Spot where you're missing",
-        "Improve the signals",
-        "Re-check, then repeat"
-      ]
-    },
-    "points": [
-      "Each month you look at what the engines actually say and spot where competitors are pulling ahead.",
-      "Then you strengthen the reviews, mentions and pages behind those answers and check again, because the visibility only holds while the work continues."
-    ],
-    "cta": "See what the engines say about you this month. Start with the free scan, link in bio. Be the name AI recommends.",
-    "caption": "The businesses that AI keeps recommending never really treat their AEO as finished.\n\nEvery month the engines re-read reviews, mentions and pages and rebuild their answers from scratch. Staying on the list means keeping an eye on what they say, then shoring up the signals wherever you're slipping and looking again. Your visibility holds for as long as that work keeps going.\n\n#aisearch #aeo #answerengineoptimization #chatgpt #theaeoloop",
-    "firstComment": "A quick free scan is a low effort way to start the loop and see this month's answer."
-  },
-  {
-    "slug": "learn-ai-readiness",
-    "vertical": "agency",
-    "eyebrow": "The check",
-    "hook": "Is your website ready for AI answers?",
-    "visual": {
-      "type": "flow",
-      "eyebrow": "Four jobs, in order",
-      "steps": [
-        "AI can reach your pages",
-        "It can tell exactly who you are",
-        "It can lift a clean, quotable answer",
-        "It trusts you enough to name you"
-      ]
-    },
-    "points": [
-      "Passing every SEO test doesn't mean an AI can find, understand, and trust you.",
-      "Miss any one of the four and you drop out of the answer, and never find out."
-    ],
-    "cta": "See how the AI engines read your site. Run the free scan, link in bio. Be the name AI recommends.",
-    "caption": "Being ready for AI search isn't one score, it's four jobs an assistant has to finish before it names you: reach your pages, work out who you are, lift a clean answer, and trust you enough to recommend you.\n\nMost sites quietly fail one layer and never notice, because the answer is private. The fix is knowing which layer.\n\n#aisearch #chatgpt #localbusiness #smallbusiness #theaeoloop",
-    "firstComment": "The free scan runs your real buyer questions across ChatGPT, Gemini, Perplexity and Claude so you can see which layer is failing."
-  },
-  {
-    "slug": "learn-aeo-cost",
-    "vertical": "agency",
-    "eyebrow": "The real cost",
-    "hook": "What does it cost to get recommended by AI?",
-    "visual": {
-      "type": "compare",
-      "eyebrow": "Two costs, not one",
-      "left": {
-        "title": "One-time",
-        "items": [
-          "Make the site AI-readable",
-          "Fix your business identity",
-          "Set up trusted profiles"
-        ]
+    "eyebrow": "the label AI reads",
+    "hook": "Schema is how you label your site for AI",
+    "cta_headline": "See what your schema tells AI",
+    "deck": [
+      {
+        "type": "point",
+        "num": 1,
+        "kicker": "in plain terms",
+        "text": "Schema is a small block of code that tells an engine what your page is about, who you are, and how the parts connect, in a form it reads without guessing."
       },
-      "right": {
-        "title": "Ongoing",
+      {
+        "type": "signals",
+        "kicker": "what it can declare",
+        "title": "What schema makes clear",
         "items": [
-          "Measure what engines say",
-          "Earn off-site mentions",
-          "Publish, then re-check"
-        ]
+          {
+            "icon": "building",
+            "title": "Who you are",
+            "sub": "the organization behind it"
+          },
+          {
+            "icon": "pin",
+            "title": "What you do",
+            "sub": "your service and area"
+          },
+          {
+            "icon": "doc",
+            "title": "Your answers",
+            "sub": "FAQ and how-to content"
+          },
+          {
+            "icon": "star",
+            "title": "Your proof",
+            "sub": "reviews and ratings"
+          }
+        ],
+        "caption": "You stop making the engine guess what it is reading."
       }
-    },
-    "points": [
-      "The price is really two things: a one-time foundation, and ongoing measurement.",
-      "A suspiciously cheap plan usually dropped the measurement, the part that proves it worked."
     ],
-    "cta": "Not sure what you need yet? Start with the free scan. Run the free scan, link in bio. Be the name AI recommends.",
-    "caption": "Getting recommended by AI has two costs people usually blur together: a one-time foundation that makes your site readable to the engines, and ongoing work that measures what they say and moves it.\n\nSeparate them and any quote gets easy to judge. If a plan looks suspiciously cheap, it usually cut the measurement, which is the only part that tells you it worked.\n\n#aisearch #smallbusiness #marketing #chatgpt #theaeoloop",
-    "firstComment": "The free scan is the cheapest first step: see where you stand before you spend a dollar on the work."
+    "caption": "Schema is structured data, a small block of code that labels your page for machines. It states plainly what the page is, who is behind it, and how the pieces relate, so an engine does not have to infer any of it.\n\nYou are not writing it for readers. You are removing the guesswork for the systems that decide whether to name you. A page that labels itself clearly is a page an engine can use with confidence.\n\n#aisearch #aeo #answerengineoptimization #chatgpt #theaeoloop",
+    "firstComment": "The free scan checks whether your pages carry the schema AI looks for."
   },
   {
-    "slug": "learn-diy-vs-hire",
-    "vertical": "agency",
-    "eyebrow": "DIY or hire",
-    "hook": "Can you get recommended by AI yourself?",
-    "visual": {
-      "type": "compare",
-      "eyebrow": "Where the line is",
-      "left": {
-        "title": "You can DIY",
-        "items": [
-          "Structured data",
-          "FAQ pages",
-          "Reviews",
-          "Business identity"
-        ]
+    "slug": "llms-txt",
+    "vertical": "general",
+    "eyebrow": "a file for the crawlers",
+    "hook": "There is a file that tells AI how to read your site",
+    "cta_headline": "See whether AI can read your site cleanly",
+    "deck": [
+      {
+        "type": "point",
+        "num": 1,
+        "kicker": "what it is",
+        "text": "An llms file is a plain map of your most important pages, written for AI crawlers so they can find what matters without wading through your whole site."
       },
-      "right": {
-        "title": "Hard to DIY",
-        "items": [
-          "Reading 4 engines monthly",
-          "Off-site authority",
-          "The time it eats"
-        ]
+      {
+        "type": "point",
+        "num": 2,
+        "kicker": "the honest caveat",
+        "text": "It is a helpful courtesy, not a magic switch. The engines still decide what to use, and clean pages matter far more than the file itself."
       }
-    },
-    "points": [
-      "Half of this you can absolutely do yourself.",
-      "The other half is time and consistency, which is where most people get stuck."
     ],
-    "cta": "See where you stand first, then decide. Run the free scan, link in bio. Be the name AI recommends.",
-    "caption": "Half the work to get named by AI, you can do yourself: clean structured data, real FAQ pages, more reviews, a consistent business identity.\n\nThe other half is what stalls people: reading four engines month after month, and earning mentions on the sites AI trusts. That's time, not talent. So the honest question isn't can you, it's is it worth your hours.\n\n#aisearch #smallbusiness #chatgpt #marketing #theaeoloop",
-    "firstComment": "Start with the free scan. If you're already showing up well, you may not need help yet, and we'll say so."
+    "caption": "An llms file is a simple text map you place on your site that points AI crawlers to your most important pages. It is a small courtesy that makes it easier for them to find what matters.\n\nBe clear-eyed about it though. It is not a ranking trick, and no engine is required to honor it. Clean, server-rendered pages and real signals do the heavy lifting. The file just makes the front door easier to find.\n\n#aisearch #aeo #answerengineoptimization #chatgpt #theaeoloop",
+    "firstComment": "The free scan checks how easily AI crawlers can navigate your site today."
   },
   {
-    "slug": "learn-ai-tools",
-    "vertical": "agency",
-    "eyebrow": "The toolkit",
-    "hook": "There's no single best AI-visibility tool",
-    "visual": {
-      "type": "flow",
-      "eyebrow": "Four jobs, four tools",
-      "steps": [
-        "Track what AI says about you",
-        "Check your structured data",
-        "Crawl your site like a bot does",
-        "Research the questions buyers ask"
-      ]
-    },
-    "points": [
-      "The work is four jobs, so you build a small stack, not one magic app.",
-      "If you're early, a free scan and clean structure get you surprisingly far."
-    ],
-    "cta": "Start with a free read of what AI says about you. Run the free scan, link in bio. Be the name AI recommends.",
-    "caption": "People shop for the one best tool to get recommended by AI. There isn't one, because the work is four separate jobs: track what the engines say, validate your structured data, crawl your site the way a bot does, and research what buyers actually ask.\n\nYou assemble a small stack by job. And early on, a free scan plus clean structure does most of the lifting.\n\n#aisearch #martech #chatgpt #smallbusiness #theaeoloop",
-    "firstComment": "The free scan covers the first job, tracking what ChatGPT, Gemini, Perplexity and Claude say about you, at no cost."
-  },
-  {
-    "slug": "learn-local-ai",
-    "vertical": "agency",
-    "eyebrow": "The new front door",
-    "hook": "Your next customer asks AI \"who's the best near me\" first",
-    "visual": {
-      "type": "chat",
-      "eyebrow": "The moment",
-      "prompt": "Who's the best dentist near me?",
-      "names": [
-        "Bright Smile Dental",
-        "Riverside Family Dental",
-        "Downtown Ortho Studio"
-      ],
-      "note": "— and your practice isn't on the list."
-    },
-    "points": [
-      "For local services, the shortlist now forms before anyone opens Google.",
-      "Ranking in the map pack doesn't help if you're not in the AI's answer."
-    ],
-    "cta": "See who AI names in your city. Run the free scan, link in bio. Be the name AI recommends.",
-    "caption": "For local, high-trust services, the decision now starts before the search bar. Someone asks an assistant who's the best nearby, gets two or three names, and calls one.\n\nIf you're not on that shortlist, the map ranking you worked for never gets seen. Most established local businesses are already invisible in that answer, and have no idea.\n\n#aisearch #localbusiness #chatgpt #smallbusiness #theaeoloop",
-    "firstComment": "The free scan shows exactly who the four engines name in your city, and where you land."
-  },
-  {
-    "slug": "learn-beat-big-brands",
-    "vertical": "agency",
-    "eyebrow": "Small beats big",
-    "hook": "The biggest brand is often invisible in AI answers",
-    "visual": {
-      "type": "bars",
-      "eyebrow": "What AI actually weighs",
-      "title": "What gets you named",
-      "bars": [
-        {
-          "label": "Specific, local, clearly defined",
-          "value": 0.92
-        },
-        {
-          "label": "Recent, real reviews",
-          "value": 0.8
-        },
-        {
-          "label": "Named on trusted sites",
-          "value": 0.68
-        },
-        {
-          "label": "Just being a big brand",
-          "value": 0.28
-        }
-      ]
-    },
-    "points": [
-      "AI doesn't rank by brand size, it names whoever fits the exact question best.",
-      "A focused local specialist can out-signal a national generalist."
-    ],
-    "cta": "See where you stand against the big names. Run the free scan, link in bio. Be the name AI recommends.",
-    "caption": "The biggest brand in your category is often invisible in AI answers, and that's your opening. Assistants don't name whoever is biggest. They name whoever is most specific, most local, most current, and most clearly defined for the exact question asked.\n\nThat's where a sharp specialist quietly beats a national generalist whose pages are generic. It's a clarity contest, not a popularity one.\n\n#aisearch #smallbusiness #chatgpt #marketing #theaeoloop",
-    "firstComment": "The free scan shows who AI names instead of you, and why, so you can see the gap you can close."
-  },
-  {
-    "slug": "learn-reddit-ai",
-    "vertical": "agency",
-    "eyebrow": "Where AI looks",
-    "hook": "AI repeats what strangers said about you online",
-    "visual": {
-      "type": "flow",
-      "eyebrow": "How a name gets picked",
-      "steps": [
-        "Someone asks AI who to hire",
-        "It reads Reddit, reviews and forums",
-        "It trusts what's said consistently",
-        "It names the businesses backed up there"
-      ]
-    },
-    "points": [
-      "AI doesn't invent recommendations, it retrieves them from places it trusts.",
-      "Genuine mentions build it. Fake seeding backfires the moment it's caught."
-    ],
-    "cta": "See what AI already reads about you. Run the free scan, link in bio. Be the name AI recommends.",
-    "caption": "When someone asks AI who to hire, it isn't reasoning about you. It's repeating what other people already said, on Reddit, on review sites, in forums.\n\nThe engines retrieve recommendations from sources they trust. So the durable way to get named is genuine, corroborated mentions, not clever copy on your own site, and definitely not paid seeding, which backfires the moment it's spotted.\n\n#aisearch #reddit #chatgpt #smallbusiness #theaeoloop",
-    "firstComment": "The free scan shows what the engines currently surface about you, and where the trail goes cold."
-  },
-  {
-    "slug": "learn-faq-ai",
-    "vertical": "agency",
-    "eyebrow": "Quick win",
-    "hook": "Your FAQ page is gold for AI answers",
-    "visual": {
-      "type": "compare",
-      "eyebrow": "How AI reads a page",
-      "left": {
-        "title": "AI ignores",
-        "items": [
-          "Marketing-speak",
-          "Answer buried deep",
-          "Keyword stuffing"
-        ]
+    "slug": "javascript-invisible-ai",
+    "vertical": "general",
+    "eyebrow": "a hidden trap",
+    "hook": "Your site may be invisible to AI without you knowing",
+    "cta_headline": "See what AI actually loads on your site",
+    "deck": [
+      {
+        "type": "statement",
+        "kicker": "what the crawler sees",
+        "tone": "coral",
+        "lines": [
+          "A blank",
+          "page."
+        ],
+        "caption": "If your content loads with JavaScript, AI may see nothing."
       },
-      "right": {
-        "title": "AI lifts",
-        "items": [
-          "A real question",
-          "A short, direct answer",
-          "Matching schema"
-        ]
+      {
+        "type": "point",
+        "num": 2,
+        "kicker": "the check",
+        "text": "Many AI crawlers do not run scripts. If your text only appears after JavaScript loads, the engine can arrive to an empty page and move on."
       }
-    },
-    "points": [
-      "A good FAQ already looks like how AI reads a page: a question, then a clean answer.",
-      "Lead with the answer, keep your schema matched to the page, skip the fluff."
     ],
-    "cta": "See if AI can actually read your answers. Run the free scan, link in bio. Be the name AI recommends.",
-    "caption": "Your FAQ page is the most quotable content you own for AI answers, and most businesses write it in the format engines throw away.\n\nA good FAQ already mirrors how an assistant reads a page: a real question paired with a short, self-contained answer. Lead with the answer, keep the structured data matched to the visible page, and skip the keyword stuffing, which actively hurts you.\n\n#aisearch #chatgpt #smallbusiness #marketing #theaeoloop",
-    "firstComment": "The free scan shows whether the engines can cleanly lift answers from your pages today."
+    "caption": "A site can look perfect to you and be nearly blank to an AI crawler. Many of these bots do not run JavaScript, so if your words only appear after scripts load, the engine may see an empty page.\n\nThis quietly affects a lot of modern sites built as apps. The fix is to make sure your core content is in the page from the start, server-rendered, so it is there the moment a crawler arrives.\n\n#aisearch #aeo #answerengineoptimization #chatgpt #theaeoloop",
+    "firstComment": "The free scan checks whether your content is visible to crawlers that do not run scripts."
+  },
+  {
+    "slug": "entity-authority",
+    "vertical": "general",
+    "eyebrow": "the real ceiling",
+    "hook": "AI names brands it recognizes from more than one place",
+    "cta_headline": "See how recognizable your brand is to AI",
+    "deck": [
+      {
+        "type": "point",
+        "num": 1,
+        "kicker": "the pattern",
+        "text": "A tidy website is table stakes. What tips an engine toward naming you is seeing your brand corroborated in places you do not own."
+      },
+      {
+        "type": "signals",
+        "kicker": "where recognition comes from",
+        "title": "What builds an entity",
+        "items": [
+          {
+            "icon": "building",
+            "title": "Directories",
+            "sub": "listed and consistent"
+          },
+          {
+            "icon": "doc",
+            "title": "Mentions",
+            "sub": "other sites reference you"
+          },
+          {
+            "icon": "star",
+            "title": "Reviews",
+            "sub": "real and specific"
+          },
+          {
+            "icon": "pin",
+            "title": "Profiles",
+            "sub": "the same name everywhere"
+          }
+        ],
+        "caption": "An engine trusts a name it meets in several places."
+      }
+    ],
+    "caption": "Once your own site is clean, the next lever is recognition. Engines lean toward names they encounter in more than one place, because outside corroboration is what tells them a brand is real.\n\nThat means directories that list you consistently, other sites that mention you, and profiles that all use the same name. A perfect website with no outside footprint is a stranger. A recognized name gets recommended.\n\n#aisearch #aeo #answerengineoptimization #chatgpt #theaeoloop",
+    "firstComment": "The free scan looks at how consistently your brand appears across the web."
+  },
+  {
+    "slug": "ai-overviews-explained",
+    "vertical": "general",
+    "eyebrow": "the answer on top",
+    "hook": "Google now answers before the links even start",
+    "cta_headline": "See if you show up in the answer, not just the links",
+    "deck": [
+      {
+        "type": "point",
+        "num": 1,
+        "kicker": "what changed",
+        "text": "Google increasingly opens with an AI-written answer above the results. Many searches are handled there, before anyone scrolls to a blue link."
+      },
+      {
+        "type": "point",
+        "num": 2,
+        "kicker": "what it means",
+        "text": "Being on page one is no longer the finish line. If you are not part of the answer at the top, you can rank well and still be skipped."
+      }
+    ],
+    "caption": "Google now often opens with an AI Overview, a written answer that sits above the usual results. For a growing share of searches, that box is where the question gets settled.\n\nThat changes the goal. Ranking on page one still matters, but if you are not cited in the answer at the top, a strong ranking can quietly go unseen. The work now is being part of the answer, not just near it.\n\n#aisearch #aeo #answerengineoptimization #chatgpt #theaeoloop",
+    "firstComment": "The free scan checks the signals that help you show up in AI-written answers."
+  },
+  {
+    "slug": "perplexity-citations",
+    "vertical": "general",
+    "eyebrow": "answers with sources",
+    "hook": "Some AI engines show their sources, so being citable matters",
+    "cta_headline": "See if your pages are easy to cite",
+    "deck": [
+      {
+        "type": "point",
+        "num": 1,
+        "kicker": "how it works",
+        "text": "Engines like Perplexity answer a question and then list the pages they drew from. To be one of those sources, your page has to be clearly citable."
+      },
+      {
+        "type": "signals",
+        "kicker": "what gets cited",
+        "title": "What makes a page citable",
+        "items": [
+          {
+            "icon": "doc",
+            "title": "Clear passages",
+            "sub": "self-contained answers"
+          },
+          {
+            "icon": "star",
+            "title": "Specifics",
+            "sub": "real detail, not fluff"
+          },
+          {
+            "icon": "pin",
+            "title": "Structure",
+            "sub": "headings and order"
+          },
+          {
+            "icon": "building",
+            "title": "Credibility",
+            "sub": "a source it can trust"
+          }
+        ],
+        "caption": "A page that answers cleanly is a page worth citing."
+      }
+    ],
+    "caption": "Some AI engines do not just answer, they show their work. Perplexity and others list the pages they drew from, which means being cited depends on being genuinely citable.\n\nThat rewards pages that answer questions in clear, self-contained passages, with real specifics and a structure an engine can follow. Vague, padded pages get read and passed over. Clean, useful ones get named as the source.\n\n#aisearch #aeo #answerengineoptimization #chatgpt #theaeoloop",
+    "firstComment": "The free scan measures how easy your pages are for an engine to quote."
+  },
+  {
+    "slug": "measure-ai-visibility",
+    "vertical": "general",
+    "eyebrow": "check, do not guess",
+    "hook": "You can actually measure what AI says about you",
+    "cta_headline": "See where you stand across the engines",
+    "deck": [
+      {
+        "type": "point",
+        "num": 1,
+        "kicker": "stop guessing",
+        "text": "You do not have to wonder whether AI recommends you. You can ask the engines the questions your buyers ask and read what they say back."
+      },
+      {
+        "type": "point",
+        "num": 2,
+        "kicker": "one honest caveat",
+        "text": "Answers vary between engines and even between runs, so check the ones that matter across a few real questions rather than trusting a single result."
+      }
+    ],
+    "caption": "Most businesses assume they cannot see what AI says about them. You can. Ask ChatGPT, Gemini, Perplexity, and Claude the questions your customers actually ask, and read whether your name comes up.\n\nOne honest note. These answers are not fixed. They shift between engines and sometimes between runs, so look across a few real questions rather than reading one reply as the verdict. Checked properly, it turns a guess into a measurement.\n\n#aisearch #aeo #answerengineoptimization #chatgpt #theaeoloop",
+    "firstComment": "The free scan runs those checks across the major engines so you do not have to do it by hand."
+  },
+  {
+    "slug": "content-freshness",
+    "vertical": "general",
+    "eyebrow": "stale reads as gone",
+    "hook": "A site frozen in time reads as abandoned to AI",
+    "cta_headline": "See how current your site looks to AI",
+    "deck": [
+      {
+        "type": "point",
+        "num": 1,
+        "kicker": "why it matters",
+        "text": "Engines favor sources that look maintained. A site with no recent activity can read as neglected, even when the information on it is still true."
+      },
+      {
+        "type": "signals",
+        "kicker": "signs of a live site",
+        "title": "What freshness looks like",
+        "items": [
+          {
+            "icon": "star",
+            "title": "Recent reviews",
+            "sub": "activity on your profiles"
+          },
+          {
+            "icon": "doc",
+            "title": "Updated pages",
+            "sub": "dates that are real"
+          },
+          {
+            "icon": "pin",
+            "title": "New answers",
+            "sub": "questions kept current"
+          },
+          {
+            "icon": "building",
+            "title": "Active profiles",
+            "sub": "tended, not dormant"
+          }
+        ],
+        "caption": "A living site is one an engine is happier to trust."
+      }
+    ],
+    "caption": "Freshness is a quiet signal. Engines prefer sources that look maintained, and a site that has not changed in two years can read as abandoned even if everything on it is still accurate.\n\nYou do not need to publish constantly. Real update dates, recent reviews, and answers kept current are enough to show a site is alive. A tended presence is one an engine is more comfortable recommending.\n\n#aisearch #aeo #answerengineoptimization #chatgpt #theaeoloop",
+    "firstComment": "The free scan looks at the freshness signals AI reads across your site and profiles."
+  },
+  {
+    "slug": "wikipedia-wikidata",
+    "vertical": "general",
+    "eyebrow": "where machines learn names",
+    "hook": "AI learns who you are from the web's reference books",
+    "cta_headline": "See how well AI understands who you are",
+    "deck": [
+      {
+        "type": "point",
+        "num": 1,
+        "kicker": "the knowledge layer",
+        "text": "Engines lean on structured reference sources to understand entities. Being present and consistent in that layer helps AI know exactly which you it is talking about."
+      },
+      {
+        "type": "point",
+        "num": 2,
+        "kicker": "the honest path",
+        "text": "You cannot force your way in, and thin listings get removed. The real route is earning genuine recognition first, then letting the record catch up."
+      }
+    ],
+    "caption": "AI does not learn who you are from your homepage alone. It leans on the web's reference layer, the structured sources that catalog people, brands, and organizations, to understand which entity a name refers to.\n\nBeing represented there, consistently, helps an engine tell you apart from everyone with a similar name. The honest path is not to force a listing, which tends to get removed, but to earn real recognition first and let the record follow.\n\n#aisearch #aeo #answerengineoptimization #chatgpt #theaeoloop",
+    "firstComment": "The free scan checks how clearly AI can identify and distinguish your brand."
   }
 ]
