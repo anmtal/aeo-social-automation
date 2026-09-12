@@ -10,7 +10,7 @@
       "status": "ready",
       "caption": "A patient asks AI for the best surgeon for their procedure, and the engine reads text to decide who to name. Your before and after gallery is your strongest proof, but to a crawler it is a row of file names with nothing to say.\n\nThe fix is small. Describe each image in plain words, caption the procedure and the outcome, and the work you are proudest of becomes something AI can actually point to.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
       "firstComment": "The free scan flags pages where your images carry no text for AI to read.",
-      "publish_at": "2026-09-13T12:00"
+      "publish_at": "2026-09-12T12:00"
     },
     {
       "slug": "surgeon-procedure-pages",
@@ -19,7 +19,7 @@
       "status": "ready",
       "caption": "People do not search for a surgeon in general. They ask AI who is best for a specific procedure in their city, and the engine looks for a clear, direct answer to name.\n\nOne strong page per procedure gives it that answer. A page that explains the procedure, who it suits, and what recovery looks like is far easier to quote than a single services list that mentions everything at once.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
       "firstComment": "The free scan checks whether your procedure pages read as clear answers or a catch-all list.",
-      "publish_at": "2026-09-14T12:00"
+      "publish_at": "2026-09-13T12:00"
     },
     {
       "slug": "surgeon-cost-transparency",
@@ -28,7 +28,7 @@
       "status": "ready",
       "caption": "Cost is one of the first things a patient asks AI about a procedure. Most practices leave the number off the page entirely, which means the engine has nothing to work with and moves on.\n\nYou do not need to post a full price list. An honest starting range, with a line on what changes it, turns your page into the one AI can actually answer with.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
       "firstComment": "The free scan looks for the pricing signals AI reads before it answers a cost question.",
-      "publish_at": "2026-09-15T12:00"
+      "publish_at": "2026-09-14T12:00"
     },
     {
       "slug": "surgeon-realself-asps",
@@ -37,7 +37,7 @@
       "status": "ready",
       "caption": "Before AI recommends a surgeon, it looks for outside confirmation. Your own website says you are good. A complete RealSelf profile, an ASPS listing, and a filled-out Google profile are what tell the engine to believe it.\n\nClaim those profiles, complete them, and keep every detail matching your site. When the outside sources agree with your own pages, you become a name an engine is comfortable putting forward.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
       "firstComment": "The free scan checks how consistent your details are across the profiles AI reads.",
-      "publish_at": "2026-09-16T12:00"
+      "publish_at": "2026-09-15T12:00"
     },
     {
       "slug": "surgeon-recovery-questions",
@@ -46,7 +46,7 @@
       "status": "ready",
       "caption": "Patients ask AI the questions they feel shy asking you. How long is recovery, how much will it hurt, when can I go back to work. The practice that answers those clearly is the one that gets pointed to.\n\nYou already answer these in consults every week. Putting the honest version on your site turns everyday reassurance into pages AI can quote, with your practice attached to the answer.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
       "firstComment": "The free scan shows whether your site answers the questions patients actually bring to AI.",
-      "publish_at": "2026-09-17T12:00"
+      "publish_at": "2026-09-16T12:00"
     },
     {
       "slug": "surgeon-google-questions",
@@ -55,7 +55,7 @@
       "status": "ready",
       "caption": "Your Google Business Profile has a questions and answers section most surgeons never touch. It is public, it stays on the record, and AI can read it as one more source about your practice.\n\nSeed it with the questions you hear most and answer them in your own words. Leave it empty and it fills with guesses from people who have never met you.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
       "firstComment": "The free scan reviews how complete your Google profile looks to an engine.",
-      "publish_at": "2026-09-18T12:00"
+      "publish_at": "2026-09-17T12:00"
     },
     {
       "slug": "surgeon-new-practice-visible",
@@ -64,7 +64,7 @@
       "status": "ready",
       "caption": "It is easy to assume the practices that have been around longest own the AI answers. They do not. An engine reads the signals in front of it today, not a founding date.\n\nA newer practice with clear procedure pages, recent reviews, and complete profiles can be named ahead of an older one that stopped tending to any of it. Time in business is not the moat you think it is.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
       "firstComment": "The free scan shows the signals AI weighs, whether your practice is one year old or twenty.",
-      "publish_at": "2026-09-19T12:00"
+      "publish_at": "2026-09-18T12:00"
     },
     {
       "slug": "surgeon-second-opinion",
@@ -73,7 +73,7 @@
       "status": "ready",
       "caption": "A patient leaves your consult, sits at home, and asks AI whether your quote and your plan make sense. That late-night second opinion is now part of every decision.\n\nIf the engine can describe your training, your reviews, and your results, it reinforces the trust you built in the room. If it has little to say, that silence quietly does its own work.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
       "firstComment": "The free scan shows what AI can say about you when a patient checks after a consult.",
-      "publish_at": "2026-09-20T12:00"
+      "publish_at": "2026-09-19T12:00"
     },
     {
       "slug": "surgeon-review-replies",
@@ -82,7 +82,7 @@
       "status": "ready",
       "caption": "Reviews are not just a star rating. The replies underneath them are text an engine can read, and a profile with recent responses looks like a practice that is present and paying attention.\n\nYou do not need long messages. A short, human reply keeps the profile fresh and adds a little more for AI to understand about how you treat people.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
       "firstComment": "The free scan looks at how recent and complete your review presence appears to AI.",
-      "publish_at": "2026-09-21T12:00"
+      "publish_at": "2026-09-20T12:00"
     },
     {
       "slug": "surgeon-city-pages",
@@ -91,7 +91,7 @@
       "status": "ready",
       "caption": "Location pages can help patients in nearby areas find you, but only if they are real. A page that swaps the city name and changes nothing else is a pattern engines have learned to distrust.\n\nGive each area page something genuinely local, a neighborhood you serve or a real detail about that community, or leave it off. One honest page beats ten thin copies every time.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
       "firstComment": "The free scan flags location pages that look templated rather than genuinely local.",
-      "publish_at": "2026-09-22T12:00"
+      "publish_at": "2026-09-21T12:00"
     },
     {
       "slug": "surgeon-answers-change",
@@ -100,7 +100,7 @@
       "status": "ready",
       "caption": "Being named by AI is not a badge you earn once. The answer is rebuilt from fresh signals every time someone asks, so a competitor who tightens their profiles or gathers new reviews can shift the list.\n\nTreat it like your reviews. Check what the engines say about you on a regular schedule so you notice movement while you can still respond to it.\n\n#plasticsurgeon #aisearch #chatgpt #medspa #cosmeticsurgery #medicalmarketing #theaeoloop",
       "firstComment": "The free scan gives you a snapshot you can rerun to watch how your visibility moves.",
-      "publish_at": "2026-09-23T12:00"
+      "publish_at": "2026-09-22T12:00"
     },
     {
       "slug": "law-directory-profiles",
@@ -109,7 +109,7 @@
       "status": "ready",
       "caption": "Before AI recommends a firm, it looks for outside sources that back up your own website. Avvo, Justia, FindLaw, and your state bar listing are exactly the kind of confirmation it wants to find.\n\nClaim those profiles, fill them out, and keep every detail matching your site. When the directories and your pages agree, you become a firm an engine is comfortable putting forward.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
       "firstComment": "The free scan checks how consistent your firm looks across the directories AI reads.",
-      "publish_at": "2026-09-24T12:00"
+      "publish_at": "2026-09-23T12:00"
     },
     {
       "slug": "law-city-practice-pages",
@@ -118,7 +118,7 @@
       "status": "ready",
       "caption": "People do not ask AI for a lawyer in the abstract. They ask for a specific kind of help in a specific place, and the engine looks for a page that matches that exact need.\n\nA clear page for each core practice area, written for the areas you serve, gives it something to name. A single page that lists everything you do at once reads as a brochure, not an answer.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
       "firstComment": "The free scan checks whether your practice-area pages read as direct answers.",
-      "publish_at": "2026-09-25T12:00"
+      "publish_at": "2026-09-24T12:00"
     },
     {
       "slug": "law-do-i-have-a-case",
@@ -127,7 +127,7 @@
       "status": "ready",
       "caption": "Long before anyone calls a lawyer, they ask AI whether their situation is even worth a call. Do I have a case, is it too late, is this worth pursuing. That is where the relationship really starts now.\n\nIf your site answers those questions plainly, without pressure, you become the firm an engine can point to at the moment of doubt. Being helpful early is how you get named later.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
       "firstComment": "The free scan shows whether your site answers the questions clients ask before they call.",
-      "publish_at": "2026-09-26T12:00"
+      "publish_at": "2026-09-25T12:00"
     },
     {
       "slug": "law-attorney-bios",
@@ -136,7 +136,7 @@
       "status": "ready",
       "caption": "AI leans on who is responsible for a firm before it recommends one. A named attorney with real experience and clear credentials is far easier to trust than an anonymous brand with a contact form.\n\nGive each attorney a genuine bio page, with their focus, their years, and their admissions stated plainly. It is one of the strongest trust signals a firm can offer an engine.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
       "firstComment": "The free scan checks whether your site shows the real expertise behind your firm.",
-      "publish_at": "2026-09-27T12:00"
+      "publish_at": "2026-09-26T12:00"
     },
     {
       "slug": "law-case-results",
@@ -145,7 +145,7 @@
       "status": "ready",
       "caption": "Results content, handled ethically, is some of the most convincing proof a firm can publish. An engine reading your site wants to know you can support what you claim, and honest outcomes do that better than adjectives.\n\nFrame it carefully. Describe what a matter involved and the honest result, with the disclaimers your bar rules require. Done right, it is trust an engine can read. Done as bragging, it is noise it ignores.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
       "firstComment": "The free scan looks for the proof signals AI weighs before recommending a firm.",
-      "publish_at": "2026-09-28T12:00"
+      "publish_at": "2026-09-27T12:00"
     },
     {
       "slug": "law-firm-google-profile",
@@ -154,7 +154,7 @@
       "status": "ready",
       "caption": "Your Google Business Profile is one of the first places AI checks to understand where you practice and what kind of firm you are. A half-finished profile leaves it guessing, and engines do not name what they are unsure about.\n\nSet the right category, define your service area, complete your hours and contact details, and keep your reviews current. It is a one-time cleanup that quietly pays off in every answer.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
       "firstComment": "The free scan reviews how complete and consistent your Google profile looks to AI.",
-      "publish_at": "2026-09-29T12:00"
+      "publish_at": "2026-09-28T12:00"
     },
     {
       "slug": "law-review-responses",
@@ -163,7 +163,7 @@
       "status": "ready",
       "caption": "Reviews are more than a star count. The responses beneath them are text an engine can read, and a profile with recent, professional replies looks like a firm that is present and attentive.\n\nMind your ethics rules. Keep replies confidential and never discuss the matter, but a short, careful acknowledgment keeps the profile fresh and gives AI a little more to understand about your firm.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
       "firstComment": "The free scan looks at how recent and complete your review presence appears to AI.",
-      "publish_at": "2026-09-30T12:00"
+      "publish_at": "2026-09-29T12:00"
     },
     {
       "slug": "law-fee-transparency",
@@ -172,7 +172,7 @@
       "status": "ready",
       "caption": "Cost is one of the first worries a client brings to AI, and most firms say nothing about it. That silence leaves the engine with nothing to work with when someone asks how much a matter might run.\n\nYou do not have to publish a rate card. Explaining how you charge, whether flat fee, hourly, or contingency, and what a free consultation covers, turns your page into the one an engine can point to.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
       "firstComment": "The free scan looks for the fee signals AI reads before answering a cost question.",
-      "publish_at": "2026-10-01T12:00"
+      "publish_at": "2026-09-30T12:00"
     },
     {
       "slug": "law-answer-first-pages",
@@ -181,7 +181,7 @@
       "status": "ready",
       "caption": "Engines pull short, self-contained passages that answer a question directly. A page that opens with your firm's history and buries the answer six paragraphs down gives them nothing clean to lift.\n\nLead with the answer. State it plainly in the first two sentences, then add the nuance underneath. It reads better for a worried client and gives an engine a passage it can quote with your name on it.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
       "firstComment": "The free scan checks whether your key pages answer the question up front.",
-      "publish_at": "2026-10-02T12:00"
+      "publish_at": "2026-10-01T12:00"
     },
     {
       "slug": "law-referral-vs-ai",
@@ -190,7 +190,7 @@
       "status": "ready",
       "caption": "For years the best clients came from referrals, a person who trusted you telling someone else. That still happens, but more and more the first referral comes from an AI that only knows what it can find about you.\n\nYou cannot take the engine to lunch. What you can do is make sure the signals it reads, your reviews, your profiles, your pages, describe a firm worth naming. That is how you earn the referral you no longer control.\n\n#lawfirm #lawyermarketing #legalmarketing #attorney #aisearch #chatgpt #theaeoloop",
       "firstComment": "The free scan shows what an engine can say about your firm when it makes the referral.",
-      "publish_at": "2026-10-03T12:00"
+      "publish_at": "2026-10-02T12:00"
     },
     {
       "slug": "what-is-schema",
@@ -199,7 +199,7 @@
       "status": "ready",
       "caption": "Schema is structured data, a small block of code that labels your page for machines. It states plainly what the page is, who is behind it, and how the pieces relate, so an engine does not have to infer any of it.\n\nYou are not writing it for readers. You are removing the guesswork for the systems that decide whether to name you. A page that labels itself clearly is a page an engine can use with confidence.\n\n#aisearch #aeo #answerengineoptimization #chatgpt #theaeoloop",
       "firstComment": "The free scan checks whether your pages carry the schema AI looks for.",
-      "publish_at": "2026-10-04T12:00"
+      "publish_at": "2026-10-03T12:00"
     },
     {
       "slug": "llms-txt",
@@ -208,7 +208,7 @@
       "status": "ready",
       "caption": "An llms file is a simple text map you place on your site that points AI crawlers to your most important pages. It is a small courtesy that makes it easier for them to find what matters.\n\nBe clear-eyed about it though. It is not a ranking trick, and no engine is required to honor it. Clean, server-rendered pages and real signals do the heavy lifting. The file just makes the front door easier to find.\n\n#aisearch #aeo #answerengineoptimization #chatgpt #theaeoloop",
       "firstComment": "The free scan checks how easily AI crawlers can navigate your site today.",
-      "publish_at": "2026-10-05T12:00"
+      "publish_at": "2026-10-04T12:00"
     },
     {
       "slug": "javascript-invisible-ai",
@@ -217,7 +217,7 @@
       "status": "ready",
       "caption": "A site can look perfect to you and be nearly blank to an AI crawler. Many of these bots do not run JavaScript, so if your words only appear after scripts load, the engine may see an empty page.\n\nThis quietly affects a lot of modern sites built as apps. The fix is to make sure your core content is in the page from the start, server-rendered, so it is there the moment a crawler arrives.\n\n#aisearch #aeo #answerengineoptimization #chatgpt #theaeoloop",
       "firstComment": "The free scan checks whether your content is visible to crawlers that do not run scripts.",
-      "publish_at": "2026-10-06T12:00"
+      "publish_at": "2026-10-05T12:00"
     },
     {
       "slug": "entity-authority",
@@ -226,7 +226,7 @@
       "status": "ready",
       "caption": "Once your own site is clean, the next lever is recognition. Engines lean toward names they encounter in more than one place, because outside corroboration is what tells them a brand is real.\n\nThat means directories that list you consistently, other sites that mention you, and profiles that all use the same name. A perfect website with no outside footprint is a stranger. A recognized name gets recommended.\n\n#aisearch #aeo #answerengineoptimization #chatgpt #theaeoloop",
       "firstComment": "The free scan looks at how consistently your brand appears across the web.",
-      "publish_at": "2026-10-07T12:00"
+      "publish_at": "2026-10-06T12:00"
     },
     {
       "slug": "ai-overviews-explained",
@@ -235,7 +235,7 @@
       "status": "ready",
       "caption": "Google now often opens with an AI Overview, a written answer that sits above the usual results. For a growing share of searches, that box is where the question gets settled.\n\nThat changes the goal. Ranking on page one still matters, but if you are not cited in the answer at the top, a strong ranking can quietly go unseen. The work now is being part of the answer, not just near it.\n\n#aisearch #aeo #answerengineoptimization #chatgpt #theaeoloop",
       "firstComment": "The free scan checks the signals that help you show up in AI-written answers.",
-      "publish_at": "2026-10-08T12:00"
+      "publish_at": "2026-10-07T12:00"
     },
     {
       "slug": "perplexity-citations",
@@ -244,7 +244,7 @@
       "status": "ready",
       "caption": "Some AI engines do not just answer, they show their work. Perplexity and others list the pages they drew from, which means being cited depends on being genuinely citable.\n\nThat rewards pages that answer questions in clear, self-contained passages, with real specifics and a structure an engine can follow. Vague, padded pages get read and passed over. Clean, useful ones get named as the source.\n\n#aisearch #aeo #answerengineoptimization #chatgpt #theaeoloop",
       "firstComment": "The free scan measures how easy your pages are for an engine to quote.",
-      "publish_at": "2026-10-09T12:00"
+      "publish_at": "2026-10-08T12:00"
     },
     {
       "slug": "measure-ai-visibility",
@@ -253,7 +253,7 @@
       "status": "ready",
       "caption": "Most businesses assume they cannot see what AI says about them. You can. Ask ChatGPT, Gemini, Perplexity, and Claude the questions your customers actually ask, and read whether your name comes up.\n\nOne honest note. These answers are not fixed. They shift between engines and sometimes between runs, so look across a few real questions rather than reading one reply as the verdict. Checked properly, it turns a guess into a measurement.\n\n#aisearch #aeo #answerengineoptimization #chatgpt #theaeoloop",
       "firstComment": "The free scan runs those checks across the major engines so you do not have to do it by hand.",
-      "publish_at": "2026-10-10T12:00"
+      "publish_at": "2026-10-09T12:00"
     },
     {
       "slug": "content-freshness",
@@ -262,7 +262,7 @@
       "status": "ready",
       "caption": "Freshness is a quiet signal. Engines prefer sources that look maintained, and a site that has not changed in two years can read as abandoned even if everything on it is still accurate.\n\nYou do not need to publish constantly. Real update dates, recent reviews, and answers kept current are enough to show a site is alive. A tended presence is one an engine is more comfortable recommending.\n\n#aisearch #aeo #answerengineoptimization #chatgpt #theaeoloop",
       "firstComment": "The free scan looks at the freshness signals AI reads across your site and profiles.",
-      "publish_at": "2026-10-11T12:00"
+      "publish_at": "2026-10-10T12:00"
     },
     {
       "slug": "wikipedia-wikidata",
@@ -271,7 +271,7 @@
       "status": "ready",
       "caption": "AI does not learn who you are from your homepage alone. It leans on the web's reference layer, the structured sources that catalog people, brands, and organizations, to understand which entity a name refers to.\n\nBeing represented there, consistently, helps an engine tell you apart from everyone with a similar name. The honest path is not to force a listing, which tends to get removed, but to earn real recognition first and let the record follow.\n\n#aisearch #aeo #answerengineoptimization #chatgpt #theaeoloop",
       "firstComment": "The free scan checks how clearly AI can identify and distinguish your brand.",
-      "publish_at": "2026-10-12T12:00"
+      "publish_at": "2026-10-11T12:00"
     }
   ]
 }
