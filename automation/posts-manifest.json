@@ -199,7 +199,7 @@
       "status": "ready",
       "caption": "Schema is structured data, a small block of code that labels your page for machines. It states plainly what the page is, who is behind it, and how the pieces relate, so an engine does not have to infer any of it.\n\nYou are not writing it for readers. You are removing the guesswork for the systems that decide whether to name you. A page that labels itself clearly is a page an engine can use with confidence.\n\n#aisearch #aeo #answerengineoptimization #chatgpt #theaeoloop",
       "firstComment": "The free scan checks whether your pages carry the schema AI looks for.",
-      "publish_at": "2026-10-03T12:00"
+      "publish_at": "2026-10-24T12:00:00"
     },
     {
       "slug": "llms-txt",
