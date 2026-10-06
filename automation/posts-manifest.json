@@ -217,7 +217,7 @@
       "status": "ready",
       "caption": "A site can look perfect to you and be nearly blank to an AI crawler. Many of these bots do not run JavaScript, so if your words only appear after scripts load, the engine may see an empty page.\n\nThis quietly affects a lot of modern sites built as apps. The fix is to make sure your core content is in the page from the start, server-rendered, so it is there the moment a crawler arrives.\n\n#aisearch #aeo #answerengineoptimization #chatgpt #theaeoloop",
       "firstComment": "The free scan checks whether your content is visible to crawlers that do not run scripts.",
-      "publish_at": "2026-10-05T12:00"
+      "publish_at": "2026-10-26T12:00:00"
     },
     {
       "slug": "entity-authority",
