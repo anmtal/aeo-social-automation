@@ -244,7 +244,7 @@
       "status": "ready",
       "caption": "Some AI engines do not just answer, they show their work. Perplexity and others list the pages they drew from, which means being cited depends on being genuinely citable.\n\nThat rewards pages that answer questions in clear, self-contained passages, with real specifics and a structure an engine can follow. Vague, padded pages get read and passed over. Clean, useful ones get named as the source.\n\n#aisearch #aeo #answerengineoptimization #chatgpt #theaeoloop",
       "firstComment": "The free scan measures how easy your pages are for an engine to quote.",
-      "publish_at": "2026-10-08T12:00"
+      "publish_at": "2026-10-29T12:00:00"
     },
     {
       "slug": "measure-ai-visibility",
